@@ -27,7 +27,7 @@ export default function Home() {
           
           {/* Launch App */}
           <a
-            href="https://real-estate-deal-analyzer-pro-d3ysunwzyxkp8jnywlyep4.streamlit.app/Main_Single_Property"
+            href="https://real-estate-deal-analyzer-pro.streamlit.app/Main_Single_Property"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 rounded-full bg-primary hover:bg-primary-light text-white font-semibold shadow-lg transition-all duration-300"
