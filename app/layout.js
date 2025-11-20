@@ -18,13 +18,47 @@ export const metadata = {
   authors: [{ name: "Masoud Arouni" }],
   creator: "Masoud Arouni",
   publisher: "RealEstate-Analytics.ai",
-   // ⭐ ADD THIS BLOCK RIGHT HERE ⭐
+  openGraph: {
+    title: "Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis",
+    description:
+      "Instantly evaluate any property with ROI, IRR, cash flow, deal grading, and 10-year projections — no spreadsheets required.",
+    url: "https://realestate-analytics.ai",
+    siteName: "RealEstate-Analytics.ai",
+    type: "website",
+    images: [
+      {
+        url: "https://realestate-analytics.ai/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Real Estate Deal Evaluator"
+      }
+    ]
+  },
   icons: {
     icon: "/favicon-32x32.png",
     shortcut: "/favicon.ico",
     apple: "/favicon-180x180.png",
   },
+};
 
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        {/* --- LinkedIn / Facebook OpenGraph Overrides (Required for LinkedIn) --- */}
+        <meta property="og:title" content="Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis" />
+        <meta property="og:description" content="Instantly evaluate any property with ROI, IRR, cash flow, deal grading, and 10-year projections — no spreadsheets required." />
+        <meta property="og:image" content="https://realestate-analytics.ai/og-image.png" />
+        <meta property="og:url" content="https://realestate-analytics.ai/" />
+        <meta property="og:type" content="website" />
+
+        {/* Make sure LinkedIn sees absolute path */}
+        <meta name="image" content="https://realestate-analytics.ai/og-image.png" />
+      </head>
+      <body>{children}</body>
+    </html>
+  );
+}
 
   openGraph: {
     title: "Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis",
