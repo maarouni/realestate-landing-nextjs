@@ -18,6 +18,13 @@ export const metadata = {
   authors: [{ name: "Masoud Arouni" }],
   creator: "Masoud Arouni",
   publisher: "RealEstate-Analytics.ai",
+   // ⭐ ADD THIS BLOCK RIGHT HERE ⭐
+  icons: {
+    icon: "/favicon-32x32.png",
+    shortcut: "/favicon.ico",
+    apple: "/favicon-180x180.png",
+  },
+
 
   openGraph: {
     title: "Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis",
