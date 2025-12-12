@@ -89,7 +89,7 @@ export default function Home() {
           ⭐ Trusted by Professionals
         </h2>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
 
           {/* Daisy */}
           <div className="bg-slate-900/50 border border-slate-700 rounded-2xl p-4 md:p-5 shadow-lg text-center">
@@ -132,6 +132,31 @@ export default function Home() {
               confident in their decisions.”
             </p>
           </div>
+{/* Intero — Live Brokerage Feedback */}
+<div className="
+  bg-gradient-to-b from-slate-900/60 to-slate-800/40
+  border border-yellow-400/40
+  shadow-[0_0_30px_rgba(255,215,0,0.25)]
+  rounded-2xl
+  p-6
+  text-center
+">
+  <h3 className="text-lg font-semibold text-yellow-300 mb-3">
+    ⭐ Live Brokerage Feedback
+  </h3>
+
+  <p className="italic text-slate-100 text-xl leading-relaxed mb-4">
+    “I wish I had this tool earlier.”
+  </p>
+
+  <p className="text-slate-200 font-semibold">
+    — Intero Real Estate Office, Pleasanton
+  </p>
+
+  <p className="text-slate-300 text-sm mt-1">
+    (Live presentation feedback)
+  </p>
+</div>
 
         </div>
       </section>
