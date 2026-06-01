@@ -51,8 +51,6 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="#try-it"
-            target="_blank"
-            rel="noopener noreferrer"
             className="px-8 py-3 rounded-full bg-primary hover:bg-primary-light text-white font-semibold shadow-lg transition-all duration-300"
           >
             Try the Free Analyzer
@@ -91,17 +89,6 @@ export default function Home() {
 
       {/* ── FREE ANALYZER (embedded, always-on) ── */}
       <section id="try-it" className="w-full mb-20 px-4">
-        <div className="max-w-5xl mx-auto text-center mb-6">
-          <h2 className="text-3xl font-bold mb-2">
-            🏡 Single Property Analyzer <span className="text-yellow-300">— FREE</span>
-          </h2>
-          <p className="text-lg text-slate-200 mb-1">
-            Move the sliders. Watch every metric update live.
-          </p>
-          <p className="text-sm text-slate-400">
-            No login. No signup. Runs in your browser.
-          </p>
-        </div>
         <div className="max-w-5xl mx-auto">
           <iframe
             src="https://maarouni.github.io/singleproperty-public/"
