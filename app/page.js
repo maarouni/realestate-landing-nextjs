@@ -35,11 +35,11 @@ export default function Home() {
         </p>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-          Instant real estate deal analysis
+          Find Great Deals in 60 Seconds.
           <br />
-          for agents, investors, lenders,
+          Know the Numbers.
           <br />
-          and brokers.
+          Invest with Confidence.
         </h1>
 
         <p className="text-lg md:text-xl text-slate-200 mb-8 leading-relaxed max-w-3xl mx-auto">
@@ -50,12 +50,12 @@ export default function Home() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://real-estate-deal-analyzer-pro.streamlit.app/Main_Single_Property"
+            href="#try-it"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 rounded-full bg-primary hover:bg-primary-light text-white font-semibold shadow-lg transition-all duration-300"
           >
-            Launch Live App
+            Try the Free Analyzer
           </a>
           <a
             href="https://calendly.com/maarouni/30min-1"
@@ -86,6 +86,29 @@ export default function Home() {
             <div className="absolute -top-3 -left-8 animate-sparkle text-yellow-300">✴️</div>
             <div className="absolute -bottom-3 -right-8 animate-sparkle-delayed text-yellow-300">✴️</div>
           </div>
+        </div>
+      </section>
+
+      {/* ── FREE ANALYZER (embedded, always-on) ── */}
+      <section id="try-it" className="w-full mb-20 px-4">
+        <div className="max-w-5xl mx-auto text-center mb-6">
+          <h2 className="text-3xl font-bold mb-2">
+            🏡 Single Property Analyzer <span className="text-yellow-300">— FREE</span>
+          </h2>
+          <p className="text-lg text-slate-200 mb-1">
+            Move the sliders. Watch every metric update live.
+          </p>
+          <p className="text-sm text-slate-400">
+            No login. No signup. Runs in your browser.
+          </p>
+        </div>
+        <div className="max-w-5xl mx-auto">
+          <iframe
+            src="https://maarouni.github.io/singleproperty-public/"
+            title="Free Single Property Analyzer"
+            className="w-full rounded-xl border-0 min-h-[1100px]"
+            loading="lazy"
+          />
         </div>
       </section>
 
