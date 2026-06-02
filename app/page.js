@@ -65,13 +65,10 @@ export default function Home() {
           </a>
         </div>
 
-        <p className="mt-4 text-lg text-slate-200">
-          Fast, private, accurate, and client-ready.
-        </p>
       </section>
 
       {/* ── CCIM BADGE ── */}
-      <section className="w-full mb-20">
+      <section className="w-full mb-8">
         <div className="max-w-4xl mx-auto flex justify-center">
           <div className="relative">
             <div className="bg-gradient-to-r from-yellow-400/30 to-yellow-200/10 backdrop-blur-md border border-yellow-400/40 shadow-[0_0_40px_rgba(255,215,0,0.5)] px-8 py-5 rounded-xl">
@@ -89,7 +86,7 @@ export default function Home() {
 
       {/* ── FREE ANALYZER (embedded, always-on) ── */}
       <section id="try-it" className="w-full mb-20 px-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto"><div className="text-center mb-6"><a href="#try-it" className="inline-block px-8 py-3 rounded-full bg-primary hover:bg-primary-light text-white font-semibold shadow-lg transition-all duration-300">Try it Free — No Signup</a></div>
           <iframe
             src="https://maarouni.github.io/singleproperty-public/"
             title="Free Single Property Analyzer"
@@ -227,24 +224,6 @@ export default function Home() {
         </div>
       </section>
       {/* ════════════════════════════════════════════ */}
-
-      {/* ── CONTACT ── */}
-      <section id="contact" className="max-w-3xl mx-auto mb-10 text-center">
-        <h2 className="text-3xl font-bold mb-4">Contact</h2>
-        <p className="text-slate-200 mb-2">Interested in a demo for your office or team?</p>
-        <p className="text-slate-200 mb-2">
-          Email:{" "}
-          <a href="mailto:maarouni@gmail.com" className="text-accent underline">
-            maarouni@gmail.com
-          </a>
-        </p>
-        <p className="text-slate-200 mb-2">
-          Phone: <span className="text-accent">925-353-5263</span>
-        </p>
-        <p className="text-slate-400 text-sm">
-          Mention &quot;Deal Evaluator Demo&quot; and your market (city/region).
-        </p>
-      </section>
 
     </main>
   );
