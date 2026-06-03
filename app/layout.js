@@ -70,6 +70,8 @@ export default function RootLayout({ children }) {
 
         {/* Absolute fallback for stubborn scrapers */}
         <meta name="image" content="https://realestate-analytics.ai/og-image.png" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KK6DGNH7FY"></script>
+        <script dangerouslySetInnerHTML={{__html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-KK6DGNH7FY');`}} />
       </head>
       <body className="bg-slate-950 text-slate-50">{children}</body>
     </html>
