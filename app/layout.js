@@ -61,6 +61,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Bing Webmaster Tools verification */}
+        <meta name="msvalidate.01" content="2708908B2B2049880F4F2ADAC5CC73AB" />
+
         {/* Force LinkedIn to refresh OG */}
         <meta property="og:title" content="Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis" />
         <meta property="og:description" content="Instantly evaluate any property with ROI, IRR, cash flow, deal grading, and 10-year projections — no spreadsheets required." />
