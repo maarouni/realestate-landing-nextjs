@@ -67,7 +67,7 @@ export default function WorkshopPage() {
                 type="text"
                 name="first_name"
                 required
-                placeholder="Masoud"
+                placeholder="First name"
                 style={inputStyle}
               />
             </div>
@@ -77,7 +77,7 @@ export default function WorkshopPage() {
                 type="text"
                 name="last_name"
                 required
-                placeholder="Arouni"
+                placeholder="Last name"
                 style={inputStyle}
               />
             </div>
@@ -89,7 +89,7 @@ export default function WorkshopPage() {
               type="tel"
               name="phone"
               required
-              placeholder="(925) 555-0100"
+              placeholder="(555) 555-0100"
               style={inputStyle}
             />
           </div>
