@@ -134,7 +134,20 @@ export default function Home() {
             10-year projections — free in your browser. No spreadsheets. No signup.
           </p>
 
-
+          {/* Social proof */}
+          <div style={{
+            background: "rgba(96,165,250,0.08)",
+            border: "0.5px solid rgba(96,165,250,0.2)",
+            borderRadius: "12px", padding: "16px 20px", marginBottom: "32px",
+          }}>
+            <p style={{ fontSize: "13px", color: "#cbd5e1", fontStyle: "italic", lineHeight: 1.6 }}>
+              "This tool is the first thing I use when evaluating a property.
+              Fast clarity, no uncertainty."
+            </p>
+            <p style={{ fontSize: "12px", color: "#60a5fa", marginTop: "8px", fontWeight: 600 }}>
+              — Behruz Sadeghi, Broker · Royal LePage
+            </p>
+          </div>
 
           <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
             <a href="#full-analyzer" style={{
@@ -332,51 +345,24 @@ export default function Home() {
           Why Agents &amp; Teams Use It
         </h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px", marginBottom: "48px" }}>
-          {/* Daisy */}
-          <div style={{
-            background: "rgba(255,255,255,0.04)", border: "0.5px solid rgba(255,255,255,0.1)",
-            borderRadius: "16px", padding: "24px", textAlign: "center",
-          }}>
-            <p style={{ fontSize: "13px", fontWeight: 700, color: "#f1f5f9", marginBottom: "12px" }}>
-              ⭐ Daisy Borba — Prop Mgr / Owner / Agent
-            </p>
-            <p style={{ fontSize: "13px", color: "#cbd5e1", fontStyle: "italic", lineHeight: 1.7 }}>
-              "The tool will be very effective for people purchasing investment property.
-              Yours is one of the first I've seen that lets investors add improvements and
-              run meaningful comparisons. Most investors want sweat-equity potential — or a lot
-              large enough for an ADU. Your app helps them evaluate highest &amp; best use before buying.
-              I am recommending all my investors run the numbers with your app before they pull the trigger."
-            </p>
-          </div>
-          {/* Mike */}
-          <div style={{
-            background: "rgba(255,255,255,0.04)", border: "0.5px solid rgba(255,255,255,0.1)",
-            borderRadius: "16px", padding: "24px", textAlign: "center",
-          }}>
-            <p style={{ fontSize: "13px", fontWeight: 700, color: "#f1f5f9", marginBottom: "12px" }}>
-              ⭐ Mike Daoudi — REALTOR®, Excel Realty
-            </p>
-            <p style={{ fontSize: "13px", color: "#cbd5e1", fontStyle: "italic", lineHeight: 1.7 }}>
-              "This tool has been extremely helpful not only for me, but also for the
-              investors I work with daily. It brings clarity to each deal and gives clients
-              a clear understanding of the numbers so they can make confident decisions."
-            </p>
-          </div>
-          {/* Behruz */}
-          <div style={{
-            background: "rgba(255,255,255,0.04)", border: "0.5px solid rgba(255,255,255,0.1)",
-            borderRadius: "16px", padding: "24px", textAlign: "center",
-          }}>
-            <p style={{ fontSize: "13px", fontWeight: 700, color: "#f1f5f9", marginBottom: "12px" }}>
-              ⭐ Behruz Sadeghi — Broker, Royal LePage
-            </p>
-            <p style={{ fontSize: "13px", color: "#cbd5e1", fontStyle: "italic", lineHeight: 1.7 }}>
-              "This tool is the first thing I use when evaluating a property.
-              It gives me fast clarity, removes uncertainty, and helps my clients
-              feel confident in their decisions."
-            </p>
-          </div>
+        <div style={{
+          background: "rgba(255,255,255,0.04)",
+          border: "0.5px solid rgba(255,255,255,0.1)",
+          borderRadius: "16px", padding: "32px",
+          textAlign: "center", maxWidth: "720px",
+          margin: "32px auto 48px",
+        }}>
+          <p style={{ fontSize: "11px", color: "#60a5fa", fontWeight: 600, letterSpacing: "0.1em", marginBottom: "12px" }}>
+            ⭐ TRUSTED BY PROFESSIONALS
+          </p>
+          <p style={{ fontSize: "17px", color: "#cbd5e1", fontStyle: "italic", lineHeight: 1.7 }}>
+            "This tool is the first thing I use when evaluating a property.
+            It gives me fast clarity, removes uncertainty, and helps my clients
+            feel confident in their decisions."
+          </p>
+          <p style={{ marginTop: "16px", color: "#60a5fa", fontWeight: 600, fontSize: "14px" }}>
+            — Behruz Sadeghi, Broker · Royal LePage
+          </p>
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px" }}>
