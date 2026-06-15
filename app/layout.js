@@ -80,7 +80,20 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{__html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Is the deal analyzer really free?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, the Single Property Analyzer is completely free to use. No credit card, no trial period, no catch.\"}}, {\"@type\": \"Question\", \"name\": \"Do I need to create an account or log in?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No account or login needed. Open the tool, enter your numbers, and run a full deal analysis instantly \\u2014 no signup required.\"}}, {\"@type\": \"Question\", \"name\": \"What metrics does the analyzer calculate?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The analyzer calculates Cap Rate, Cash-on-Cash Return, IRR, DSCR, Equity Multiple, Breakeven Year, Year 1 Cash Flow, and a 10-year projection \\u2014 built on CCIM-level investment formulas.\"}}, {\"@type\": \"Question\", \"name\": \"Does it work for commercial properties?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, but commercial properties require a separate tool with more detailed setup. The free Single Property Analyzer is optimized for residential investment properties including single-family, duplexes, triplexes, and fourplexes.\"}}, {\"@type\": \"Question\", \"name\": \"Can I download or share the analysis?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. The analyzer generates a branded PDF report you can download instantly. You can also email the full analysis directly to any client or partner from within the tool.\"}}, {\"@type\": \"Question\", \"name\": \"How long does it take to analyze a deal?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Under 60 seconds. Enter your numbers, move the sliders, and every metric updates instantly \\u2014 no waiting, no manual calculations.\"}}, {\"@type\": \"Question\", \"name\": \"Is my data private and secure?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. No account is required, nothing is stored on our servers, and your analysis runs entirely in your browser. Nothing is shared with third parties.\"}}, {\"@type\": \"Question\", \"name\": \"What is a good cap rate for an investment property?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"It depends on the market. Generally 5-7% is solid for most U.S. residential markets. Bay Area properties typically run lower (3-5%) due to high prices, while Texas and Florida often yield 7-9%. The analyzer calculates your exact cap rate instantly based on your inputs.\"}}]}"}}
         />
       </head>
-      <body className="bg-slate-950 text-slate-50">{children}</body>
+      <body className="bg-slate-950 text-slate-50">
+      <nav style={{backgroundColor:"#0a1628", borderBottom:"1px solid #1e293b", padding:"0 24px", display:"flex", alignItems:"center", justifyContent:"space-between", height:"56px", position:"sticky", top:0, zIndex:50}}>
+        <a href="/" style={{color:"#fff", fontWeight:"700", fontSize:"15px", textDecoration:"none", letterSpacing:"0.02em"}}>
+          RealEstate-Analytics.ai
+        </a>
+        <div style={{display:"flex", gap:"8px", alignItems:"center"}}>
+          <a href="/tools" style={{color:"#94a3b8", fontSize:"13px", fontWeight:"600", textDecoration:"none", padding:"6px 12px", borderRadius:"6px"}}>Tools</a>
+          <a href="/tools/cap-rate-calculator" style={{color:"#94a3b8", fontSize:"13px", textDecoration:"none", padding:"6px 10px"}}>Cap Rate</a>
+          <a href="/tools/irr-calculator" style={{color:"#94a3b8", fontSize:"13px", textDecoration:"none", padding:"6px 10px"}}>IRR</a>
+          <a href="/tools/dscr-calculator" style={{color:"#94a3b8", fontSize:"13px", textDecoration:"none", padding:"6px 10px"}}>DSCR</a>
+          <a href="/blog/how-to-analyze-multifamily-deal" style={{color:"#94a3b8", fontSize:"13px", textDecoration:"none", padding:"6px 10px"}}>Blog</a>
+          <a href="/#try-it" style={{backgroundColor:"#2563eb", color:"#fff", fontSize:"13px", fontWeight:"600", textDecoration:"none", padding:"7px 16px", borderRadius:"20px"}}>Try Free</a>
+        </div>
+      </nav>{children}</body>
     </html>
   );
 }
