@@ -2,12 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export const metadata = {
-  title: "IRR Calculator — Internal Rate of Return for Real Estate | RealEstate-Analytics.ai",
-  description:
-    "Calculate IRR for any real estate investment. Enter purchase price, annual cash flows, and exit value to get internal rate of return instantly. CCIM-level accuracy.",
-};
-
 function calcIRR(cashFlows) {
   // Newton-Raphson IRR solver
   let rate = 0.1;

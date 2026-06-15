@@ -2,12 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Cap Rate Calculator — Free Commercial Real Estate Tool | RealEstate-Analytics.ai",
-  description:
-    "Calculate capitalization rate instantly. Enter NOI and property value to get cap rate, deal grade, and market comparison. CCIM-level formulas. No signup.",
-};
-
 function calcCapRate(noi, price) {
   if (!price || price === 0) return null;
   return ((noi / price) * 100).toFixed(2);

@@ -2,12 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export const metadata = {
-  title: "DSCR Calculator — Debt Service Coverage Ratio | RealEstate-Analytics.ai",
-  description:
-    "Calculate DSCR instantly. See if your rental property qualifies for a DSCR loan. Used by lenders, underwriters, and investors. Free, no signup.",
-};
-
 function calcDSCR(noi, annualDebt) {
   if (!annualDebt) return null;
   return (noi / annualDebt).toFixed(2);
