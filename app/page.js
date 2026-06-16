@@ -201,7 +201,7 @@ export default function Home() {
       {/* ══════════════════════════════════════════
           LIVE CALCULATOR — full width
           ══════════════════════════════════════════ */}
-      <section id="analyzer" style={{ background: "#080f1e", padding: "80px 24px" }}>
+      <section id="analyzer" style={{ background: "#080f1e", padding: "40px 24px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
 
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
@@ -315,7 +315,7 @@ export default function Home() {
       {/* ══════════════════════════════════════════
           TESTIMONIALS
           ══════════════════════════════════════════ */}
-      <section style={{ background: "#080f1e", padding: "80px 24px" }}>
+      <section style={{ background: "#080f1e", padding: "40px 24px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "clamp(24px, 3vw, 36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: "48px", letterSpacing: "-0.02em" }}>
             Why Agents &amp; Investors Use It
@@ -372,7 +372,7 @@ export default function Home() {
       {/* ══════════════════════════════════════════
           YOUTUBE VIDEOS
           ══════════════════════════════════════════ */}
-      <section style={{ background: "#080f1e", padding: "80px 24px" }}>
+      <section style={{ background: "#080f1e", padding: "40px 24px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
             <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em", color: "#60a5fa", textTransform: "uppercase", marginBottom: "8px" }}>From the Channel</p>
