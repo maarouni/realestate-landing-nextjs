@@ -170,7 +170,7 @@ export default function Home() {
             ].map((t) => (
               <div key={t.val} style={{ textAlign: "center" }}>
                 <p style={{ fontSize: "14px", fontWeight: 700, color: "#e2e8f0" }}>{t.val}</p>
-                <p style={{ fontSize: "11px", color: "#475569", marginTop: "2px" }}>{t.label}</p>
+                <p style={{ fontSize: "14px", color: "#cbd5e1", marginTop: "2px" }}>{t.label}</p>
               </div>
             ))}
           </div>
