@@ -70,19 +70,20 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{__html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Is the deal analyzer really free?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, the Single Property Analyzer is completely free to use. No credit card, no trial period, no catch.\"}}, {\"@type\": \"Question\", \"name\": \"Do I need to create an account or log in?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No account or login needed. Open the tool, enter your numbers, and run a full deal analysis instantly \\u2014 no signup required.\"}}, {\"@type\": \"Question\", \"name\": \"What metrics does the analyzer calculate?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The analyzer calculates Cap Rate, Cash-on-Cash Return, IRR, DSCR, Equity Multiple, Breakeven Year, Year 1 Cash Flow, and a 10-year projection \\u2014 built on CCIM-level investment formulas.\"}}, {\"@type\": \"Question\", \"name\": \"Does it work for commercial properties?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, but commercial properties require a separate tool with more detailed setup. The free Single Property Analyzer is optimized for residential investment properties including single-family, duplexes, triplexes, and fourplexes.\"}}, {\"@type\": \"Question\", \"name\": \"Can I download or share the analysis?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. The analyzer generates a branded PDF report you can download instantly. You can also email the full analysis directly to any client or partner from within the tool.\"}}, {\"@type\": \"Question\", \"name\": \"How long does it take to analyze a deal?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Under 60 seconds. Enter your numbers, move the sliders, and every metric updates instantly \\u2014 no waiting, no manual calculations.\"}}, {\"@type\": \"Question\", \"name\": \"Is my data private and secure?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. No account is required, nothing is stored on our servers, and your analysis runs entirely in your browser. Nothing is shared with third parties.\"}}, {\"@type\": \"Question\", \"name\": \"What is a good cap rate for an investment property?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"It depends on the market. Generally 5-7% is solid for most U.S. residential markets. Bay Area properties typically run lower (3-5%) due to high prices, while Texas and Florida often yield 7-9%. The analyzer calculates your exact cap rate instantly based on your inputs.\"}}]}"}}
         />
         <style>{`
-          .nav-dropdown { position: relative; }
+          .nav-dropdown { position: relative; padding-bottom: 12px; }
           .nav-dropdown:hover .dropdown-panel { display: block; }
           .dropdown-panel {
             display: none;
             position: absolute;
-            top: 48px;
+            top: 44px;
             left: -12px;
             background: #0d1f3c;
             border: 1px solid rgba(255,255,255,0.1);
             border-radius: 12px;
             padding: 8px;
+            padding-top: 16px;
             min-width: 280px;
-            z-index: 100;
+            z-index: 200;
             box-shadow: 0 20px 60px rgba(0,0,0,0.5);
           }
           .dropdown-panel a {
