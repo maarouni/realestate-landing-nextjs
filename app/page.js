@@ -201,10 +201,10 @@ export default function Home() {
 
           {/* Right side header */}
           <div style={{ marginBottom: "16px" }}>
-            <p style={{ fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", color: "#60a5fa", textTransform: "uppercase", marginBottom: "4px" }}>
+            <p style={{ fontSize: "22px", fontWeight: 700, color: "#f1f5f9", marginBottom: "4px" }}>
               Quick Deal Check
             </p>
-            <p style={{ fontSize: "13px", color: "#64748b" }}>
+            <p style={{ fontSize: "13px", color: "#94a3b8" }}>
               Adjust the sliders — see your returns update live
             </p>
           </div>
