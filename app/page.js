@@ -81,7 +81,7 @@ export default function Home() {
         {/* Background image — aspirational real estate */}
         <div style={{
           position: "absolute", inset: 0,
-          backgroundImage: "url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&q=80')",
+          backgroundImage: "url('/nyc-hero.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           opacity: 0.55,
