@@ -118,49 +118,21 @@ export default function Home() {
           </p>
 
           <h1 style={{
-            fontSize: "clamp(28px, 3vw, 42px)", fontWeight: 700,
+            fontSize: "clamp(28px, 3vw, 40px)", fontWeight: 700,
             color: "#f1f5f9", lineHeight: 1.2, marginBottom: "20px",
           }}>
-            Find Great Deals in 60 Seconds.<br />
-            Know the Numbers.<br />
-            <span style={{ color: "#60a5fa" }}>Invest with Confidence.</span>
+            Type a price.<br />
+            See the return.<br />
+            <span style={{ color: "#60a5fa" }}>Know in 60 seconds.</span>
           </h1>
 
           <p style={{
             fontSize: "15px", color: "#94a3b8", lineHeight: 1.7,
-            marginBottom: "24px", maxWidth: "380px",
+            marginBottom: "32px", maxWidth: "360px",
           }}>
-            Grade any property in seconds with ROI, IRR, cash flow, breakeven year,
-            equity multiple, 10-year projections, and deal-quality grading —
-            no spreadsheets or logins.
+            CCIM-level deal math — cap rate, cash flow, IRR, DSCR, equity multiple,
+            10-year projections — free in your browser. No spreadsheets. No signup.
           </p>
-
-          {/* CCIM Gold Badge */}
-          <div style={{
-            position: "relative", marginBottom: "28px", display: "inline-block",
-          }}>
-            <div style={{
-              background: "linear-gradient(135deg, rgba(234,179,8,0.25), rgba(234,179,8,0.08))",
-              border: "1px solid rgba(234,179,8,0.4)",
-              boxShadow: "0 0 32px rgba(234,179,8,0.3)",
-              borderRadius: "12px", padding: "14px 20px",
-            }}>
-              <div style={{ fontSize: "22px", textAlign: "center", marginBottom: "6px" }}>✨</div>
-              <p style={{
-                fontSize: "13px", color: "#fef08a", fontWeight: 600,
-                textAlign: "center", lineHeight: 1.5, letterSpacing: "0.02em",
-              }}>
-                Built &amp; powered by CCIM-level investment formulas<br />
-                trusted by appraisers, lenders &amp; underwriters.
-              </p>
-            </div>
-            <span style={{
-              position: "absolute", top: "-10px", left: "-16px", fontSize: "18px"
-            }}>✴️</span>
-            <span style={{
-              position: "absolute", bottom: "-10px", right: "-16px", fontSize: "18px"
-            }}>✴️</span>
-          </div>
 
 
 
