@@ -136,8 +136,11 @@ export default function Home() {
           }}>
             <input
               type="number"
-              placeholder="Enter purchase price e.g. 750000"
+              placeholder="Enter purchase price e.g. 750,000"
               value={price}
+              step={25000}
+              min={100000}
+              max={10000000}
               onChange={(e) => setPrice(Number(e.target.value))}
               style={{
                 flex: 1, background: "transparent", border: "none",
