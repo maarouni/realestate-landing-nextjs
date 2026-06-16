@@ -25,10 +25,10 @@ const VIDEOS = [
 // ─────────────────────────────────────────────
 
 // ── defaults tuned to produce flattering numbers on first load ──
-const DEFAULT_PRICE  = 750000;
-const DEFAULT_RENT   = 5800;
-const DEFAULT_DOWN   = 25;
-const RATE           = 0.0725;
+const DEFAULT_PRICE  = 600000;
+const DEFAULT_RENT   = 4800;
+const DEFAULT_DOWN   = 30;
+const RATE           = 0.0699;
 const EXPENSE_RATIO  = 0.38;
 
 function runCalc(price, rent, downPct) {
@@ -199,7 +199,17 @@ export default function Home() {
           background: "#0d1f3c",
         }}>
 
-          {/* Results strip — shown first so they see numbers before inputs */}
+          {/* Right side header */}
+          <div style={{ marginBottom: "16px" }}>
+            <p style={{ fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", color: "#60a5fa", textTransform: "uppercase", marginBottom: "4px" }}>
+              Quick Deal Check
+            </p>
+            <p style={{ fontSize: "13px", color: "#64748b" }}>
+              Adjust the sliders — see your returns update live
+            </p>
+          </div>
+
+        {/* Results strip — shown first so they see numbers before inputs */}
           <div style={{
             display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr",
             gap: "10px", marginBottom: "24px",
