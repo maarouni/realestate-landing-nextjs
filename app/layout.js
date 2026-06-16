@@ -227,15 +227,6 @@ export default function RootLayout({ children }) {
               </div>
             </div>
 
-            <a href="https://zipcodemarketanalytics.onrender.com" target="_blank" rel="noopener noreferrer"
-              style={{color:"#94a3b8", fontSize:"13px", textDecoration:"none", padding:"6px 10px"}}>
-              Markets
-            </a>
-
-            <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer"
-              style={{color:"#94a3b8", fontSize:"13px", textDecoration:"none", padding:"6px 10px"}}>
-              Demo
-            </a>
 
             <a href="#full-analyzer" style={{
               backgroundColor:"#2563eb", color:"#fff", fontSize:"13px",
