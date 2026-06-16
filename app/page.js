@@ -301,7 +301,7 @@ export default function Home() {
             <h2 style={{ fontSize: "clamp(24px, 3vw, 36px)", fontWeight: 800, color: "#f1f5f9", letterSpacing: "-0.02em", marginBottom: "8px" }}>
               IRR, DSCR, 10-Year Projections &amp; PDF Report
             </h2>
-            <p style={{ fontSize: "14px", color: "#475569" }}>No signup · No spreadsheets · Instant PDF report</p>
+            <p style={{ fontSize: "16px", color: "#94a3b8" }}>No signup · No spreadsheets · Instant PDF report</p>
           </div>
           <iframe
             src="https://maarouni.github.io/singleproperty-public/"
@@ -361,7 +361,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p style={{ fontSize: "15px", fontWeight: 700, color: "#f1f5f9", marginBottom: "4px" }}>{s.title}</p>
-                  <p style={{ fontSize: "13px", color: "#64748b", lineHeight: 1.6 }}>{s.body}</p>
+                  <p style={{ fontSize: "15px", color: "#94a3b8", lineHeight: 1.6 }}>{s.body}</p>
                 </div>
               </div>
             ))}
@@ -377,7 +377,7 @@ export default function Home() {
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
             <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em", color: "#60a5fa", textTransform: "uppercase", marginBottom: "8px" }}>From the Channel</p>
             <h2 style={{ fontSize: "clamp(24px, 3vw, 36px)", fontWeight: 800, color: "#f1f5f9", letterSpacing: "-0.02em", marginBottom: "8px" }}>See It in Action</h2>
-            <p style={{ fontSize: "14px", color: "#475569" }}>Real deals. Real numbers. Watch investors stress-test properties before committing.</p>
+            <p style={{ fontSize: "16px", color: "#94a3b8" }}>Real deals. Real numbers. Watch investors stress-test properties before committing.</p>
           </div>
 
           <div style={{ borderRadius: "16px", overflow: "hidden", border: "0.5px solid rgba(255,255,255,0.1)", marginBottom: "20px" }}>
