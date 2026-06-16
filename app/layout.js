@@ -138,7 +138,7 @@ export default function RootLayout({ children }) {
             {/* Tools dropdown */}
             <div className="nav-dropdown" style={{position:"relative"}}>
               <a href="/tools" style={{
-                color:"#94a3b8", fontSize:"13px", fontWeight:"600",
+                color:"#ffffff", fontSize:"13px", fontWeight:"600",
                 textDecoration:"none", padding:"6px 12px", borderRadius:"6px",
                 display:"flex", alignItems:"center", gap:"4px", cursor:"pointer"
               }}>
@@ -187,7 +187,7 @@ export default function RootLayout({ children }) {
             {/* Blog dropdown */}
             <div className="nav-dropdown" style={{position:"relative"}}>
               <a href="/blog" style={{
-                color:"#94a3b8", fontSize:"13px", fontWeight:"600",
+                color:"#ffffff", fontSize:"13px", fontWeight:"600",
                 textDecoration:"none", padding:"6px 12px", borderRadius:"6px",
                 display:"flex", alignItems:"center", gap:"4px"
               }}>

@@ -84,13 +84,13 @@ export default function Home() {
           backgroundImage: "url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&q=80')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          opacity: 0.35,
+          opacity: 0.55,
         }} />
 
         {/* Dark overlay gradient */}
         <div style={{
           position: "absolute", inset: 0,
-          background: "linear-gradient(to bottom, rgba(6,15,30,0.7) 0%, rgba(6,15,30,0.85) 60%, rgba(6,15,30,1) 100%)",
+          background: "linear-gradient(to bottom, rgba(6,15,30,0.4) 0%, rgba(6,15,30,0.65) 60%, rgba(6,15,30,0.95) 100%)",
         }} />
 
         {/* Content */}
