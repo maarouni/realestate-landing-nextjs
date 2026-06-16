@@ -133,7 +133,7 @@ export default function RootLayout({ children }) {
           <a href="/" style={{color:"#fff", fontWeight:"700", fontSize:"15px", textDecoration:"none", letterSpacing:"0.02em"}}>
             RealEstate-Analytics.ai
           </a>
-          <div style={{display:"flex", gap:"4px", alignItems:"center", marginRight:"auto", marginLeft:"120px"}}>
+          <div style={{display:"flex", gap:"4px", alignItems:"center", marginRight:"auto", marginLeft:"32px"}}>
 
             <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"6px 14px",borderRadius:"6px",border:"0.5px solid rgba(255,255,255,0.25)",marginRight:"4px"}}>Book a Demo</a>
 

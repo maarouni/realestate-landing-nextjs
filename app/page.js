@@ -193,7 +193,7 @@ export default function Home() {
           position: "absolute", bottom: "28px",
           display: "flex", flexDirection: "column", alignItems: "center", gap: "6px",
         }}>
-          <p style={{ fontSize: "11px", color: "#475569", letterSpacing: "0.1em" }}>SCROLL TO ANALYZE</p>
+          <p style={{ fontSize: "11px", color: "#94a3b8", letterSpacing: "0.1em" }}>SCROLL TO ANALYZE</p>
           <div style={{ width: "1px", height: "32px", background: "rgba(71,85,105,0.6)" }} />
         </div>
       </section>
