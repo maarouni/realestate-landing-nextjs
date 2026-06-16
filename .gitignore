@@ -5,3 +5,5 @@ node_modules/
 node_modules/
 .next/
 .DS_Store
+app/page_backup_*.js
+app/layout_backup_*.js
