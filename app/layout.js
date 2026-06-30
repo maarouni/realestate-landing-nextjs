@@ -154,6 +154,8 @@ export default function RootLayout({ children }) {
 
             <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"6px 14px",borderRadius:"6px",border:"0.5px solid rgba(255,255,255,0.25)",marginRight:"4px"}}>Book a Demo</a>
 
+            <a href="/about" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"6px 14px",borderRadius:"6px"}}>About</a>
+
             {/* Tools dropdown */}
             <div className="nav-dropdown" style={{position:"relative"}}>
               <a href="/tools" style={{

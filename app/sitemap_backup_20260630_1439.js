@@ -8,7 +8,6 @@ export default function sitemap() {
   return [
     // Core
     { url: base, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${base}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/workshop`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
 
     // Tools
