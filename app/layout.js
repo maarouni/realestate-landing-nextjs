@@ -127,6 +127,23 @@ export default function RootLayout({ children }) {
             padding: 6px 12px 2px;
           }
         `}</style>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{__html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "RealEstate-Analytics.ai Deal Analyzer",
+            "url": "https://www.realestate-analytics.ai",
+            "applicationCategory": "FinanceApplication, Real Estate Investment Analysis, Property Underwriting, Rental Property Calculator, Commercial Real Estate",
+            "applicationSubCategory": "Real Estate Deal Analysis",
+            "operatingSystem": "Web Browser",
+            "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+            "audience": {"@type": "Audience", "audienceType": "Real Estate Investors, REALTORS, Commercial Real Estate Brokers, Lenders, Property Managers"},
+            "description": "CCIM-level real estate deal analyzer that calculates cap rate, IRR, DSCR, cash-on-cash return, equity multiple, and 10-year projections for residential and commercial investment properties. Free, browser-based, no signup required.",
+            "featureList": "Cap Rate Calculator, IRR Calculator, DSCR Calculator, Cash-on-Cash Return, Equity Multiple, 10-Year Cash Flow Projections, PDF Report, Vacancy Stress Test, 3-Scenario Analysis",
+            "keywords": "cap rate calculator, real estate deal analyzer, DSCR calculator, IRR calculator, rental property analysis, CCIM underwriting, investment property tool"
+          })}}
+        />
       </head>
       <body className="bg-slate-950 text-slate-50">
         <nav style={{backgroundColor:"#0a1628", borderBottom:"1px solid #1e293b", padding:"0 24px", display:"flex", alignItems:"center", justifyContent:"space-between", height:"56px", position:"sticky", top:0, zIndex:50}}>
