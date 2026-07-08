@@ -249,6 +249,8 @@ export default function RootLayout({ children }) {
             </div>
             <a href="/about" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"6px 14px",borderRadius:"6px",marginRight:"8px"}}>About</a>
 
+            <a href="/contact" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"6px 14px",borderRadius:"6px",marginRight:"8px"}}>Contact</a>
+
 
             <a href="#full-analyzer" style={{
               backgroundColor:"#2563eb", color:"#fff", fontSize:"13px",

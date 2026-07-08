@@ -104,16 +104,17 @@ export default function Home() {
             fontSize: "11px", fontWeight: 700, letterSpacing: "0.22em",
             color: "#60a5fa", textTransform: "uppercase", marginBottom: "20px",
           }}>
-            Real Estate Deal Evaluator
+            Shadow &amp; Off-Market Deal Platform
           </p>
 
           <h1 style={{
-            fontSize: "clamp(36px, 6vw, 64px)", fontWeight: 800,
-            color: "#f1f5f9", lineHeight: 1.1, marginBottom: "20px",
-            letterSpacing: "-0.03em",
+            fontSize: "clamp(26px, 4vw, 48px)", fontWeight: 800,
+            color: "#f1f5f9", lineHeight: 1.15, marginBottom: "20px",
+            letterSpacing: "-0.02em",
           }}>
-            Find Great Deals<br />
-            <span style={{ color: "#60a5fa" }}>in 60 Seconds.</span>
+            The Shadow Market and Off-Market Listings —<br />
+            <span style={{ color: "#60a5fa" }}>{"That’s Where the Real Deals Are."}</span><br />
+            We Help You Find and Underwrite Them.
           </h1>
 
           <p style={{
@@ -121,8 +122,7 @@ export default function Home() {
             lineHeight: 1.65, marginBottom: "36px", maxWidth: "560px",
             margin: "0 auto 36px",
           }}>
-            Grade any property instantly — cap rate, IRR, DSCR, cash flow,
-            10-year projections. No spreadsheets. No signup.
+            Shadow and off-market deal sourcing + CCIM-level underwriting in one platform. Residential and commercial.
           </p>
 
           {/* Single CTA input bar */}
@@ -166,13 +166,13 @@ export default function Home() {
             flexWrap: "wrap",
           }}>
             {[
+              { val: "Shadow Market", label: "Off-market access" },
               { val: "CCIM-Level", label: "Formulas" },
-              { val: "60 Seconds", label: "Full Analysis" },
-              { val: "Free", label: "No Signup" },
-              { val: "3 Scenarios", label: "Stress Test" },
+              { val: "60 Seconds", label: "Full analysis" },
+              { val: "Free", label: "No signup" },
             ].map((t) => (
               <div key={t.val} style={{ textAlign: "center" }}>
-                <p style={{ fontSize: "14px", fontWeight: 700, color: "#e2e8f0" }}>{t.val}</p>
+                <p style={{ fontSize: "16px", fontWeight: 700, color: "#ffffff" }}>{t.val}</p>
                 <p style={{ fontSize: "14px", color: "#cbd5e1", marginTop: "2px" }}>{t.label}</p>
               </div>
             ))}
@@ -196,7 +196,7 @@ export default function Home() {
           position: "absolute", bottom: "28px",
           display: "flex", flexDirection: "column", alignItems: "center", gap: "6px",
         }}>
-          <p style={{ fontSize: "11px", color: "#94a3b8", letterSpacing: "0.1em" }}>SCROLL TO ANALYZE</p>
+
           <div style={{ width: "1px", height: "32px", background: "rgba(71,85,105,0.6)" }} />
         </div>
       </section>
