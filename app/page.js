@@ -118,7 +118,7 @@ export default function Home() {
           </h1>
 
           <p style={{
-            fontSize: "clamp(16px, 2vw, 19px)", color: "#e2e8f0",
+            fontSize: "clamp(18px, 2.2vw, 22px)", color: "#f1f5f9",
             lineHeight: 1.65, marginBottom: "36px", maxWidth: "560px",
             margin: "0 auto 36px",
           }}>
