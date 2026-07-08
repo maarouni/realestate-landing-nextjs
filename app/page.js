@@ -112,9 +112,8 @@ export default function Home() {
             color: "#f1f5f9", lineHeight: 1.15, marginBottom: "20px",
             letterSpacing: "-0.02em",
           }}>
-            The Shadow Market and Off-Market Listings —<br />
-            <span style={{ color: "#60a5fa" }}>{"That’s Where the Real Deals Are."}</span><br />
-            We Help You Find and Underwrite Them.
+            Find Real Deals Others Miss<br />
+            <span style={{ color: "#60a5fa" }}>and Underwrite Them in 60 Seconds.</span>
           </h1>
 
           <p style={{
@@ -122,7 +121,7 @@ export default function Home() {
             lineHeight: 1.65, marginBottom: "36px", maxWidth: "560px",
             margin: "0 auto 36px",
           }}>
-            Underwrite any deal in 60 seconds before it pencils. CCIM-level formulas. No spreadsheets. No signup.
+            Including Shadow Market and Off-Market Listings — That’s Where the Real Deals Are.
           </p>
 
           {/* Single CTA input bar */}
