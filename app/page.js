@@ -101,10 +101,10 @@ export default function Home() {
         }}>
 
           <p style={{
-            fontSize: "11px", fontWeight: 700, letterSpacing: "0.22em",
+            fontSize: "13px", fontWeight: 700, letterSpacing: "0.18em",
             color: "#60a5fa", textTransform: "uppercase", marginBottom: "20px",
           }}>
-            Shadow &amp; Off-Market Deal Platform
+            Real Estate Deal Platform — Residential &amp; Commercial
           </p>
 
           <h1 style={{
@@ -122,7 +122,7 @@ export default function Home() {
             lineHeight: 1.65, marginBottom: "36px", maxWidth: "560px",
             margin: "0 auto 36px",
           }}>
-            Shadow and off-market deal sourcing + CCIM-level underwriting in one platform. Residential and commercial.
+            Underwrite any deal in 60 seconds before it pencils. CCIM-level formulas. No spreadsheets. No signup.
           </p>
 
           {/* Single CTA input bar */}
