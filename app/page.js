@@ -69,7 +69,7 @@ export default function Home() {
           ══════════════════════════════════════════ */}
       <section style={{
         position: "relative",
-        minHeight: "100vh",
+        minHeight: "auto",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -118,7 +118,7 @@ export default function Home() {
           </h1>
 
           <p style={{
-            fontSize: "clamp(15px, 2vw, 18px)", color: "#94a3b8",
+            fontSize: "clamp(16px, 2vw, 19px)", color: "#e2e8f0",
             lineHeight: 1.65, marginBottom: "36px", maxWidth: "560px",
             margin: "0 auto 36px",
           }}>
