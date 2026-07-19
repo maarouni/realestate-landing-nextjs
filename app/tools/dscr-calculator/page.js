@@ -159,6 +159,64 @@ export default function DSCRCalculator() {
           ))}
         </div>
       </article>
+
+      <article className="prose prose-invert max-w-none text-slate-300 space-y-6 mt-12">
+        <h2 className="text-2xl font-bold text-white">DSCR Deep Dive: Formula, Worked Example &amp; 2026 Benchmarks</h2>
+
+        <h2 className="text-2xl font-bold text-white">The Formula</h2>
+        <div className="bg-slate-800 rounded-xl px-6 py-4 font-mono text-blue-300 text-center text-lg">
+          DSCR = Net Operating Income (NOI) ÷ Annual Debt Service
+        </div>
+        <p>NOI is effective gross income minus operating expenses — before debt and before capital
+          expenditures. Annual debt service is the total of all loan payments (principal + interest)
+          for the year.</p>
+
+        <h2 className="text-2xl font-bold text-white">Worked Example</h2>
+        <p>A 12-unit multifamily property collects $180,000 in effective gross income and carries
+          $72,000 in operating expenses, for an NOI of $108,000. The loan payment is $7,100/month,
+          or $85,200/year.</p>
+        <p>DSCR = $108,000 ÷ $85,200 = <strong className="text-white">1.27</strong></p>
+        <p>Most lenders would approve this deal on coverage: the property generates 27% more income
+          than the debt requires.</p>
+
+        <h2 className="text-2xl font-bold text-white">What Counts as a Good DSCR in 2026?</h2>
+        <p>Most commercial lenders require a minimum DSCR of 1.20–1.25x for multifamily and 1.25–1.35x
+          for office, retail, and industrial. Agency multifamily debt (Fannie/Freddie) underwrites to
+          a 1.25x minimum, with 1.35x+ preferred. Below 1.20x, expect a smaller loan, a higher rate, or
+          a decline. Above 1.40x, the deal has meaningful cushion — attractive to lenders, and a signal
+          the buyer may have room to leverage further.</p>
+
+        <h2 className="text-2xl font-bold text-white">Minimums Are the Gate, Not the Whole Market</h2>
+        <p>DSCR loan programs for residential investors go as low as 1.0x, with no-ratio products
+          available below that at higher rates. Bridge and value-add lenders often underwrite to a
+          projected stabilized DSCR rather than the in-place number, and interest-only periods raise
+          early-year coverage by removing principal from the payment. Published minimums describe
+          institutional senior debt — deals below them close every day through different products and
+          structures.</p>
+
+        <h2 className="text-2xl font-bold text-white">Why DSCR Decides Your Maximum Loan</h2>
+        <p>Lenders size loans backwards from DSCR: they take your NOI, divide by required coverage,
+          and that's the maximum debt service they'll allow — which converts to a maximum loan at
+          prevailing rates. This is why a rate increase shrinks your loan even when the property
+          hasn't changed: the same NOI supports less debt at a higher payment.</p>
+
+        <h2 className="text-2xl font-bold text-white">When a CCIM Analyst Uses DSCR</h2>
+        <p>DSCR is one of the first three screens in professional underwriting, alongside cap rate and
+          cash-on-cash return. It answers the lender's question (will this loan get repaid?) while cap
+          rate answers the market's question (what is this income stream worth?) and cash-on-cash
+          answers the investor's question (what does my equity earn?). A deal must clear all three to
+          be worth pursuing — this calculator handles the first.</p>
+
+        <p className="text-slate-400 text-sm italic">
+          Data sources for market context:{" "}
+          <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">Federal Reserve (FRED)</a> for
+          the rate environment,{" "}
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">U.S. Census ACS</a> for
+          market fundamentals,{" "}
+          <a href="https://www.huduser.gov/portal/datasets/fmr.html" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">HUD Fair Market Rents</a> for
+          rent benchmarks.
+        </p>
+      </article>
     </main>
   );
 }

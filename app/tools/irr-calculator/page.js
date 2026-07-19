@@ -153,6 +153,48 @@ export default function IRRCalculator() {
           ))}
         </div>
       </article>
+
+      <article className="prose prose-invert max-w-none text-slate-300 space-y-6 mt-12">
+        <h2 className="text-2xl font-bold text-white">IRR Deep Dive: Formula, Worked Example &amp; 2026 Benchmarks</h2>
+
+        <h2 className="text-2xl font-bold text-white">How It Works</h2>
+        <p>IRR is the discount rate at which the deal's cash flows sum to zero — equivalently, the
+          constant annual growth rate your invested capital achieved. It can't be solved with simple
+          algebra; it's found iteratively, which is why professionals use a calculator or spreadsheet
+          rather than a formula.</p>
+
+        <h2 className="text-2xl font-bold text-white">Worked Example</h2>
+        <p>Buy a property for $1,000,000 all-in. It produces $40,000/year in after-debt cash flow, and
+          you sell after 5 years for $1,400,000.</p>
+        <p>Cash flows: −$1,000,000 today, +$40,000 in years 1–4, +$1,440,000 in year 5 (final year's
+          cash flow plus sale).</p>
+        <p><strong className="text-white">IRR ≈ 10.5%</strong> — with an equity multiple of 1.60x
+          ($1.6M back on $1M in) and $600,000 of total profit over the hold.</p>
+
+        <h2 className="text-2xl font-bold text-white">What Is a Good IRR in 2026?</h2>
+        <p>Benchmarks vary by strategy and risk. Core, stabilized assets typically target 7–10% IRR;
+          value-add deals 12–18%; opportunistic and development deals 18%+ to justify their risk. A
+          10–11% IRR on a low-risk stabilized asset is acceptable; the same number on a heavy-lift
+          value-add deal would be inadequate compensation for the risk taken.</p>
+
+        <h2 className="text-2xl font-bold text-white">IRR vs. Cash-on-Cash: Why You Need Both</h2>
+        <p>Cash-on-cash measures a single year's cash yield on your equity; IRR measures the whole
+          journey including appreciation and sale. A deal can have weak cash-on-cash but strong IRR
+          (appreciation play) or the reverse (cash cow with no growth). Professional underwriting reads
+          them together — chasing IRR alone often means betting on exit assumptions.</p>
+
+        <h2 className="text-2xl font-bold text-white">The Exit-Price Sensitivity Warning</h2>
+        <p>In shorter holds, IRR is dominated by the sale price — an assumption about a market 5 years
+          away. A disciplined analysis always tests IRR at three exits (conservative, base, optimistic)
+          before trusting the number.</p>
+
+        <p className="text-slate-400 text-sm italic">
+          Data sources for market context:{" "}
+          <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">Federal Reserve (FRED)</a>,{" "}
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">U.S. Census ACS</a>,{" "}
+          <a href="https://www.huduser.gov/portal/datasets/fmr.html" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">HUD Fair Market Rents</a>.
+        </p>
+      </article>
     </main>
   );
 }

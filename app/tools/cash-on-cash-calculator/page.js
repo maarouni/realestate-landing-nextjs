@@ -119,6 +119,48 @@ export default function CashOnCashCalculator() {
           ))}
         </div>
       </article>
+
+      <article className="prose prose-invert max-w-none text-slate-300 space-y-6 mt-12">
+        <h2 className="text-2xl font-bold text-white">Cash-on-Cash Deep Dive: Formula, Worked Example &amp; 2026 Benchmarks</h2>
+
+        <h2 className="text-2xl font-bold text-white">The Formula</h2>
+        <div className="bg-slate-800 rounded-xl px-6 py-4 font-mono text-blue-300 text-center text-lg">
+          Cash-on-Cash = Annual Pre-Tax Cash Flow ÷ Total Cash Invested
+        </div>
+        <p>Annual pre-tax cash flow = NOI minus annual debt service. Total cash invested = down
+          payment + closing costs + upfront capital expenditures.</p>
+
+        <h2 className="text-2xl font-bold text-white">Worked Example</h2>
+        <p>Purchase a $1,000,000 property with 30% down ($300,000) plus $25,000 in closing costs —
+          $325,000 total cash in. NOI is $70,000; annual debt service on the $700,000 loan is $53,000.
+          Cash flow = $17,000.</p>
+        <p>Cash-on-Cash = $17,000 ÷ $325,000 = <strong className="text-white">5.2%</strong></p>
+
+        <h2 className="text-2xl font-bold text-white">What's a Good Cash-on-Cash Return in 2026?</h2>
+        <p>With borrowing costs still elevated, stabilized deals commonly pencil at 4–7%
+          cash-on-cash in year one; 8–10%+ generally requires higher-cap markets, favorable debt, or
+          value-add upside. Negative cash-on-cash in year one is common in appreciation-driven coastal
+          markets — acceptable only if that's an explicit part of the strategy, not a surprise.</p>
+
+        <h2 className="text-2xl font-bold text-white">The Leverage Effect</h2>
+        <p>Financing cuts both ways. When the cap rate exceeds the loan constant, leverage boosts
+          cash-on-cash (positive leverage). When borrowing costs exceed the property's yield — common
+          since rates rose — leverage <em>reduces</em> cash return (negative leverage), and more debt
+          makes the deal worse, not better. Comparing this calculator's result against the same deal
+          at different loan terms shows the effect instantly.</p>
+
+        <h2 className="text-2xl font-bold text-white">Where It Fits in Underwriting</h2>
+        <p>Cash-on-cash answers "what does my equity earn this year?" — the investor's liquidity
+          question. It pairs with DSCR (the lender's question) and IRR (the full-hold question).
+          Strong deals answer all three.</p>
+
+        <p className="text-slate-400 text-sm italic">
+          Data sources for market context:{" "}
+          <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">Federal Reserve (FRED)</a>,{" "}
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">U.S. Census ACS</a>,{" "}
+          <a href="https://www.huduser.gov/portal/datasets/fmr.html" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">HUD Fair Market Rents</a>.
+        </p>
+      </article>
     </main>
   );
 }

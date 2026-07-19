@@ -168,6 +168,51 @@ export default function LeaseType() {
           ))}
         </div>
       </article>
+
+      <article className="prose prose-invert max-w-none text-slate-300 space-y-6 mt-12">
+        <h2 className="text-2xl font-bold text-white">Lease Types Deep Dive: Gross, Net, NNN &amp; Modified</h2>
+        <p>Who pays taxes, insurance, and maintenance — landlord or tenant — is the single biggest
+          driver of what a commercial rent number actually means. A $30/SF gross lease and a $30/SF
+          triple-net lease are completely different deals. This tool sorts a lease into its true type
+          and shows what the effective obligations are.</p>
+
+        <h2 className="text-2xl font-bold text-white">The Main Types</h2>
+        <ul className="space-y-2">
+          <li><strong className="text-white">Gross (Full-Service) Lease:</strong> tenant pays one
+            rent number; landlord covers taxes, insurance, and operating expenses. Common in office.
+            Simple for tenants, but the landlord carries expense inflation risk — often mitigated with
+            expense stops or base-year clauses.</li>
+          <li><strong className="text-white">Single Net (N):</strong> tenant pays rent + property
+            taxes. Uncommon as a pure form.</li>
+          <li><strong className="text-white">Double Net (NN):</strong> tenant pays rent + taxes +
+            insurance; landlord keeps structural maintenance.</li>
+          <li><strong className="text-white">Triple Net (NNN):</strong> tenant pays rent plus taxes,
+            insurance, and maintenance. Standard for freestanding retail (pharmacies, QSR, dollar
+            stores). The landlord's income approaches truly passive — which is why NNN deals with
+            credit tenants trade at premium (lower) cap rates.</li>
+          <li><strong className="text-white">Modified Gross:</strong> negotiated middle ground —
+            typically tenant pays rent + utilities/janitorial, landlord covers structure, with expenses
+            over a base year passed through. The details clause-by-clause matter more than the label.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-white">Why It Changes Your Underwriting</h2>
+        <p>The lease type determines how much of gross rent survives to NOI. $100,000 of NNN rent may
+          be ~$95,000 of NOI; $100,000 of gross-lease rent could be $60,000–70,000 after
+          landlord-paid expenses. Comparing properties without normalizing lease type is the most
+          common apples-to-oranges error in small-balance CRE.</p>
+
+        <h2 className="text-2xl font-bold text-white">The Questions to Ask Any Lease</h2>
+        <p>Who pays taxes? Insurance? Roof and structure? Parking lot? CAM — and is it capped? Is
+          there a base year or expense stop? What are the escalations? Two leases with the same "type"
+          label can allocate thousands of dollars differently on these answers.</p>
+
+        <p className="text-slate-400 text-sm italic">
+          Data sources for market context:{" "}
+          <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">Federal Reserve (FRED)</a>,{" "}
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">U.S. Census ACS</a>,{" "}
+          <a href="https://www.huduser.gov/portal/datasets/fmr.html" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">HUD Fair Market Rents</a>.
+        </p>
+      </article>
     </main>
   );
 }

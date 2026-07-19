@@ -136,6 +136,49 @@ export default function TenantCredit() {
           ))}
         </div>
       </article>
+
+      <article className="prose prose-invert max-w-none text-slate-300 space-y-6 mt-12">
+        <h2 className="text-2xl font-bold text-white">Tenant Credit Deep Dive: Value Impact, Diligence Checklist &amp; 2026 Context</h2>
+
+        <h2 className="text-2xl font-bold text-white">How Tenant Credit Moves Value</h2>
+        <p>Because value = NOI ÷ cap rate, certainty commands a premium. Investment-grade tenants
+          (rated BBB−/Baa3 or better by S&P/Moody's) on long NNN leases trade at meaningfully lower cap
+          rates than identical properties with unrated local tenants — the same dollar of rent is
+          worth more when it's near-certain. Weak credit shows up as a higher cap rate, a wider lender
+          spread, or both.</p>
+
+        <h2 className="text-2xl font-bold text-white">What Professionals Check</h2>
+        <ul className="space-y-2">
+          <li><strong className="text-white">Rated tenants:</strong> the actual credit rating and
+            outlook (public for large corporations).</li>
+          <li><strong className="text-white">Unrated/local tenants:</strong> business financials
+            (2–3 years), rent-to-revenue ratio (retail rule of thumb: rent under ~10% of store sales
+            is sustainable, over ~15% is strained), time in business, personal guarantees, and
+            security deposit strength.</li>
+          <li><strong className="text-white">For any tenant:</strong> lease term remaining, renewal
+            options, co-tenancy clauses, and — for franchisees — whether the guarantee is corporate
+            or the individual operator.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-white">Concentration Risk</h2>
+        <p>A single-tenant property is a bond wearing a building costume: one credit, one lease,
+          binary outcome. Multi-tenant properties diversify credit but add rollover management.
+          Underwriting a single-tenant deal without reading the tenant's financial condition is
+          underwriting blind.</p>
+
+        <h2 className="text-2xl font-bold text-white">The 2026 Context</h2>
+        <p>Elevated rates have widened the gap between credit and non-credit pricing, and stress in
+          some retail and office categories makes tenant-level diligence the difference between a
+          durable income stream and a vacancy in year two. This tool structures that assessment
+          before you trust the rent roll.</p>
+
+        <p className="text-slate-400 text-sm italic">
+          Data sources for market context:{" "}
+          <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">Federal Reserve (FRED)</a>,{" "}
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">U.S. Census ACS</a>,{" "}
+          <a href="https://www.huduser.gov/portal/datasets/fmr.html" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">HUD Fair Market Rents</a>.
+        </p>
+      </article>
     </main>
   );
 }

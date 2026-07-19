@@ -194,6 +194,48 @@ export default function CapRateCalculator() {
           ))}
         </div>
       </article>
+
+      <article className="prose prose-invert max-w-none text-slate-300 space-y-6 mt-12">
+        <h2 className="text-2xl font-bold text-white">Cap Rate Deep Dive: Formula, Worked Example &amp; 2026 Benchmarks</h2>
+
+        <h2 className="text-2xl font-bold text-white">The Formula</h2>
+        <div className="bg-slate-800 rounded-xl px-6 py-4 font-mono text-blue-300 text-center text-lg">
+          Cap Rate = Net Operating Income ÷ Purchase Price
+        </div>
+        <p>NOI excludes debt service — cap rate deliberately ignores financing so buyers can compare
+          properties on the asset itself, not on how each buyer would finance it.</p>
+
+        <h2 className="text-2xl font-bold text-white">Worked Example</h2>
+        <p>A retail strip center is listed at $2,400,000. Rent roll shows $210,000 gross income;
+          operating expenses (taxes, insurance, CAM, management, reserves) run $66,000. NOI = $144,000.</p>
+        <p>Cap Rate = $144,000 ÷ $2,400,000 = <strong className="text-white">6.0%</strong></p>
+        <p>Whether 6% is attractive depends entirely on the market and asset class — which is what our
+          full market benchmarks cover in "What Is a Good Cap Rate in 2026?" on the blog.</p>
+
+        <h2 className="text-2xl font-bold text-white">2026 Quick Benchmarks</h2>
+        <p>Coastal gateway multifamily: 3.5–5.5%. Sun Belt growth markets: 5–7%. Midwest cash-flow
+          markets: 7–10%+. Distressed office and some retail: 8–12%+, where price has fallen to
+          compensate for risk. In all cases, the spread between the cap rate and borrowing cost
+          determines whether leverage helps or hurts.</p>
+
+        <h2 className="text-2xl font-bold text-white">The Two Ways Professionals Use Cap Rate</h2>
+        <p>Forward: estimate value from income (NOI ÷ market cap rate = value — the income approach an
+          appraiser uses). Backward: judge a listed price (NOI ÷ price = implied cap, compared against
+          market comps). A listing whose implied cap sits far below market comps is priced on hope;
+          far above, and something in the income or condition deserves scrutiny.</p>
+
+        <h2 className="text-2xl font-bold text-white">Cap Rate's Limits</h2>
+        <p>Cap rate is a single-year, unleveraged snapshot. It says nothing about rent growth, capital
+          expenditure needs, financing, or exit — which is why underwriting pairs it with DSCR,
+          cash-on-cash, and IRR before a decision.</p>
+
+        <p className="text-slate-400 text-sm italic">
+          Data sources for market context:{" "}
+          <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">Federal Reserve (FRED)</a>,{" "}
+          <a href="https://www.census.gov/programs-surveys/acs" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">U.S. Census ACS</a>,{" "}
+          <a href="https://www.huduser.gov/portal/datasets/fmr.html" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline">HUD Fair Market Rents</a>.
+        </p>
+      </article>
     </main>
   );
 }
