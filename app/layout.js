@@ -252,7 +252,7 @@ export default function RootLayout({ children }) {
             <a href="/contact" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"6px 14px",borderRadius:"6px",marginRight:"8px"}}>Contact</a>
 
 
-            <a href="#full-analyzer" style={{
+            <a href="/#full-analyzer" style={{
               backgroundColor:"#2563eb", color:"#fff", fontSize:"13px",
               fontWeight:"600", textDecoration:"none", padding:"7px 16px",
               borderRadius:"20px", marginLeft:"4px"
