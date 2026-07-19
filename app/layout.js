@@ -46,9 +46,9 @@ export const metadata = {
     shortcut: "/favicon.ico",
     apple: "/favicon-180x180.png",
   },
-  metadataBase: new URL("https://realestate-analytics.ai"),
+  metadataBase: new URL("https://www.realestate-analytics.ai"),
   alternates: {
-    canonical: "https://realestate-analytics.ai"
+    canonical: "./"
   }
 };
 
