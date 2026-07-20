@@ -1,9 +1,10 @@
 import Link from "next/link";
 
+
+
 export const metadata = {
-  title: "What Is a Good Cap Rate in 2026? Market Benchmarks by Metro | RealEstate-Analytics.ai",
-  description:
-    "Cap rate benchmarks for 2026 by market, asset class, and risk profile. Bay Area, Phoenix, Dallas, Midwest — what cap rate should you target and why.",
+  title: "What Is a Good Cap Rate in 2026? Benchmarks by Market",
+  description: "2026 cap rate benchmarks by metro and asset class — coastal gateway, Sun Belt, Midwest cash-flow markets — and how to judge if a cap rate is good for your deal.",
 };
 
 const MARKETS = [

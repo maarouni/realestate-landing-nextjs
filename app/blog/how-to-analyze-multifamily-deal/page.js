@@ -1,9 +1,10 @@
 import Link from "next/link";
 
+
+
 export const metadata = {
-  title: "How to Analyze a Multifamily Deal — CCIM Framework | RealEstate-Analytics.ai",
-  description:
-    "Step-by-step guide to analyzing a multifamily investment property. Cap rate, IRR, DSCR, cash-on-cash, stress testing — the complete CCIM underwriting framework.",
+  title: "How to Analyze a Multifamily Deal: 7-Step CCIM Method",
+  description: "A 7-step CCIM underwriting framework for multifamily deals: NOI, cap rate, DSCR, cash-on-cash, IRR, stress tests, and the judgment calls formulas can't make.",
 };
 
 export default function HowToAnalyzeMultifamily() {
