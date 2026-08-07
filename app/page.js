@@ -196,7 +196,7 @@ export default function Home() {
             {[
               { n: "1", title: "Upload", body: "Drag in an OM, T-12, MLS PDF, or any pro forma — no reformatting." },
               { n: "2", title: "Analyze", body: "CCIM-grade deterministic underwriting — cap rate, DSCR, IRR — not a black-box guess." },
-              { n: "3", title: "Find", body: "Deal Radar surfaces motivated sellers from real distress signals like tax delinquency, absentee ownership, and reverse mortgages — plus dozens more." },
+              { n: "3", title: "Find", body: "$Deal Radar surfaces motivated sellers from real distress signals like tax delinquency, absentee ownership, and reverse mortgages — plus dozens more.$" },
               { n: "4", title: "Decide", body: "Compare deals side by side, stress-test assumptions, see the risks before you commit." },
               { n: "5", title: "Report", body: "Agent, investor, and lender-ready reports, generated in one click." },
             ].map((s) => (
@@ -211,7 +211,7 @@ export default function Home() {
                   {s.n}
                 </div>
                 <p style={{ fontSize: "16px", fontWeight: 700, color: "#f1f5f9", marginBottom: "8px" }}>{s.title}</p>
-                <p style={{ fontSize: "13px", color: "#94a3b8", lineHeight: 1.55 }}>{s.body}</p>
+                <p style={{ fontSize: "13px", color: "#f8fafc", lineHeight: 1.55 }}>{s.body}</p>
               </div>
             ))}
           </div>
@@ -225,7 +225,7 @@ export default function Home() {
               border: "1px solid rgba(234,179,8,0.35)",
             }}>
               <span style={{ color: "#fef08a", fontWeight: 700 }}>Pro Plans start at $15/month</span>
-              <span style={{ color: "#cbd5e1" }}> — 85%+ less than PropertyRadar and PropStream</span>
+              <span style={{ color: "#f8fafc" }}> — 85%+ less than PropertyRadar and PropStream</span>
             </div>
           </div>
 
