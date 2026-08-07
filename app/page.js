@@ -96,7 +96,7 @@ export default function Home() {
         {/* Content */}
         <div style={{
           position: "relative", zIndex: 10,
-          textAlign: "center", padding: "40px 24px",
+          textAlign: "center", padding: "24px 24px",
           maxWidth: "720px", width: "100%",
         }}>
 
@@ -109,7 +109,7 @@ export default function Home() {
 
           <h1 style={{
             fontSize: "clamp(26px, 4vw, 48px)", fontWeight: 800,
-            color: "#f1f5f9", lineHeight: 1.15, marginBottom: "20px",
+            color: "#f1f5f9", lineHeight: 1.15, marginBottom: "14px",
             letterSpacing: "-0.02em",
           }}>
             Find Real Deals Others Miss<br />
@@ -118,50 +118,16 @@ export default function Home() {
 
           <p style={{
             fontSize: "clamp(18px, 2.2vw, 22px)", color: "#f1f5f9",
-            lineHeight: 1.65, marginBottom: "36px", maxWidth: "560px",
-            margin: "0 auto 36px",
+            lineHeight: 1.5, marginBottom: "22px", maxWidth: "560px",
+            margin: "0 auto 22px",
           }}>
             Including Shadow Market and Off-Market Listings — That’s Where the Real Deals Are.
           </p>
 
-          {/* Single CTA input bar */}
-          <div style={{
-            display: "flex", gap: "0",
-            background: "rgba(255,255,255,0.07)",
-            border: "1px solid rgba(255,255,255,0.15)",
-            borderRadius: "14px", padding: "6px",
-            maxWidth: "520px", margin: "0 auto 16px",
-            backdropFilter: "blur(8px)",
-          }}>
-            <input
-              type="number"
-              placeholder="Enter purchase price e.g. 750,000"
-              value={price}
-              step={25000}
-              min={100000}
-              max={10000000}
-              onChange={(e) => setPrice(Number(e.target.value))}
-              style={{
-                flex: 1, background: "transparent", border: "none",
-                color: "#e2e8f0", fontSize: "15px", padding: "10px 16px",
-                outline: "none", minWidth: 0,
-              }}
-            />
-            <a href="#analyzer" style={{
-              background: "#2563eb", color: "#fff",
-              borderRadius: "10px", padding: "12px 28px",
-              fontSize: "15px", fontWeight: 700,
-              textDecoration: "none", whiteSpace: "nowrap",
-              display: "flex", alignItems: "center",
-            }}>
-              Analyze Now →
-            </a>
-          </div>
-
           {/* Trust strip */}
           <div style={{
             display: "flex", justifyContent: "center",
-            gap: "32px", marginTop: "28px",
+            gap: "32px", marginTop: "18px",
             flexWrap: "wrap",
           }}>
             {[
@@ -177,26 +143,92 @@ export default function Home() {
             ))}
           </div>
 
-          {/* CCIM gold badge */}
-          <div style={{
-            marginTop: "36px", display: "inline-block",
-            background: "linear-gradient(135deg, rgba(234,179,8,0.2), rgba(234,179,8,0.06))",
-            border: "1px solid rgba(234,179,8,0.35)",
-            borderRadius: "10px", padding: "10px 20px",
-          }}>
-            <p style={{ fontSize: "12px", color: "#fef08a", fontWeight: 600, letterSpacing: "0.03em" }}>
-              ✨ Built on CCIM-level formulas trusted by appraisers, lenders &amp; underwriters
-            </p>
-          </div>
+        </div>
+
+        {/* CCIM gold badge */}
+        <div style={{
+          marginTop: "14px", display: "inline-block", position: "relative", zIndex: 10,
+          background: "linear-gradient(135deg, rgba(234,179,8,0.2), rgba(234,179,8,0.06))",
+          border: "1px solid rgba(234,179,8,0.35)",
+          borderRadius: "10px", padding: "7px 16px",
+        }}>
+          <p style={{ fontSize: "12px", color: "#fef08a", fontWeight: 600, letterSpacing: "0.03em" }}>
+            ✨ Built on CCIM-level formulas trusted by appraisers, lenders &amp; underwriters
+          </p>
         </div>
 
         {/* Scroll indicator */}
         <div style={{
-          position: "absolute", bottom: "28px",
+          position: "absolute", bottom: "14px",
           display: "flex", flexDirection: "column", alignItems: "center", gap: "6px",
         }}>
 
-          <div style={{ width: "1px", height: "32px", background: "rgba(71,85,105,0.6)" }} />
+          <div style={{ width: "1px", height: "20px", background: "rgba(71,85,105,0.6)" }} />
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════
+          THE PROBLEM + 5-STEP WORKFLOW
+          ══════════════════════════════════════════ */}
+      <section style={{ background: "#060f1e", padding: "30px 24px 100px" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+
+          <div style={{ position: "relative", maxWidth: "860px", margin: "0 auto 60px", textAlign: "center" }}>
+            <div style={{
+              position: "absolute", top: "-30px", left: "50%", transform: "translateX(-50%)",
+              fontSize: "280px", fontWeight: 800, color: "#2563eb",
+              opacity: 0.08, lineHeight: 1, zIndex: 0, pointerEvents: "none",
+            }}>
+              ?
+            </div>
+            <p style={{ position: "relative", zIndex: 1, fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 800, color: "#f87171", marginBottom: "20px", lineHeight: 1.1 }}>
+              The problem
+            </p>
+            <h2 style={{ position: "relative", zIndex: 1, fontSize: "clamp(24px, 3vw, 34px)", fontWeight: 800, color: "#f1f5f9", lineHeight: 1.35, letterSpacing: "-0.01em" }}>
+              Still losing deals to whoever moves faster?
+            </h2>
+            <p style={{ position: "relative", zIndex: 1, fontSize: "clamp(15px, 1.6vw, 18px)", color: "#f8fafc", marginTop: "18px" }}>
+              Built for agents, brokers, investors, and loan officers — residential and commercial, all in one place.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "24px", position: "relative" }}>
+            {[
+              { n: "1", title: "Upload", body: "Drag in an OM, T-12, MLS PDF, or any pro forma — no reformatting." },
+              { n: "2", title: "Analyze", body: "CCIM-grade deterministic underwriting — cap rate, DSCR, IRR — not a black-box guess." },
+              { n: "3", title: "Find", body: "Deal Radar surfaces motivated sellers from real distress signals like tax delinquency, absentee ownership, and reverse mortgages — plus dozens more." },
+              { n: "4", title: "Decide", body: "Compare deals side by side, stress-test assumptions, see the risks before you commit." },
+              { n: "5", title: "Report", body: "Agent, investor, and lender-ready reports, generated in one click." },
+            ].map((s) => (
+              <div key={s.n} style={{ textAlign: "left" }}>
+                <div style={{
+                  width: "44px", height: "44px", borderRadius: "50%",
+                  background: "#0e1b32", border: "1px solid #2563eb",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  fontSize: "13px", fontWeight: 700, color: "#60a5fa",
+                  marginBottom: "20px",
+                }}>
+                  {s.n}
+                </div>
+                <p style={{ fontSize: "16px", fontWeight: 700, color: "#f1f5f9", marginBottom: "8px" }}>{s.title}</p>
+                <p style={{ fontSize: "13px", color: "#94a3b8", lineHeight: 1.55 }}>{s.body}</p>
+              </div>
+            ))}
+          </div>
+
+          <div style={{
+            marginTop: "56px", textAlign: "center", display: "flex", justifyContent: "center",
+          }}>
+            <div style={{
+              display: "inline-block", padding: "14px 28px", borderRadius: "10px",
+              background: "linear-gradient(135deg, rgba(234,179,8,0.2), rgba(234,179,8,0.06))",
+              border: "1px solid rgba(234,179,8,0.35)",
+            }}>
+              <span style={{ color: "#fef08a", fontWeight: 700 }}>Pro Plans start at $15/month</span>
+              <span style={{ color: "#cbd5e1" }}> — 85%+ less than PropertyRadar and PropStream</span>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -206,9 +238,21 @@ export default function Home() {
       <section id="analyzer" style={{ background: "#080f1e", padding: "40px 24px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
 
+          <div style={{ textAlign: "center", marginBottom: "20px" }}>
+            <a href="#analyzer" style={{
+              display: "inline-flex", alignItems: "center", gap: "8px",
+              background: "#2563eb", color: "#fff",
+              borderRadius: "12px", padding: "16px 36px",
+              fontSize: "16px", fontWeight: 700,
+              textDecoration: "none",
+            }}>
+              See Your Returns — Free →
+            </a>
+          </div>
+
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
             <p style={{
-              fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em",
+              fontSize: "14px", fontWeight: 700, letterSpacing: "0.2em",
               color: "#60a5fa", textTransform: "uppercase", marginBottom: "12px",
             }}>
               Quick Deal Check
@@ -219,7 +263,7 @@ export default function Home() {
             }}>
               See Your Returns — Live
             </h2>
-            <p style={{ fontSize: "15px", color: "#64748b", marginTop: "10px" }}>
+            <p style={{ fontSize: "16px", color: "#f8fafc", marginTop: "10px" }}>
               Adjust the sliders. Every metric updates instantly.
             </p>
           </div>
