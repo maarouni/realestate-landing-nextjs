@@ -347,7 +347,7 @@ export default function Home() {
                 Full analysis below — no signup, no credit card.
               </p>
             </div>
-            <a href="#full-analyzer" style={{
+            <a href="#quick-analyzer" style={{
               background: "#2563eb", color: "#fff",
               borderRadius: "10px", padding: "12px 24px",
               fontSize: "14px", fontWeight: 700, textDecoration: "none",
@@ -361,14 +361,20 @@ export default function Home() {
       {/* ══════════════════════════════════════════
           FULL ANALYZER EMBED
           ══════════════════════════════════════════ */}
-      <section id="full-analyzer" style={{ background: "#060f1e", padding: "80px 24px" }}>
+      <section id="quick-analyzer" style={{ background: "#060f1e", padding: "80px 24px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "32px" }}>
-            <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em", color: "#60a5fa", textTransform: "uppercase", marginBottom: "10px" }}>Full Deal Analyzer</p>
+            <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.2em", color: "#60a5fa", textTransform: "uppercase", marginBottom: "10px" }}>Quick Deal Analyzer — Free Version</p>
             <h2 style={{ fontSize: "clamp(24px, 3vw, 36px)", fontWeight: 800, color: "#f1f5f9", letterSpacing: "-0.02em", marginBottom: "8px" }}>
               IRR, DSCR, 10-Year Projections &amp; PDF Report
             </h2>
             <p style={{ fontSize: "16px", color: "#94a3b8" }}>No signup · No spreadsheets · Instant PDF report</p>
+            <p style={{ fontSize: "14px", color: "#cbd5e1", marginTop: "16px" }}>
+              Want a full deal review — prospecting, comps, and detailed analysis?{" "}
+              <a href="mailto:contact@realestate-analytics.ai" style={{ color: "#60a5fa", fontWeight: 600, textDecoration: "none" }}>Email us</a>{" "}
+              or{" "}
+              <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa", fontWeight: 600, textDecoration: "none" }}>book a call</a>.
+            </p>
           </div>
           <iframe
             src="https://maarouni.github.io/singleproperty-public/"
@@ -376,6 +382,17 @@ export default function Home() {
             style={{ width: "100%", border: "none", borderRadius: "16px", minHeight: "1100px" }}
             loading="lazy"
           />
+          <div style={{ textAlign: "center", marginTop: "32px" }}>
+            <p style={{ fontSize: "16px", color: "#f1f5f9", fontWeight: 600, marginBottom: "8px" }}>
+              Got your numbers? Let's go deeper.
+            </p>
+            <p style={{ fontSize: "14px", color: "#cbd5e1" }}>
+              For prospecting, comps, and a full underwriting review —{" "}
+              <a href="mailto:contact@realestate-analytics.ai" style={{ color: "#60a5fa", fontWeight: 600, textDecoration: "none" }}>Email us</a>{" "}
+              or{" "}
+              <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer" style={{ color: "#60a5fa", fontWeight: 600, textDecoration: "none" }}>book a call</a>.
+            </p>
+          </div>
         </div>
       </section>
 

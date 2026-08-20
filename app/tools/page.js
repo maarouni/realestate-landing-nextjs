@@ -49,7 +49,7 @@ export default function ToolsIndex() {
       </div>
 
       <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-8 text-center">
-        <h2 className="text-2xl font-bold mb-3">Full Deal Analyzer</h2>
+        <h2 className="text-2xl font-bold mb-3">Quick Deal Analyzer — Free Version</h2>
         <p className="text-slate-300 mb-6 max-w-xl mx-auto">
           All metrics in one place — cap rate, IRR, DSCR, cash-on-cash, equity multiple,
           10-year projections, stress testing, and AI-generated PDF report.
