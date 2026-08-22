@@ -70,7 +70,7 @@ export default function PricingPage() {
                 textDecoration: "none",
               }}
             >
-              Try it now →
+              Try it now &#8594;
             </a>
           </div>
 
@@ -88,29 +88,53 @@ export default function PricingPage() {
               Full Deal Review
             </p>
             <p style={{ fontSize: "20px", fontWeight: 700, color: "#f1f5f9", marginBottom: "16px" }}>
-              Custom quote
+              $45/month
             </p>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, color: "#cbd5e1", fontSize: "14px", lineHeight: "2" }}>
               <li>Deal prospecting &amp; sourcing</li>
               <li>Full comps &amp; market analysis</li>
               <li>CCIM-grade underwriting</li>
-              <li>Direct support from the founder</li>
+              <li>Priority underwriting turnaround</li>
             </ul>
-            <div style={{ marginTop: "24px", display: "flex", gap: "16px", flexWrap: "wrap" }}>
+
+            <div style={{ marginTop: "24px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <a
-                href="mailto:contact@realestate-analytics.ai"
-                style={{ fontSize: "14px", fontWeight: 600, color: "#60a5fa", textDecoration: "none" }}
-              >
-                Email us
-              </a>
-              <a
-                href="https://calendly.com/maarouni/30min-1"
+                href="https://buy.stripe.com/6oU8wP2njdOvefSafr48000"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ fontSize: "14px", fontWeight: 600, color: "#60a5fa", textDecoration: "none" }}
+                style={{
+                  display: "inline-block",
+                  textAlign: "center",
+                  backgroundColor: "#e0ac4c",
+                  color: "#0c1a2e",
+                  fontSize: "14px",
+                  fontWeight: 700,
+                  textDecoration: "none",
+                  padding: "12px 20px",
+                  borderRadius: "8px",
+                }}
               >
-                Book a call →
+                Subscribe now &mdash; $45/month
               </a>
+              <p style={{ fontSize: "13px", color: "#cbd5e1", margin: 0 }}>
+                Have questions?{" "}
+                <a
+                  href="mailto:contact@realestate-analytics.ai"
+                  style={{ fontWeight: 600, color: "#60a5fa", textDecoration: "none" }}
+                >
+                  Email us
+                </a>
+                {" "}or{" "}
+                <a
+                  href="https://calendly.com/maarouni/30min-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ fontWeight: 600, color: "#60a5fa", textDecoration: "none" }}
+                >
+                  book a call
+                </a>
+                .
+              </p>
             </div>
           </div>
         </div>
