@@ -116,6 +116,7 @@ export default function PricingPage() {
               >
                 Subscribe now &mdash; $45/month
               </a>
+
               <div style={{background:"rgba(224,172,76,0.10)",border:"1px solid rgba(224,172,76,0.35)",borderRadius:"8px",padding:"12px 14px"}}>
                 <p style={{ fontSize: "13px", color: "#f1f5f9", margin: 0, lineHeight: 1.6, fontWeight: 500 }}>
                   One more thing: let us know in your confirmation reply &mdash; residential
@@ -123,15 +124,23 @@ export default function PricingPage() {
                   access set up immediately.
                 </p>
               </div>
+
               <p style={{ fontSize: "13px", color: "#cbd5e1", margin: 0 }}>
                 Have questions?{" "}
+                <a
+                  href="tel:+19253535263"
+                  style={{ fontWeight: 600, color: "#60a5fa", textDecoration: "none" }}
+                >
+                  Call
+                </a>
+                {", "}
                 <a
                   href="mailto:contact@realestate-analytics.ai"
                   style={{ fontWeight: 600, color: "#60a5fa", textDecoration: "none" }}
                 >
-                  Email us
+                  email us
                 </a>
-                {" "}or{" "}
+                {", "}or{" "}
                 <a
                   href="https://calendly.com/maarouni/30min-1"
                   target="_blank"
@@ -145,10 +154,6 @@ export default function PricingPage() {
             </div>
           </div>
         </div>
-
-        <p style={{ fontSize: "13px", color: "#64748b" }}>
-          Subscription plans for investors and lending professionals are coming soon.
-        </p>
       </div>
     </main>
   );
