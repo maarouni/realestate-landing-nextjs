@@ -91,7 +91,7 @@ export default function PricingPage() {
               $45/month
             </p>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, color: "#cbd5e1", fontSize: "14px", lineHeight: "2" }}>
-              <li>Deal prospecting &amp; sourcing</li>
+              <li>Deal prospecting &amp; sales lead sourcing</li>
               <li>Full comps &amp; market analysis</li>
               <li>CCIM-grade underwriting</li>
               <li>Priority underwriting turnaround</li>
@@ -116,6 +116,13 @@ export default function PricingPage() {
               >
                 Subscribe now &mdash; $45/month
               </a>
+              <div style={{background:"rgba(224,172,76,0.10)",border:"1px solid rgba(224,172,76,0.35)",borderRadius:"8px",padding:"12px 14px"}}>
+                <p style={{ fontSize: "13px", color: "#f1f5f9", margin: 0, lineHeight: 1.6, fontWeight: 500 }}>
+                  One more thing: let us know in your confirmation reply &mdash; residential
+                  (single-family to multifamily) or commercial deals? We&rsquo;ll get your
+                  access set up immediately.
+                </p>
+              </div>
               <p style={{ fontSize: "13px", color: "#cbd5e1", margin: 0 }}>
                 Have questions?{" "}
                 <a
