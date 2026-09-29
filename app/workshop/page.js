@@ -1,11 +1,15 @@
 export const metadata = {
-  title: "Join the Investor Workshop | RealEstate-Analytics.ai",
-  description: "Express your interest in our investor-focused deal analysis workshop for agents, lenders, and property managers.",
+  title: "PropertyIQ × Iron Oak | Investor Deal Finding & Analysis Workshop",
+  description: "Lunch & Learn — Wednesday, October 21, 11:30 AM–1:30 PM, 1777 Botelho Dr #120, Walnut Creek, CA. Presented by PropertyIQ and Iron Oak Home Loans.",
 };
 
 export default function WorkshopPage() {
   return (
     <main style={{
+      position: "fixed",
+      inset: 0,
+      zIndex: 100,
+      overflowY: "auto",
       minHeight: "100vh",
       background: "linear-gradient(135deg, #0F1F3D 0%, #1a2f52 100%)",
       display: "flex",
@@ -33,7 +37,7 @@ export default function WorkshopPage() {
             fontWeight: 700,
             marginBottom: "10px",
           }}>
-            RealEstate-Analytics.ai · CCRIM Walnut Creek
+            PropertyIQ × Iron Oak
           </div>
           <h1 style={{
             fontSize: "24px",
@@ -42,7 +46,7 @@ export default function WorkshopPage() {
             margin: "0 0 10px",
             lineHeight: 1.3,
           }}>
-            Investor Deal Analysis Workshop
+            Investor Deal Finding &amp; Analysis Workshop
           </h1>
           <p style={{
             fontSize: "14px",
@@ -50,8 +54,29 @@ export default function WorkshopPage() {
             margin: 0,
             lineHeight: 1.6,
           }}>
-            For agents, lenders, and property managers who want to speak the investor's language and close more deals.
+            A Lunch &amp; Learn for investors and real estate professionals.
           </p>
+          <div style={{
+            marginTop: "18px",
+            border: "1px solid rgba(201,168,76,0.35)",
+            borderRadius: "10px",
+            padding: "12px 14px",
+            fontSize: "14px",
+            lineHeight: 1.6,
+            color: "#e8f0fe",
+          }}>
+            <div style={{ fontWeight: 700 }}>Wednesday, October 21</div>
+            <div style={{ fontWeight: 700 }}>11:30 AM – 1:30 PM</div>
+            <a
+              href="https://maps.google.com/?q=1777+Botelho+Dr+%23120,+Walnut+Creek,+CA+94596"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#C9A84C", textDecoration: "none" }}
+            >
+              1777 Botelho Dr #120, Walnut Creek, CA 94596
+            </a>
+            <div style={{ color: "#8aaace", fontSize: "13px" }}>Lunch provided · Seating is limited</div>
+          </div>
         </div>
 
         {/* Form */}
@@ -142,12 +167,12 @@ export default function WorkshopPage() {
               lineHeight: 1.5,
               cursor: "pointer",
             }}>
-              I am interested in this workshop and would like to be notified when it is scheduled.
+              Yes, please reserve my seat for the October 21 workshop.
             </label>
           </div>
 
           {/* Hidden fields */}
-          <input type="hidden" name="_subject" value="Workshop Interest — CCRIM Walnut Creek" />
+          <input type="hidden" name="_subject" value="RSVP — PropertyIQ × Iron Oak Workshop (Oct 21, Walnut Creek)" />
           <input type="hidden" name="_next" value="https://www.realestate-analytics.ai/workshop/thanks" />
 
           <button type="submit" style={{
@@ -162,7 +187,7 @@ export default function WorkshopPage() {
             letterSpacing: "0.03em",
             marginTop: "4px",
           }}>
-            Count Me In →
+            Reserve My Seat →
           </button>
         </form>
 
@@ -173,7 +198,7 @@ export default function WorkshopPage() {
           marginTop: "20px",
           lineHeight: 1.6,
         }}>
-          Your information is private and will only be used to notify you about this workshop.
+          Your information is private and will only be used for this workshop.
         </p>
       </div>
     </main>
