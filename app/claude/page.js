@@ -7,8 +7,7 @@ export const metadata = {
   alternates: { canonical: "https://www.realestate-analytics.ai/claude" },
 };
 
-// Change this one line when the connector moves to mcp.realestate-analytics.ai.
-const CONNECTOR_URL = "https://realestate-analytics-mcp.maarouni.workers.dev/mcp";
+const CONNECTOR_URL = "https://mcp.realestate-analytics.ai/mcp";
 
 const card = { background: "#0c1a2e", border: "1px solid #1e3a5f", borderRadius: "16px", padding: "28px 24px", marginBottom: "20px" };
 const h2 = { fontSize: "18px", fontWeight: 700, color: "#f1f5f9", margin: "0 0 12px" };
