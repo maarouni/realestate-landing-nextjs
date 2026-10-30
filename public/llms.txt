@@ -1,0 +1,21 @@
+# RealEstate-Analytics.ai
+
+> CCIM-grade, deterministic real estate deal analysis for investors, agents, lenders, and financial planners. Free browser-based calculators plus a Pro plan with deal lead sourcing, comps, and full deal reviews. Based in the San Francisco Bay Area.
+
+## Tools
+- [Quick Deal Analyzer](https://www.realestate-analytics.ai/#quick-analyzer): Multi-metric rental deal evaluator — cap rate, cash-on-cash, DSCR, IRR, equity multiple, 10-year projections, PDF report.
+- [Cap Rate Calculator](https://www.realestate-analytics.ai/tools/cap-rate-calculator): NOI divided by purchase price, with deal grading and 2026 benchmarks.
+- [DSCR Calculator](https://www.realestate-analytics.ai/tools/dscr-calculator): Debt service coverage ratio and lender qualification.
+- [Break-Even Occupancy Calculator](https://www.realestate-analytics.ai/tools/breakeven): Occupancy and rent needed to cover operating expenses and debt service.
+- [IRR Calculator](https://www.realestate-analytics.ai/tools/irr-calculator): Internal rate of return and equity multiple over a hold period.
+- [Cash-on-Cash Calculator](https://www.realestate-analytics.ai/tools/cash-on-cash-calculator): Annual levered yield on invested equity.
+- [Tenant Credit Analysis](https://www.realestate-analytics.ai/tools/tenant-credit): Rent-to-income and DTI screening for applicants.
+- [Lease Type Analyzer](https://www.realestate-analytics.ai/tools/lease-type): NNN vs. gross vs. modified gross.
+
+## Guides
+- [What Is a Good Cap Rate in 2026?](https://www.realestate-analytics.ai/blog/what-is-a-good-cap-rate-2026)
+- [How to Analyze a Multifamily Deal](https://www.realestate-analytics.ai/blog/how-to-analyze-multifamily-deal)
+
+## Pricing
+- [Free](https://www.realestate-analytics.ai/pricing): Interactive calculators and PDF deal reports, no signup.
+- [Pro — $45/month](https://www.realestate-analytics.ai/pricing): Deal lead sourcing, comps, and CCIM-grade full deal reviews.

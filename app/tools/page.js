@@ -3,13 +3,14 @@ import Link from "next/link";
 export const metadata = {
   title: "Free Real Estate Analysis Tools | RealEstate-Analytics.ai",
   description:
-    "Free CCIM-level real estate calculators: cap rate, IRR, DSCR, cash-on-cash, tenant credit, lease type analysis. No signup, instant results.",
+    "Free CCIM-level real estate calculators: cap rate, IRR, DSCR, break-even occupancy, cash-on-cash, tenant credit, lease type analysis. No signup, instant results.",
 };
 
 const TOOLS = [
   { href: "/tools/cap-rate-calculator", label: "Cap Rate Calculator", desc: "NOI ÷ price. Instant cap rate with deal grading and 2026 market benchmarks.", badge: "Most Popular" },
   { href: "/tools/irr-calculator", label: "IRR Calculator", desc: "Internal rate of return over any hold period. Newton-Raphson solver with equity multiple.", badge: null },
   { href: "/tools/dscr-calculator", label: "DSCR Calculator", desc: "Debt service coverage ratio. Calculates monthly payment and lender qualification.", badge: null },
+  { href: "/tools/breakeven", label: "Break-Even Occupancy Calculator", desc: "Occupancy and rent needed to cover operating expenses and debt service.", badge: "New" },
   { href: "/tools/cash-on-cash-calculator", label: "Cash-on-Cash Calculator", desc: "Annual levered yield on invested equity including closing costs and repairs.", badge: null },
   { href: "/tools/tenant-credit", label: "Tenant Credit Analysis", desc: "Credit tier, rent-to-income ratio, and DTI scoring for rental applicants.", badge: null },
   { href: "/tools/lease-type", label: "Lease Type Analyzer", desc: "NNN vs Gross vs Modified Gross — expense responsibility and cap rate implications.", badge: null },

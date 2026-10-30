@@ -154,7 +154,10 @@ export default function RootLayout({ children }) {
             "applicationCategory": "FinanceApplication, Real Estate Investment Analysis, Property Underwriting, Rental Property Calculator, Commercial Real Estate",
             "applicationSubCategory": "Real Estate Deal Analysis",
             "operatingSystem": "Web Browser",
-            "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+            "offers": [
+              {"@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD"},
+              {"@type": "Offer", "name": "Pro", "price": "45", "priceCurrency": "USD", "url": "https://www.realestate-analytics.ai/pricing"}
+            ],
             "audience": {"@type": "Audience", "audienceType": "Real Estate Investors, REALTORS, Commercial Real Estate Brokers, Lenders, Property Managers"},
             "description": "CCIM-level real estate deal analyzer that calculates cap rate, IRR, DSCR, cash-on-cash return, equity multiple, and 10-year projections for residential and commercial investment properties. Free, browser-based, no signup required.",
             "featureList": "Cap Rate Calculator, IRR Calculator, DSCR Calculator, Cash-on-Cash Return, Equity Multiple, 10-Year Cash Flow Projections, PDF Report, Vacancy Stress Test, 3-Scenario Analysis",
@@ -190,6 +193,7 @@ export default function RootLayout({ children }) {
                   { href:"/tools/cap-rate-calculator", icon:"📊", title:"Cap Rate Calculator", desc:"NOI ÷ price — instant deal grading" },
                   { href:"/tools/irr-calculator", icon:"📈", title:"IRR Calculator", desc:"Total return over hold period" },
                   { href:"/tools/dscr-calculator", icon:"🏦", title:"DSCR Calculator", desc:"Lender debt coverage qualification" },
+                  { href:"/tools/breakeven", icon:"⚖️", title:"Break-Even Calculator", desc:"Occupancy needed to cover costs + debt" },
                   { href:"/tools/cash-on-cash-calculator", icon:"💵", title:"Cash-on-Cash Return", desc:"Levered yield on invested equity" },
                 ].map(item => (
                   <a key={item.href} href={item.href}>

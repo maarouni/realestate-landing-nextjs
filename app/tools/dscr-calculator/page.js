@@ -149,7 +149,7 @@ export default function DSCRCalculator() {
             { href: "/tools/cap-rate-calculator", label: "Cap Rate Calculator", desc: "NOI ÷ price — property yield" },
             { href: "/tools/irr-calculator", label: "IRR Calculator", desc: "Total return over hold period" },
             { href: "/tools/cash-on-cash-calculator", label: "Cash-on-Cash Calculator", desc: "Annual levered yield on equity" },
-            { href: "/blog/load-your-om", label: "Load Your OM", desc: "AI-powered OM extraction tool" },
+            { href: "/tools/breakeven", label: "Break-Even Calculator", desc: "Occupancy needed to cover costs + debt" },
           ].map((l) => (
             <Link key={l.href} href={l.href}
               className="block bg-slate-800/60 border border-slate-700 rounded-xl p-4 hover:border-blue-400 transition-all">

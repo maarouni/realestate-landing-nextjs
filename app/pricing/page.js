@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Pricing — Free Deal Analyzer & Pro Plan ($45/mo) | RealEstate-Analytics.ai",
+  description: "Free CCIM-level deal analyzer with PDF reports. Pro plan at $45/month adds deal lead sourcing, comps, and full CCIM-grade deal reviews.",
+  alternates: { canonical: "https://www.realestate-analytics.ai/pricing" },
+};
+
 export default function PricingPage() {
   return (
     <main style={{ background: "#060f1e", minHeight: "100vh", padding: "100px 24px 120px" }}>
