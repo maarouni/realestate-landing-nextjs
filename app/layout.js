@@ -88,11 +88,20 @@ export default function RootLayout({ children }) {
         />
         <style>{`
           .nav-dropdown { position: relative; }
-          .nav-dropdown:hover .dropdown-panel { display: block; }
+          .nav-dropdown:hover .dropdown-panel,
+          .nav-dropdown:focus-within .dropdown-panel { display: block; }
+          .dropdown-panel::before {
+            content: "";
+            position: absolute;
+            top: -14px;
+            left: 0;
+            right: 0;
+            height: 14px;
+          }
           .dropdown-panel {
             display: none;
             position: absolute;
-            top: 44px;
+            top: calc(100% + 12px);
             left: -12px;
             background: #0d1f3c;
             border: 1px solid rgba(255,255,255,0.1);
