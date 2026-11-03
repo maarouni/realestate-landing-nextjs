@@ -12,6 +12,7 @@ export default function sitemap() {
     { url: `${base}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/workshop`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/pricing`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/copilot`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/chatgpt`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/claude`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
