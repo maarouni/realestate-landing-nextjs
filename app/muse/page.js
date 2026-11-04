@@ -87,10 +87,11 @@ export default function MusePage() {
             {CONNECTOR_URL}
           </code>
           <p style={{ color: "#94a3b8", fontSize: "13px", margin: "14px 0 0" }}>
-            Step-by-step setup for Muse will be posted here once it&rsquo;s confirmed. Questions in the meantime:{" "}
+            Access is by request. Email{" "}
             <a href="mailto:contact@realestate-analytics.ai" style={{ color: "#60a5fa", fontWeight: 600, textDecoration: "none" }}>
               contact@realestate-analytics.ai
-            </a>
+            </a>{" "}
+            to get connected. Step-by-step setup for Muse will be posted here once it&rsquo;s confirmed.
           </p>
         </section>
 
