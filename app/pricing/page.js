@@ -155,12 +155,14 @@ export default function PricingPage() {
               <p style={{ fontSize: "14px", color: "#e2e8f0", margin: 0 }}>
                 Need to cancel or update billing?{" "}
                 <a
-                  href="mailto:contact@realestate-analytics.ai"
+                  href="https://billing.stripe.com/p/login/6oU8wP2njdOvefSafr48000"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{ fontWeight: 600, color: "#60a5fa", textDecoration: "none" }}
                 >
-                  Email us
+                  Manage my subscription
                 </a>
-                {" "}and we&rsquo;ll handle it right away.
+                .
               </p>
             </div>
           </div>
