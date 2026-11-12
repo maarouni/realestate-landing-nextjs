@@ -245,8 +245,8 @@ export default function Home() {
               background: "linear-gradient(135deg, rgba(234,179,8,0.2), rgba(234,179,8,0.06))",
               border: "1px solid rgba(234,179,8,0.35)",
             }}>
-              <span style={{ color: "#fef08a", fontWeight: 700 }}>Pro Plans start at $15/month</span>
-              <span style={{ color: "#f8fafc" }}> — 85%+ less than PropertyRadar and PropStream</span>
+              <span style={{ color: "#fef08a", fontWeight: 700 }}>Pro Plans start at $45/month</span>
+              <span style={{ color: "#f8fafc" }}></span>
             </div>
           </div>
 
