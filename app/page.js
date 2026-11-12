@@ -170,7 +170,7 @@ export default function Home() {
       {/* ══════════════════════════════════════════
           THE PROBLEM + 5-STEP WORKFLOW
           ══════════════════════════════════════════ */}
-      <section style={{ background: "#060f1e", padding: "30px 24px 100px" }}>
+      <section style={{ background: "#060f1e", padding: "30px 24px 24px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
 
           <div style={{ position: "relative", maxWidth: "860px", margin: "0 auto 60px", textAlign: "center" }}>
@@ -238,7 +238,7 @@ export default function Home() {
           `}</style>
 
           <div style={{
-            marginTop: "56px", textAlign: "center", display: "flex", justifyContent: "center",
+            marginTop: "24px", textAlign: "center", display: "flex", justifyContent: "center",
           }}>
             <div style={{
               display: "inline-block", padding: "14px 28px", borderRadius: "10px",
@@ -256,7 +256,7 @@ export default function Home() {
       {/* ══════════════════════════════════════════
           LIVE CALCULATOR — full width
           ══════════════════════════════════════════ */}
-      <section id="analyzer" style={{ background: "#080f1e", padding: "40px 24px" }}>
+      <section id="analyzer" style={{ background: "#080f1e", padding: "8px 24px 40px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
 
           <div style={{ textAlign: "center", marginBottom: "20px" }}>
