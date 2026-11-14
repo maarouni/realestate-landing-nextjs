@@ -18,7 +18,7 @@ export default function HowToAnalyzeMultifamily() {
           author: { "@type": "Person", name: "Masoud Arouni", jobTitle: "CCIM Candidate, Founder RealEstate-Analytics.ai" },
           publisher: { "@type": "Organization", name: "RealEstate-Analytics.ai" },
           url: "https://www.realestate-analytics.ai/blog/how-to-analyze-multifamily-deal",
-          description: "Complete CCIM-level framework for analyzing multifamily investment properties including cap rate, IRR, DSCR, and stress testing.",
+          description: "Complete CCIM-Certified framework for analyzing multifamily investment properties including cap rate, IRR, DSCR, and stress testing.",
         }),
       }} />
 
@@ -105,12 +105,12 @@ export default function HowToAnalyzeMultifamily() {
         <h2 className="text-2xl font-bold text-white">Step 7: Analyze the Full Deal in 60 Seconds</h2>
         <p>The framework above is what institutional analysts do in Argus Enterprise — which takes
           months to learn and costs hundreds per month. The RealEstate-Analytics.ai platform runs the
-          same CCIM-level framework — cap rate, IRR, DSCR, cash-on-cash, equity multiple, 10-year
+          same CCIM-Certified framework — cap rate, IRR, DSCR, cash-on-cash, equity multiple, 10-year
           projections, and stress testing — in under 60 seconds, free, in your browser.</p>
 
         <div className="bg-slate-800/60 border border-blue-400/20 rounded-xl p-6 my-6 text-center">
           <p className="text-xl font-bold text-white mb-2">Run This Framework on Your Deal Now</p>
-          <p className="text-slate-300 text-sm mb-4">No spreadsheets. No signup. Full CCIM-level output in 60 seconds.</p>
+          <p className="text-slate-300 text-sm mb-4">No spreadsheets. No signup. Full CCIM-Certified output in 60 seconds.</p>
           <a href="https://www.realestate-analytics.ai/#try-it"
             className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all">
             Try the Free Deal Analyzer →

@@ -12,11 +12,13 @@ export const metadata = {
 };
 
 const FAQ = [
+  { q: "Can ChatGPT analyze a real estate deal?", a: "It can summarize an offering memorandum, explain metrics and suggest questions to ask. It shouldn't be trusted to calculate cap rate, DSCR or cash flow, because it generates text rather than running formulas. Use a deterministic calculator for the numbers." },
   { q: "Can ChatGPT calculate cap rate?", a: "It can state the formula (NOI ÷ purchase price), but it can't guarantee it applied the formula correctly to your numbers. Check the result with a calculator that uses fixed formulas." },
   { q: "Is AI good for real estate market research?", a: "It's useful for background and for building a list of questions. Rent and price figures from a chatbot can be outdated or made up, so confirm them against current comps." },
   { q: "What is the most common AI mistake in deal analysis?", a: "Mixing up gross income and NOI. Using gross rent instead of NOI inflates the cap rate and can hide negative cash flow." },
   { q: "Should I trust an AI deal score?", a: "Only if you can see the formulas and inputs behind it. A score you can't audit is a guess." },
   { q: "What is the safe way to use AI on a real estate deal?", a: "Calculate with fixed, auditable formulas, then use AI to explain the results, suggest stress tests and draft questions for the seller." },
+  { q: "How can I use ChatGPT for real estate investing?", a: "Use it to summarize documents, draft offers and emails, explain unfamiliar terms and build due-diligence checklists. Keep the math in a spreadsheet or a deal analyzer with fixed formulas." },
 ];
 
 const INPUTS = [

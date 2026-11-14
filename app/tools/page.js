@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Free Real Estate Analysis Tools | RealEstate-Analytics.ai",
   description:
-    "Free CCIM-level real estate calculators: cap rate, IRR, DSCR, break-even occupancy, cash-on-cash, tenant credit, lease type analysis. No signup, instant results.",
+    "Free CCIM-Certified real estate calculators: cap rate, IRR, DSCR, break-even occupancy, cash-on-cash, tenant credit, lease type analysis. No signup, instant results.",
 };
 
 const TOOLS = [
@@ -27,7 +27,7 @@ export default function ToolsIndex() {
 
       <h1 className="text-4xl font-bold mb-3">Free Real Estate Analysis Tools</h1>
       <p className="text-slate-300 text-lg mb-12 max-w-2xl">
-        CCIM-level calculators for investors, agents, lenders, and property managers.
+        CCIM-Certified calculators for investors, agents, lenders, and property managers.
         No signup. No spreadsheets. Instant results in your browser.
       </p>
 

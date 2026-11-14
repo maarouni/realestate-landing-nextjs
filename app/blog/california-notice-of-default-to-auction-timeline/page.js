@@ -14,12 +14,14 @@ export const metadata = {
 };
 
 const FAQ = [
+  { q: "How long does foreclosure take in California?", a: "From the recorded Notice of Default, the fastest possible nonjudicial foreclosure is 3 months and 20 days. Most take longer because sales are postponed. The lender also usually can't record an NOD until the loan is more than 120 days delinquent, so the full process from the first missed payment is longer still." },
   { q: "How long after a Notice of Default is a foreclosure sale in California?", a: "The earliest possible trustee's sale is 3 calendar months and 20 days after the Notice of Default is recorded (Civil Code §2924 and §2924f). Postponements often push the actual sale later." },
   { q: "Is the waiting period 90 days or 3 months?", a: "The statute says 3 months. Count calendar months from the NOD recording date, not 90 days." },
   { q: "Is the Notice of Sale period 20 or 21 days?", a: "Civil Code §2924f requires the Notice of Sale to be recorded, posted and published at least 20 days before the sale." },
   { q: "Can a California foreclosure auction be postponed?", a: "Yes. The trustee, the lender or a court can postpone the sale one or more times under Civil Code §2924g." },
   { q: "Does the clock start when the homeowner misses a payment?", a: "No. The 3-month period starts when the Notice of Default is recorded, which is often months after the first missed payment." },
   { q: "Can a homeowner stop the sale after the Notice of Sale?", a: "Generally the loan can be reinstated by paying the past-due amount and fees until 5 business days before the sale (Civil Code §2924c). Other options include paying off the loan, a loan modification or selling the home. Talk to a California real estate attorney." },
+  { q: "Can you sell a house in foreclosure in California?", a: "Yes. A homeowner can usually sell at any point before the trustee's sale, through a regular sale if there is equity or a short sale if the lender agrees. Selling before the auction stops the foreclosure." },
 ];
 
 export default function Page() {
@@ -74,12 +76,12 @@ export default function Page() {
 
         <NodCalculator />
 
-        <h2 className="text-2xl font-bold text-white">The California foreclosure timeline, step by step</h2>
+        <h2 className="text-2xl font-bold text-white">What are the steps in a California foreclosure?</h2>
         <ol className="space-y-3">
           {steps.map(([t, d]) => <li key={t}><strong className="text-white">{t}.</strong> {d}</li>)}
         </ol>
 
-        <h2 className="text-2xl font-bold text-white">Worked example</h2>
+        <h2 className="text-2xl font-bold text-white">What does the timeline look like with real dates?</h2>
         <div className="not-prose overflow-x-auto">
           <table className="w-full text-sm border-collapse">
             <thead><tr className="border-b border-slate-700">
@@ -100,13 +102,13 @@ export default function Page() {
           &ldquo;111-day&rdquo; rule: count 3 calendar months from the NOD, then add 20 days. If the NOD is recorded on the
           30th or 31st and the third month is shorter, the 3-month mark falls on that month&apos;s last day.</p>
 
-        <h2 className="text-2xl font-bold text-white">What the timeline means for homeowners</h2>
+        <h2 className="text-2xl font-bold text-white">How much time does a homeowner have to stop the sale?</h2>
         <p>A homeowner can generally reinstate the loan by paying the past-due amount, fees and costs until 5 business days before
           the sale (Civil Code <a href={leg("2924c")} className="text-blue-300">§2924c</a>). After that point, stopping the sale
           usually means paying off the loan in full. Sale dates can also be postponed under{" "}
           <a href={leg("2924g")} className="text-blue-300">§2924g</a>, so check the trustee&apos;s postponement information.</p>
 
-        <h2 className="text-2xl font-bold text-white">What it means for investors and agents</h2>
+        <h2 className="text-2xl font-bold text-white">Why does the NOD timeline matter to investors and agents?</h2>
         <p>The window between the NOD and the sale is when an owner has the most room to sell on their own terms, through a
           short sale, an equity sale or a listing. Conversations that start after the Notice of Sale goes out are rushed. Knowing the
           earliest sale date tells you how much time is actually left.</p>
