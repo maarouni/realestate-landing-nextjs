@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Load Your T-12 — AI Trailing 12-Month Income Statement Analysis | RealEstate-Analytics.ai",
+  title: "Load Your T-12: AI Trailing 12-Month Income Analysis",
   description:
     "Upload a T-12 trailing income statement and get instant NOI, expense ratio, and deal metrics. AI-powered extraction for multifamily and CRE investors.",
 };

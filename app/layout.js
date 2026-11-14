@@ -20,15 +20,11 @@ export const metadata = {
   creator: "Masoud Arouni",
   publisher: "RealEstate-Analytics.ai",
   openGraph: {
-    title: "Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis",
-    description:
-      "Instantly evaluate any property with ROI, IRR, cash flow, deal grading, and 10-year projections — no spreadsheets required.",
-    url: "https://realestate-analytics.ai",
     siteName: "RealEstate-Analytics.ai",
     type: "website",
     images: [
       {
-        url: "https://realestate-analytics.ai/og-image.png",
+        url: "https://www.realestate-analytics.ai/og-image.png",
         width: 1200,
         height: 630,
         alt: "Real Estate Deal Evaluator"
@@ -37,10 +33,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis",
-    description:
-      "Analyze any real estate deal instantly — ROI, IRR, cash flow, 10-year projections, and PDF reports.",
-    images: ["https://realestate-analytics.ai/og-image.png"]
+    images: ["https://www.realestate-analytics.ai/og-image.png"]
   },
   icons: {
     icon: "/favicon-32x32.png",
@@ -58,12 +51,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="msvalidate.01" content="2708908B2B2049880F4F2ADAC5CC73AB" />
-        <meta property="og:title" content="Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis" />
-        <meta property="og:description" content="Instantly evaluate any property with ROI, IRR, cash flow, deal grading, and 10-year projections — no spreadsheets required." />
-        <meta property="og:image" content="https://realestate-analytics.ai/og-image.png" />
-        <meta property="og:url" content="https://realestate-analytics.ai/" />
-        <meta property="og:type" content="website" />
-        <meta name="image" content="https://realestate-analytics.ai/og-image.png" />
         
         {/* Google Analytics 4 (GA4) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KK6DGNH7FY"></script>
@@ -88,6 +75,16 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{__html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Is the deal analyzer really free?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, the Single Property Analyzer is completely free to use. No credit card, no trial period, no catch.\"}}, {\"@type\": \"Question\", \"name\": \"Do I need to create an account or log in?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No account or login needed. Open the tool, enter your numbers, and run a full deal analysis instantly \\u2014 no signup required.\"}}, {\"@type\": \"Question\", \"name\": \"What metrics does the analyzer calculate?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The analyzer calculates Cap Rate, Cash-on-Cash Return, IRR, DSCR, Equity Multiple, Breakeven Year, Year 1 Cash Flow, and a 10-year projection \\u2014 built on CCIM-level investment formulas.\"}}, {\"@type\": \"Question\", \"name\": \"Does it work for commercial properties?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, but commercial properties require a separate tool with more detailed setup. The free Single Property Analyzer is optimized for residential investment properties including single-family, duplexes, triplexes, and fourplexes.\"}}, {\"@type\": \"Question\", \"name\": \"Can I download or share the analysis?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. The analyzer generates a branded PDF report you can download instantly. You can also email the full analysis directly to any client or partner from within the tool.\"}}, {\"@type\": \"Question\", \"name\": \"How long does it take to analyze a deal?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Under 60 seconds. Enter your numbers, move the sliders, and every metric updates instantly \\u2014 no waiting, no manual calculations.\"}}, {\"@type\": \"Question\", \"name\": \"Is my data private and secure?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. No account is required, nothing is stored on our servers, and your analysis runs entirely in your browser. Nothing is shared with third parties.\"}}, {\"@type\": \"Question\", \"name\": \"What is a good cap rate for an investment property?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"It depends on the market. Generally 5-7% is solid for most U.S. residential markets. Bay Area properties typically run lower (3-5%) due to high prices, while Texas and Florida often yield 7-9%. The analyzer calculates your exact cap rate instantly based on your inputs.\"}}]}"}}
         />
         <style>{`
+          .nav-mobile { display: none; position: relative; }
+          .nav-mobile summary { list-style: none; cursor: pointer; color: #fff; font-size: 22px; padding: 4px 8px; }
+          .nav-mobile summary::-webkit-details-marker { display: none; }
+          .nav-mobile-panel { position: absolute; right: 0; top: calc(100% + 10px); background: #0d1f3c; border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 8px; min-width: 200px; display: flex; flex-direction: column; gap: 4px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+          .nav-mobile-panel a { color: #fff; font-size: 15px; font-weight: 600; text-decoration: none; padding: 10px 14px; border-radius: 8px; }
+          .nav-mobile-cta { background: #2563eb; text-align: center; border-radius: 20px !important; }
+          @media (max-width: 900px) {
+            .nav-links { display: none !important; }
+            .nav-mobile { display: block; }
+          }
           .nav-dropdown { position: relative; }
           .nav-dropdown:hover .dropdown-panel,
           .nav-dropdown:focus-within .dropdown-panel { display: block; }
@@ -180,7 +177,7 @@ export default function RootLayout({ children }) {
           <a href="/" style={{color:"#fff", fontWeight:"700", fontSize:"15px", textDecoration:"none", letterSpacing:"0.02em"}}>
             RealEstate-Analytics.ai
           </a>
-          <div style={{display:"flex", gap:"4px", alignItems:"center", marginRight:"auto", marginLeft:"32px"}}>
+          <div className="nav-links" style={{display:"flex", gap:"4px", alignItems:"center", marginRight:"auto", marginLeft:"32px"}}>
 
             <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",boxShadow:"inset 0 0 0 0.5px rgba(255,255,255,0.25)",marginRight:"4px"}}>Book a Demo</a>
 
@@ -294,6 +291,19 @@ export default function RootLayout({ children }) {
               Try Free
             </a>
           </div>
+          {/* Mobile menu (shown under 900px) */}
+          <details className="nav-mobile">
+            <summary aria-label="Open menu">☰</summary>
+            <div className="nav-mobile-panel">
+              <NavLink href="/tools">Tools</NavLink>
+              <NavLink href="/blog">Blog</NavLink>
+              <NavLink href="/about">About</NavLink>
+              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="/pricing">Pricing</NavLink>
+              <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer">Book a Demo</a>
+              <a href="/#quick-analyzer" className="nav-mobile-cta">Try Free</a>
+            </div>
+          </details>
         </nav>
         {children}
       </body>

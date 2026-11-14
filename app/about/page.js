@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "About | RealEstate-Analytics.ai — CCIM-Level Deal Analysis",
-  description: "Built by a Bay Area multifamily investor and engineer. RealEstate-Analytics.ai encodes CCIM-level underwriting logic — cap rate, IRR, DSCR, cash-on-cash, and 10-year projections — as free, browser-based software.",
+  description: "Built by a Bay Area multifamily investor and engineer: CCIM-level cap rate, IRR, DSCR, cash-on-cash and 10-year projections as browser-based software.",
   alternates: { canonical: "https://www.realestate-analytics.ai/about" }
 };
 

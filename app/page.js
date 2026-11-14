@@ -192,7 +192,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "24px", position: "relative" }}>
+          <div className="m-grid-1" style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "24px", position: "relative" }}>
             {[
               { n: "1", title: "Upload", body: "Drag in an OM, T-12, MLS PDF, or any pro forma — no reformatting." },
               { n: "2", title: "Analyze", body: "CCIM-grade deterministic underwriting — cap rate, DSCR, IRR — not a black-box guess." },
@@ -290,7 +290,7 @@ export default function Home() {
           </div>
 
           {/* Metrics row */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "12px", marginBottom: "32px" }}>
+          <div className="m-grid-2" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "12px", marginBottom: "32px" }}>
             {[
               { label: "Cap Rate", value: pct(m.capRate), color: m.capRate >= 5.5 ? "#34d399" : "#fbbf24", sub: m.grade, subColor: m.gradeColor },
               { label: "Cash-on-Cash", value: pct(Math.max(m.coc, 0)), color: "#60a5fa", sub: "Levered return", subColor: "#475569" },
@@ -404,7 +404,7 @@ export default function Home() {
           <h2 style={{ fontSize: "clamp(24px, 3vw, 36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: "48px", letterSpacing: "-0.02em" }}>
             Why Agents &amp; Investors Use It
           </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px" }}>
+          <div className="m-grid-1" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px" }}>
             {[
               { name: "Daisy Borba", title: "Prop Mgr / Owner / Agent", quote: "The tool will be very effective for people purchasing investment property. Yours is one of the first I've seen that lets investors add improvements and run meaningful comparisons. Most investors want sweat-equity potential — or a lot large enough for an ADU. Your app helps them evaluate highest & best use before buying. I am recommending all my investors run the numbers with your app before they pull the trigger." },
               { name: "Mike Daoudi", title: "REALTOR®, Excel Realty", quote: "This tool has been extremely helpful not only for me, but also for the investors I work with daily. It brings clarity to each deal and gives clients a clear understanding of the numbers so they can make confident decisions." },
@@ -478,7 +478,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
+          <div className="m-grid-1" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
             {VIDEOS.slice(1).map((v) => (
               <div key={v.id} style={{ borderRadius: "16px", overflow: "hidden", border: "0.5px solid rgba(255,255,255,0.1)" }}>
                 <div style={{ position: "relative", paddingBottom: "56.25%" }}>

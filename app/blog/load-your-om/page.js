@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Load Your OM — AI-Powered Offering Memorandum Extraction | RealEstate-Analytics.ai",
+  title: "Load Your OM: AI Offering Memorandum Extraction",
   description:
     "Upload a CRE Offering Memorandum and let AI extract NOI, cap rate, rent roll, and deal metrics automatically. No manual data entry.",
 };

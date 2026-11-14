@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "ZIP Code Market Analysis — Real Estate Fundamentals by ZIP | RealEstate-Analytics.ai",
+  title: "ZIP Code Market Analysis for Real Estate Investors",
   description:
-    "How to analyze real estate market fundamentals by ZIP code. Vacancy rates, rent trends, population growth, and job data — the data sources and framework CCIM analysts use.",
+    "How to analyze a real estate market by ZIP code: vacancy, rent trends, population and job data, plus the sources CCIM analysts use.",
 };
 
 export default function ZipcodeMarketAnalysis() {

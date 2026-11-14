@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "RealEstate-Analytics.ai for Microsoft Copilot | CRE Underwriting for Firms & Lenders",
+  title: "CRE Underwriting in Microsoft Copilot | RealEstate-Analytics.ai",
   description:
-    "Put a CRE underwriting analyst inside your team's Microsoft Copilot. Deterministic, auditable cap rate, NOI, DSCR, IRR, comps, stress tests, and acquisition pipeline grading for brokerages, lenders, and investment firms.",
+    "Put a CRE underwriting analyst in your team's Microsoft Copilot: auditable cap rate, NOI, DSCR, IRR, comps and stress tests for brokers and lenders.",
   alternates: { canonical: "https://www.realestate-analytics.ai/copilot" },
 };
 
