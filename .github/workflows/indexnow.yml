@@ -1,0 +1,38 @@
+name: IndexNow
+
+# Runs after Vercel finishes a successful Production deployment.
+on:
+  deployment_status:
+
+jobs:
+  ping:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          fetch-depth: 50
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Find files changed since the previous production deploy
+        id: diff
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.event.deployment.sha }}
+        run: |
+          PREV=$(gh api "repos/${{ github.repository }}/deployments?environment=Production&per_page=20" \
+            --jq "[.[] | select(.sha != \"$SHA\")][0].sha")
+          echo "Previous production sha: $PREV"
+          if [ -n "$PREV" ] && git cat-file -e "$PREV^{commit}" 2>/dev/null; then
+            git diff --name-only "$PREV" "$SHA" > changed.txt
+          else
+            git diff --name-only HEAD~1 HEAD > changed.txt
+          fi
+          cat changed.txt
+      - name: Ping IndexNow
+        run: node .github/scripts/indexnow.mjs $(cat changed.txt)
