@@ -124,7 +124,7 @@ export default function Page() {
           <li><strong className="text-white">Explain with AI.</strong> Ask what the numbers mean, what to stress-test and what to ask the seller.</li>
           <li><strong className="text-white">Check one number by hand.</strong> If NOI and cap rate tie out, the rest of the model is usually sound.</li>
         </ol>
-        <p>RealEstate-Analytics.ai is built this way. Every number comes from CCIM-grade formulas, and the AI layer only explains
+        <p>RealEstate-Analytics.ai is built this way. Every number comes from CCIM-Certified formulas, and the AI layer only explains
           the results. It never produces the math itself.</p>
 
         <div className="bg-slate-800/60 border border-blue-400/20 rounded-xl p-6 my-6 text-center not-prose">
