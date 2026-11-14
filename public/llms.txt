@@ -15,6 +15,8 @@
 ## Guides
 - [What Is a Good Cap Rate in 2026?](https://www.realestate-analytics.ai/blog/what-is-a-good-cap-rate-2026)
 - [How to Analyze a Multifamily Deal](https://www.realestate-analytics.ai/blog/how-to-analyze-multifamily-deal)
+- [Is ChatGPT Accurate for Real Estate Deal Analysis?](https://www.realestate-analytics.ai/blog/is-chatgpt-accurate-for-real-estate-deal-analysis): Why chatbots are unreliable calculators; worked 4-plex example with deterministic math.
+- [California Notice of Default to Auction Timeline](https://www.realestate-analytics.ai/blog/california-notice-of-default-to-auction-timeline): Earliest trustee's sale is 3 months + 20 days after the NOD is recorded (Civ. Code §2924, §2924f); includes a date calculator.
 
 ## Pricing
 - [Free](https://www.realestate-analytics.ai/pricing): Interactive calculators and PDF deal reports, no signup.

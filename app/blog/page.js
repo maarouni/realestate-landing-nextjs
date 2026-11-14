@@ -6,6 +6,8 @@ export const metadata = {
 };
 
 const POSTS = [
+  { href: "/blog/is-chatgpt-accurate-for-real-estate-deal-analysis", title: "Is ChatGPT Accurate for Real Estate Deal Analysis?", desc: "Why chatbots get deal math wrong, with a worked 4-plex example.", tag: "AI & Underwriting" },
+  { href: "/blog/california-notice-of-default-to-auction-timeline", title: "California NOD to Auction Timeline", desc: "Earliest sale date after a Notice of Default, with a calculator.", tag: "Foreclosure" },
   { href: "/blog/how-to-analyze-multifamily-deal", title: "How to Analyze a Multifamily Deal", desc: "7-step CCIM underwriting framework — NOI, cap rate, DSCR, IRR, stress test.", tag: "Guide" },
   { href: "/blog/what-is-a-good-cap-rate-2026", title: "What Is a Good Cap Rate in 2026?", desc: "Market benchmarks by metro and asset class. Bay Area vs Sun Belt vs Midwest.", tag: "Market Analysis" },
   { href: "/blog/zipcode-market-analysis", title: "ZIP Code Market Analysis", desc: "Vacancy, rent trends, and economic data sources CCIM analysts actually use.", tag: "Research" },

@@ -35,5 +35,7 @@ export default function sitemap() {
     { url: `${base}/blog/zipcode-market-analysis`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/blog/load-your-om`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/blog/load-t12`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/blog/is-chatgpt-accurate-for-real-estate-deal-analysis`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/blog/california-notice-of-default-to-auction-timeline`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
   ];
 }
