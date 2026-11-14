@@ -35,7 +35,7 @@ export default function ZipcodeMarketAnalysis() {
       </div>
 
       <h1 className="text-4xl font-bold mb-4">ZIP Code Market Analysis for Real Estate Investors</h1>
-      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — CCIM Candidate, Bay Area Investor · June 2026</p>
+      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member, Bay Area Investor · June 2026</p>
 
       <article className="prose prose-invert max-w-none text-slate-300 space-y-8">
 

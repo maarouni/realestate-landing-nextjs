@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About | RealEstate-Analytics.ai — CCIM-Certified Deal Analysis",
-  description: "Built by a Bay Area multifamily investor and engineer: CCIM-Certified cap rate, IRR, DSCR, cash-on-cash and 10-year projections as browser-based software.",
+  title: "About | RealEstate-Analytics.ai — CCIM-method Deal Analysis",
+  description: "Built by a Bay Area multifamily investor and engineer: CCIM-method cap rate, IRR, DSCR, cash-on-cash and 10-year projections as browser-based software.",
   alternates: { canonical: "https://www.realestate-analytics.ai/about" }
 };
 
@@ -37,10 +37,10 @@ export default function About() {
         {/* Who built this */}
         <h2 style={{ fontSize: "20px", fontWeight: 700, color: "#f1f5f9", marginBottom: "16px" }}>Who Built This</h2>
         <p style={{ fontSize: "16px", color: "#94a3b8", lineHeight: 1.75, marginBottom: "16px" }}>
-          My name is Masoud Arouni. I'm a Bay Area multifamily investor since 2018, a NorCal CCIM associate member, and an engineer by background. I've been active in Bay Area real estate investment communities including CCRIM, RMA Danville, and Rise360.
+          My name is Masoud Arouni. I'm a Bay Area multifamily investor since 2018, a NorCal CCIM member, and an engineer by background. I've been active in Bay Area real estate investment communities including CCRIM, RMA Danville, and Rise360.
         </p>
         <p style={{ fontSize: "16px", color: "#94a3b8", lineHeight: 1.75, marginBottom: "32px" }}>
-          I built this platform to encode CCIM-Certified underwriting logic — cap rate, IRR, DSCR, cash-on-cash return, equity multiple, breakeven year, and 10-year projections — as callable software that any investor, agent, or lender can run in under 60 seconds, free, without a spreadsheet or a login.
+          I built this platform to encode CCIM-method underwriting logic — cap rate, IRR, DSCR, cash-on-cash return, equity multiple, breakeven year, and 10-year projections — as callable software that any investor, agent, or lender can run in under 60 seconds, free, without a spreadsheet or a login.
         </p>
 
         {/* Divider */}

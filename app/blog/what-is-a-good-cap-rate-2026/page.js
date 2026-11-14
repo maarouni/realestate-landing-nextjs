@@ -47,7 +47,7 @@ export default function WhatIsGoodCapRate() {
       </div>
 
       <h1 className="text-4xl font-bold mb-4">What Is a Good Cap Rate in 2026?</h1>
-      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — CCIM Candidate · Updated June 2026</p>
+      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member · Updated June 2026</p>
 
       <article className="prose prose-invert max-w-none text-slate-300 space-y-8">
 

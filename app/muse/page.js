@@ -29,7 +29,7 @@ const TOOLS = [
 const WHY = [
   ["Deterministic", "Every number comes from a fixed calculation engine, not the model. The same inputs always give the same answer."],
   ["Auditable", "Every assumption is shown, so you can check a deal before you act on it."],
-  ["Built by a practitioner", "Designed by a Bay Area multifamily investor and NorCal CCIM associate member, on CCIM underwriting methods."],
+  ["Built by a practitioner", "Designed by a Bay Area multifamily investor and NorCal CCIM member, on CCIM underwriting methods."],
 ];
 
 export default function MusePage() {

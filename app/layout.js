@@ -161,7 +161,7 @@ export default function RootLayout({ children }) {
               {"@type": "Offer", "name": "Pro", "price": "45", "priceCurrency": "USD", "url": "https://www.realestate-analytics.ai/pricing"}
             ],
             "audience": {"@type": "Audience", "audienceType": "Real Estate Investors, REALTORS, Commercial Real Estate Brokers, Lenders, Property Managers"},
-            "description": "CCIM-Certified real estate deal analyzer that calculates cap rate, IRR, DSCR, cash-on-cash return, equity multiple, and 10-year projections for residential and commercial investment properties. Free, browser-based, no signup required.",
+            "description": "CCIM-method real estate deal analyzer that calculates cap rate, IRR, DSCR, cash-on-cash return, equity multiple, and 10-year projections for residential and commercial investment properties. Free, browser-based, no signup required.",
             "featureList": "Cap Rate Calculator, IRR Calculator, DSCR Calculator, Cash-on-Cash Return, Equity Multiple, 10-Year Cash Flow Projections, PDF Report, Vacancy Stress Test, 3-Scenario Analysis",
             "keywords": "cap rate calculator, real estate deal analyzer, DSCR calculator, IRR calculator, rental property analysis, CCIM underwriting, investment property tool"
           })}}

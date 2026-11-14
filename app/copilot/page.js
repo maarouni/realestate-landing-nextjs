@@ -38,7 +38,7 @@ const WHY = [
   ["Deterministic and auditable", "Every number comes from a fixed calculation engine, not the AI. Same inputs, same answer, every time, so credit and IC reviews can trace it."],
   ["In the tools your team uses", "Copilot and Teams for Microsoft shops; the same engine also runs in Claude and ChatGPT."],
   ["Your data stays yours", "We receive only the deal inputs Copilot sends. We don't see your conversations or store your deals, lists, or results."],
-  ["Built by a practitioner", "Designed by a Bay Area multifamily investor and NorCal CCIM associate member, on CCIM underwriting methods."],
+  ["Built by a practitioner", "Designed by a Bay Area multifamily investor and NorCal CCIM member, on CCIM underwriting methods."],
 ];
 
 export default function CopilotPage() {

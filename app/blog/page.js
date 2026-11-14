@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Real Estate Investment Blog | RealEstate-Analytics.ai",
-  description: "CCIM-Certified guides on multifamily analysis, cap rates, T-12s, and AI-powered deal tools.",
+  description: "Guides by a NorCal CCIM member on multifamily analysis, cap rates, T-12s, and AI-powered deal tools.",
 };
 
 const POSTS = [
@@ -25,7 +25,7 @@ export default function BlogIndex() {
       </nav>
       <h1 className="text-4xl font-bold mb-3 text-slate-50">Real Estate Investment Blog</h1>
       <p className="text-slate-300 text-lg mb-12 max-w-2xl">
-        CCIM-Certified guides on deal analysis, market research, and AI-powered underwriting tools.
+        Guides by a NorCal CCIM member on deal analysis, market research, and AI-powered underwriting tools.
       </p>
       <div className="grid md:grid-cols-2 gap-6">
         {POSTS.map((p) => (

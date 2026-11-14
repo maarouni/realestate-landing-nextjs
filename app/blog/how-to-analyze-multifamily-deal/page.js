@@ -15,10 +15,10 @@ export default function HowToAnalyzeMultifamily() {
           "@context": "https://schema.org",
           "@type": "Article",
           headline: "How to Analyze a Multifamily Deal — CCIM Framework",
-          author: { "@type": "Person", name: "Masoud Arouni", jobTitle: "CCIM Candidate, Founder RealEstate-Analytics.ai" },
+          author: { "@type": "Person", name: "Masoud Arouni", jobTitle: "NorCal CCIM Member, Founder RealEstate-Analytics.ai" },
           publisher: { "@type": "Organization", name: "RealEstate-Analytics.ai" },
           url: "https://www.realestate-analytics.ai/blog/how-to-analyze-multifamily-deal",
-          description: "Complete CCIM-Certified framework for analyzing multifamily investment properties including cap rate, IRR, DSCR, and stress testing.",
+          description: "Complete CCIM-method framework for analyzing multifamily investment properties including cap rate, IRR, DSCR, and stress testing.",
         }),
       }} />
 
@@ -37,7 +37,7 @@ export default function HowToAnalyzeMultifamily() {
       </div>
 
       <h1 className="text-4xl font-bold mb-4">How to Analyze a Multifamily Deal — The Complete CCIM Framework</h1>
-      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — CCIM Candidate, Bay Area Investor since 2018 · Updated June 2026</p>
+      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member, Bay Area Investor since 2018 · Updated June 2026</p>
 
       <article className="prose prose-invert max-w-none text-slate-300 space-y-8">
 
@@ -105,12 +105,12 @@ export default function HowToAnalyzeMultifamily() {
         <h2 className="text-2xl font-bold text-white">Step 7: Analyze the Full Deal in 60 Seconds</h2>
         <p>The framework above is what institutional analysts do in Argus Enterprise — which takes
           months to learn and costs hundreds per month. The RealEstate-Analytics.ai platform runs the
-          same CCIM-Certified framework — cap rate, IRR, DSCR, cash-on-cash, equity multiple, 10-year
+          same CCIM-method framework — cap rate, IRR, DSCR, cash-on-cash, equity multiple, 10-year
           projections, and stress testing — in under 60 seconds, free, in your browser.</p>
 
         <div className="bg-slate-800/60 border border-blue-400/20 rounded-xl p-6 my-6 text-center">
           <p className="text-xl font-bold text-white mb-2">Run This Framework on Your Deal Now</p>
-          <p className="text-slate-300 text-sm mb-4">No spreadsheets. No signup. Full CCIM-Certified output in 60 seconds.</p>
+          <p className="text-slate-300 text-sm mb-4">No spreadsheets. No signup. Full CCIM-method output in 60 seconds.</p>
           <a href="https://www.realestate-analytics.ai/#try-it"
             className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all">
             Try the Free Deal Analyzer →
