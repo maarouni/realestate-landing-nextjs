@@ -86,7 +86,7 @@ export default function ZipcodeMarketAnalysis() {
             { source: "FRED (St. Louis Fed)", what: "Employment, mortgage rates, CPI, economic indicators. Free.", url: "fred.stlouisfed.org" },
             { source: "BLS QCEW", what: "Employment by industry and county. Free.", url: "bls.gov" },
             { source: "CoStar / Yardi Matrix", what: "Supply pipeline, rent comps, vacancy. Paid — institutional.", url: null },
-            { source: "RealEstate-Analytics.ai", what: "ZIP-level market analysis combining FRED + Census + HUD. Free.", url: "realestate-analytics.ai" },
+            { source: "RealEstate-Analytics.ai", what: "ZIP-level market analysis combining FRED + Census + HUD in one view. Pro.", url: "realestate-analytics.ai" },
           ].map((s) => (
             <div key={s.source} className="bg-slate-800/60 border border-slate-700 rounded-xl p-4">
               <p className="text-blue-300 font-semibold">{s.source}</p>
@@ -96,19 +96,47 @@ export default function ZipcodeMarketAnalysis() {
         </div>
 
         <h2 className="text-2xl font-bold text-white">ZIP Code Analysis Inside the Platform</h2>
-        <p>The RealEstate-Analytics.ai ZIP Code Market Analytics module pulls live data from FRED,
-          Census ACS, and HUD FMR to give you vacancy trends, rent benchmarks, and economic
-          indicators for any ZIP code in the United States — the same data institutional analysts
-          pay CoStar and Yardi Matrix thousands per month to access, available free in the platform.</p>
+        <p>The RealEstate-Analytics.ai ZIP Code Market Analytics module brings vacancy trends, rent
+          benchmarks, and economic indicators for any ZIP code in the United States into one screen —
+          the kind of market view institutional analysts pay CoStar and Yardi Matrix thousands per month
+          for. Full nationwide access is included with a Pro subscription.</p>
 
-        <div className="bg-slate-800/60 border border-blue-400/20 rounded-xl p-6 my-6 text-center not-prose">
-          <p className="text-lg font-bold text-white mb-2">Analyze Any ZIP Code Now</p>
-          <p className="text-slate-300 text-sm mb-4">Vacancy, rent trends, and economic data — free, in seconds.</p>
-          <a href="https://zipcodemarketanalytics.onrender.com"
-            target="_blank" rel="noopener noreferrer"
-            className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all">
-            Open ZIP Code Market Analyzer →
-          </a>
+        <div className="relative my-6 rounded-xl overflow-hidden border border-blue-400/20 not-prose">
+          {/* Sample preview of the analyzer — values intentionally blurred */}
+          <div aria-hidden="true" className="bg-slate-900 p-6 select-none" style={{ filter: "blur(5px)" }}>
+            <div className="flex items-center justify-between mb-4">
+              <p className="text-white font-bold">ZIP 94566 · Market Snapshot</p>
+              <p className="text-slate-400 text-xs">Updated monthly</p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+              {[["Vacancy", "4.2%"], ["Rent growth (12-mo)", "+3.1%"], ["Median rent", "$3,450"], ["Unemployment", "3.8%"]].map(([k, v]) => (
+                <div key={k} className="bg-slate-800 rounded-lg p-3">
+                  <p className="text-slate-400 text-xs">{k}</p>
+                  <p className="text-white text-xl font-bold">{v}</p>
+                </div>
+              ))}
+            </div>
+            <div className="bg-slate-800 rounded-lg h-36 flex items-end gap-2 p-3">
+              {[40, 48, 45, 55, 60, 58, 66, 72, 70, 78, 84, 90].map((h, i) => (
+                <div key={i} className="flex-1 bg-blue-500/70 rounded-t" style={{ height: `${h}%` }} />
+              ))}
+            </div>
+          </div>
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-slate-950/60 p-6">
+            <p className="text-2xl mb-2">🔒</p>
+            <p className="text-lg font-bold text-white mb-1">Nationwide ZIP Code Market Analysis</p>
+            <p className="text-slate-300 text-sm mb-4 max-w-md">Vacancy, rent trends, and economic data for any U.S. ZIP code — included with Pro.</p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Link href="/pricing"
+                className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all">
+                Subscribe for Full Access →
+              </Link>
+              <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer"
+                className="inline-block px-8 py-3 rounded-full border border-slate-500 hover:border-blue-400 text-white font-semibold transition-all">
+                Book a Demo
+              </a>
+            </div>
+          </div>
         </div>
 
         <h2 className="text-2xl font-bold text-white">Related Tools</h2>

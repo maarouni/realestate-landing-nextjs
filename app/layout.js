@@ -1,4 +1,5 @@
 import "./globals.css";
+import NavLink from "./NavLink";
 
 export const metadata = {
   title: "Real Estate Deal Evaluator | Instant ROI, IRR & Cash Flow Analysis",
@@ -186,7 +187,7 @@ export default function RootLayout({ children }) {
 
             {/* Tools dropdown */}
             <div className="nav-dropdown" style={{position:"relative"}}>
-              <a href="/tools" style={{
+              <NavLink href="/tools" style={{
                 color:"#ffffff", fontSize:"13px", fontWeight:"600",
                 textDecoration:"none", padding:"0 12px", height:"32px",whiteSpace:"nowrap", borderRadius:"6px",
                 display:"flex", alignItems:"center", gap:"4px", cursor:"pointer"
@@ -195,7 +196,7 @@ export default function RootLayout({ children }) {
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style={{display:"block"}}>
                   <path d="M2 4l4 4 4-4" stroke="#64748b" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </a>
+              </NavLink>
               <div className="dropdown-panel">
                 <div className="dropdown-label">Calculators</div>
                 {[
@@ -236,7 +237,7 @@ export default function RootLayout({ children }) {
 
             {/* Blog dropdown */}
             <div className="nav-dropdown" style={{position:"relative"}}>
-              <a href="/blog" style={{
+              <NavLink href="/blog" style={{
                 color:"#ffffff", fontSize:"13px", fontWeight:"600",
                 textDecoration:"none", padding:"0 12px", height:"32px",whiteSpace:"nowrap", borderRadius:"6px",
                 display:"flex", alignItems:"center", gap:"4px"
@@ -245,7 +246,7 @@ export default function RootLayout({ children }) {
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style={{display:"block"}}>
                   <path d="M2 4l4 4 4-4" stroke="#64748b" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </a>
+              </NavLink>
               <div className="dropdown-panel">
                 <div className="dropdown-label">Guides</div>
                 {[
@@ -277,11 +278,11 @@ export default function RootLayout({ children }) {
                 ))}
               </div>
             </div>
-            <a href="/about" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",marginRight:"8px"}}>About</a>
+            <NavLink href="/about" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",marginRight:"8px"}}>About</NavLink>
 
-            <a href="/contact" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",marginRight:"8px"}}>Contact</a>
+            <NavLink href="/contact" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",marginRight:"8px"}}>Contact</NavLink>
 
-            <a href="/pricing" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",marginRight:"8px"}}>Pricing</a>
+            <NavLink href="/pricing" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",marginRight:"8px"}}>Pricing</NavLink>
 
 
             <a href="/#quick-analyzer" style={{
