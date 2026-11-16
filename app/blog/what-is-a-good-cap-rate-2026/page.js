@@ -18,6 +18,15 @@ const MARKETS = [
   { market: "National — Office", type: "Office", range: "7.0–10%+", trend: "Distressed", note: "Distress cycle. Remote work overhang. Class A only in select markets." },
 ];
 
+const FAQ = [
+  { q: "What is a good cap rate in 2026?", a: "It depends on the market. Coastal gateway markets like San Francisco trade around 3.5–5.5%, Sun Belt growth markets around 5–7%, and Midwest cash-flow markets 7–10% or more. Compare a property only against similar assets in the same market." },
+  { q: "How do you calculate cap rate?", a: "Divide net operating income by the purchase price. A property with $82,992 of NOI priced at $1,600,000 has a 5.19% cap rate. Use actual trailing NOI, not the broker's pro forma." },
+  { q: "Is a higher cap rate better?", a: "A higher cap rate means more income per dollar invested, but it usually comes with more risk: a weaker location, an older building or slower rent growth. Lower cap rates usually reflect safer markets with stronger appreciation." },
+  { q: "What is negative leverage in real estate?", a: "Negative leverage happens when your borrowing cost is higher than the property's yield. For example, buying at a 5.5% cap rate with 7% financing lowers your cash-on-cash return below what you'd earn paying all cash." },
+  { q: "How do interest rates affect cap rates?", a: "Cap rates usually trade 150–250 basis points above the 10-year Treasury yield. With the 10-year around 4.2–4.5% in 2026, a normal spread points to cap rates of roughly 5.7–6.7% nationally." },
+  { q: "What cap rate do Bay Area apartments trade at?", a: "Bay Area multifamily trades at roughly 4–5.5% in 2026. Secondary California markets such as Sacramento, Fresno and the Inland Empire run about 5.5–7%." },
+];
+
 export default function WhatIsGoodCapRate() {
   return (
     <main className="min-h-screen px-4 py-12 md:px-16 max-w-4xl mx-auto">
@@ -40,6 +49,10 @@ export default function WhatIsGoodCapRate() {
             { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.realestate-analytics.ai/blog" },
             { "@type": "ListItem", position: 3, name: "What Is a Good Cap Rate in 2026?", item: "https://www.realestate-analytics.ai/blog/what-is-a-good-cap-rate-2026" },
           ],
+        }, {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
         }]),
       }} />
 
@@ -121,6 +134,25 @@ export default function WhatIsGoodCapRate() {
             Open Cap Rate Calculator →
           </Link>
         </div>
+
+        <h2 className="text-2xl font-bold text-white">Frequently asked questions</h2>
+
+        <div className="space-y-6">
+
+          {FAQ.map((f) => (
+
+            <div key={f.q}>
+
+              <h3 className="text-lg font-semibold text-white">{f.q}</h3>
+
+              <p className="mt-1">{f.a}</p>
+
+            </div>
+
+          ))}
+
+        </div>
+
 
         <h2 className="text-2xl font-bold text-white">Related Resources</h2>
         <div className="grid md:grid-cols-2 gap-4 not-prose">

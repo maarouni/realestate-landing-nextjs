@@ -6,6 +6,15 @@ export const metadata = {
     "Upload a CRE Offering Memorandum and let AI extract NOI, cap rate, rent roll, and deal metrics automatically. No manual data entry.",
 };
 
+const FAQ = [
+  { q: "What is an offering memorandum in real estate?", a: "An offering memorandum (OM) is the marketing package a broker prepares to sell a property. It usually covers the property, location, financial summary, rent roll, lease abstracts, market analysis and the broker's pro forma, and runs 20 to 100+ pages." },
+  { q: "Is the NOI in an offering memorandum accurate?", a: "Often not. Most OMs show pro forma NOI built on market rents, normalized expenses and low vacancy. Ask for the T-12 and recalculate NOI from actual results before you make an offer." },
+  { q: "What should I look for in an offering memorandum?", a: "Find the asking price and cap rate, then check whether the NOI is actual or pro forma. Review the rent roll and unit mix, every expense line, lease terms and any loan assumptions, and note what's missing." },
+  { q: "How do you verify the cap rate in an OM?", a: "Divide trailing NOI from the T-12 by the asking price, then compare that to the broker's stated cap rate and to recent sales. A big gap usually means the OM cap rate is based on pro forma income." },
+  { q: "Can AI extract data from an offering memorandum?", a: "Yes. The Property IQ Deal Analyzer pulls price, asking cap rate, gross and effective income, NOI (flagged as pro forma), unit mix, expenses and loan terms from the PDF. You verify the figures, then the analysis runs on fixed formulas." },
+  { q: "How long does it take to analyze an OM?", a: "Typing an OM into a spreadsheet usually takes 20–30 minutes per deal. With AI extraction the fields fill in seconds, and a full cap rate, DSCR, IRR and stress-test run takes under a minute." },
+];
+
 export default function LoadYourOM() {
   return (
     <main className="min-h-screen px-4 py-12 md:px-16 max-w-4xl mx-auto">
@@ -28,6 +37,10 @@ export default function LoadYourOM() {
             { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.realestate-analytics.ai/blog" },
             { "@type": "ListItem", position: 3, name: "Load Your OM", item: "https://www.realestate-analytics.ai/blog/load-your-om" },
           ],
+        }, {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
         }]),
       }} />
 
@@ -105,6 +118,25 @@ export default function LoadYourOM() {
           </a>
           <p className="text-slate-400 text-xs mt-3">Pro plan feature · <a href="/pricing" className="text-blue-300 hover:text-blue-200 underline">See Pro pricing</a></p>
         </div>
+
+        <h2 className="text-2xl font-bold text-white">Frequently asked questions</h2>
+
+        <div className="space-y-6">
+
+          {FAQ.map((f) => (
+
+            <div key={f.q}>
+
+              <h3 className="text-lg font-semibold text-white">{f.q}</h3>
+
+              <p className="mt-1">{f.a}</p>
+
+            </div>
+
+          ))}
+
+        </div>
+
 
         <h2 className="text-2xl font-bold text-white">Related Resources</h2>
         <div className="grid md:grid-cols-2 gap-4 not-prose">

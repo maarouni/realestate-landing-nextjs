@@ -6,6 +6,16 @@ export const metadata = {
     "Upload a T-12 trailing income statement and get instant NOI, expense ratio, and deal metrics. AI-powered extraction for multifamily and CRE investors.",
 };
 
+const FAQ = [
+  { q: "What is a T-12 in real estate?", a: "A T-12 is a trailing 12-month income statement. It shows month-by-month rent actually collected, vacancy, operating expenses and NOI for the last year of operations. Unlike a broker's pro forma, it reports what the property really earned." },
+  { q: "What is the difference between a T-12 and a pro forma?", a: "A T-12 reports actual past results. A pro forma projects what the property could earn, usually at market rents, low vacancy and trimmed expenses. In deals we've analyzed, pro forma NOI runs about 15–25% above trailing actuals." },
+  { q: "How do you calculate NOI from a T-12?", a: "Add 12 months of collected rent and other income, then subtract all operating expenses, leaving out debt service and capital improvements. Before you use the result, normalize it: add a management fee if one is missing and a realistic repair and reserve budget." },
+  { q: "What are the red flags in a T-12?", a: "Watch for a missing management fee, unusually low repairs in the year before sale, one-time income such as insurance proceeds or back rent, and utilities lumped into a single line. Normalize each one before using the NOI to price the deal." },
+  { q: "How much should I add for management if the T-12 doesn't show it?", a: "Add 8–10% of effective gross income. Owner-managed properties often show no management cost, but a new owner or a lender will budget for it, so your NOI should too." },
+  { q: "Can AI read a T-12 PDF?", a: "Yes. The Property IQ Deal Analyzer extracts line items from AppFolio, Buildium, Yardi and QuickBooks PDF exports and calculates trailing NOI. You review the extracted numbers, and the deal math then runs on fixed formulas." },
+  { q: "Should I underwrite on the T-12 or the pro forma?", a: "Use the T-12 as your baseline. Underwrite pro forma upside only when you have a clear, funded plan to reach those rents or expense savings." },
+];
+
 export default function LoadT12() {
   return (
     <main className="min-h-screen px-4 py-12 md:px-16 max-w-4xl mx-auto">
@@ -28,6 +38,10 @@ export default function LoadT12() {
             { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.realestate-analytics.ai/blog" },
             { "@type": "ListItem", position: 3, name: "Load Your T-12", item: "https://www.realestate-analytics.ai/blog/load-t12" },
           ],
+        }, {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
         }]),
       }} />
 
@@ -127,6 +141,25 @@ export default function LoadT12() {
           </a>
           <p className="text-slate-400 text-xs mt-3">Pro plan feature · <a href="/pricing" className="text-blue-300 hover:text-blue-200 underline">See Pro pricing</a></p>
         </div>
+
+        <h2 className="text-2xl font-bold text-white">Frequently asked questions</h2>
+
+        <div className="space-y-6">
+
+          {FAQ.map((f) => (
+
+            <div key={f.q}>
+
+              <h3 className="text-lg font-semibold text-white">{f.q}</h3>
+
+              <p className="mt-1">{f.a}</p>
+
+            </div>
+
+          ))}
+
+        </div>
+
 
         <h2 className="text-2xl font-bold text-white">Related Resources</h2>
         <div className="grid md:grid-cols-2 gap-4 not-prose">

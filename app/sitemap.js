@@ -15,6 +15,8 @@ export default function sitemap() {
     { url: `${base}/copilot`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/chatgpt`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/claude`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/integrations`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/partners`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
 
@@ -37,5 +39,9 @@ export default function sitemap() {
     { url: `${base}/blog/load-t12`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/blog/is-chatgpt-accurate-for-real-estate-deal-analysis`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/blog/california-notice-of-default-to-auction-timeline`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/blog/best-ai-underwriting-tools-2026`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/blog/deterministic-vs-ai-underwriting`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/blog/dscr-stress-test`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/blog/rent-roll-analysis`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
   ];
 }

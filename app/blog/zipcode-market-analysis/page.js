@@ -6,6 +6,14 @@ export const metadata = {
     "How to analyze a real estate market by ZIP code: vacancy, rent trends, population and job data, plus the sources CCIM analysts use.",
 };
 
+const FAQ = [
+  { q: "How do I analyze a real estate market by ZIP code?", a: "Check five things: vacancy rate, rent growth, population and household growth, how diversified local jobs are, and how many new units are coming. Together they show whether your rent and vacancy assumptions are realistic." },
+  { q: "What vacancy rate is good for landlords?", a: "Below 5% vacancy, landlords usually have pricing power and rents rise. Above 8%, tenants gain leverage and rents tend to flatten or fall." },
+  { q: "Where can I find rent data by ZIP code?", a: "HUD publishes Fair Market Rents by ZIP code and metro area each year for free, and the Census American Community Survey reports rents and vacancy at the tract level. Paid services like CoStar add rent comps." },
+  { q: "What free data sources do analysts use for market research?", a: "Census ACS for vacancy and income, HUD Fair Market Rents for rent levels, FRED for rates and economic data, and BLS QCEW for employment by industry. All four are free." },
+  { q: "Why does new construction matter when buying a rental?", a: "New supply competes for the same tenants. A market with strong demand can still see flat rents if thousands of units deliver in the next 18 months, whatever the trailing data says." },
+];
+
 export default function ZipcodeMarketAnalysis() {
   return (
     <main className="min-h-screen px-4 py-12 md:px-16 max-w-4xl mx-auto">
@@ -28,6 +36,10 @@ export default function ZipcodeMarketAnalysis() {
             { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.realestate-analytics.ai/blog" },
             { "@type": "ListItem", position: 3, name: "ZIP Code Market Analysis", item: "https://www.realestate-analytics.ai/blog/zipcode-market-analysis" },
           ],
+        }, {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
         }]),
       }} />
 
@@ -149,6 +161,25 @@ export default function ZipcodeMarketAnalysis() {
             </div>
           </div>
         </div>
+
+        <h2 className="text-2xl font-bold text-white">Frequently asked questions</h2>
+
+        <div className="space-y-6">
+
+          {FAQ.map((f) => (
+
+            <div key={f.q}>
+
+              <h3 className="text-lg font-semibold text-white">{f.q}</h3>
+
+              <p className="mt-1">{f.a}</p>
+
+            </div>
+
+          ))}
+
+        </div>
+
 
         <h2 className="text-2xl font-bold text-white">Related Tools</h2>
         <div className="grid md:grid-cols-2 gap-4 not-prose">

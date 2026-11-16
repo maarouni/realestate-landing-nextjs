@@ -4,8 +4,18 @@ import Link from "next/link";
 
 export const metadata = {
   title: "How to Analyze a Multifamily Deal: 7-Step CCIM Method",
-  description: "A 7-step CCIM underwriting framework for multifamily deals: NOI, cap rate, DSCR, cash-on-cash, IRR, stress tests, and the judgment calls formulas can't make.",
+  description: "A 7-step CCIM underwriting framework for multifamily deals: NOI, cap rate, DSCR, cash-on-cash, IRR, stress tests, and the judgment calls formulas miss.",
 };
+
+const FAQ = [
+  { q: "How do you analyze a multifamily deal?", a: "Build the rent roll from actual rents, calculate NOI with normalized expenses, then check the cap rate against sold comps. Run DSCR at your target loan, model IRR with a conservative exit cap rate, and stress-test rents and vacancy." },
+  { q: "What DSCR do lenders require for multifamily?", a: "Agency lenders such as Fannie Mae and Freddie Mac typically require a minimum DSCR of 1.20–1.25x. Run DSCR at your target loan amount and rate before you go under contract." },
+  { q: "What percentage of income goes to operating expenses on an apartment building?", a: "Operating expenses usually run 35–50% of effective gross income for multifamily. Seller statements often understate them, so add management, reserves and property taxes at the post-sale assessed value." },
+  { q: "What vacancy rate should I use for a multifamily property?", a: "Use 5–8% for a stabilized property, or the actual vacancy from the T-12 if it's higher. Check the local vacancy rate for the ZIP code before you settle on a number." },
+  { q: "How much should I reserve for capital expenditures per unit?", a: "Budget $100–200 per unit per year for capital reserves. Increase that for older buildings or properties with deferred maintenance." },
+  { q: "What is a good IRR for a multifamily deal?", a: "Many investors look for an IRR above 12–15% on a 5- to 7-year hold. Test it with an exit cap rate higher than your purchase cap rate; if the return still holds, the deal is sound." },
+  { q: "How do you stress-test a multifamily deal?", a: "Run three cases: base (current rents, market vacancy), downside (10% lower rents and 10% higher vacancy) and severe (20% each). The deal should cash-flow in the base case and survive the downside." },
+];
 
 export default function HowToAnalyzeMultifamily() {
   return (
@@ -30,6 +40,10 @@ export default function HowToAnalyzeMultifamily() {
             { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.realestate-analytics.ai/blog" },
             { "@type": "ListItem", position: 3, name: "How to Analyze a Multifamily Deal", item: "https://www.realestate-analytics.ai/blog/how-to-analyze-multifamily-deal" },
           ],
+        }, {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
         }]),
       }} />
 
@@ -127,6 +141,25 @@ export default function HowToAnalyzeMultifamily() {
             Try the Free Deal Analyzer →
           </a>
         </div>
+
+        <h2 className="text-2xl font-bold text-white">Frequently asked questions</h2>
+
+        <div className="space-y-6">
+
+          {FAQ.map((f) => (
+
+            <div key={f.q}>
+
+              <h3 className="text-lg font-semibold text-white">{f.q}</h3>
+
+              <p className="mt-1">{f.a}</p>
+
+            </div>
+
+          ))}
+
+        </div>
+
 
         <h2 className="text-2xl font-bold text-white">Related Tools & Resources</h2>
         <div className="grid md:grid-cols-2 gap-4 not-prose">

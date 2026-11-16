@@ -6,6 +6,10 @@ export const metadata = {
 };
 
 const POSTS = [
+  { href: "/blog/best-ai-underwriting-tools-2026", title: "Best AI Underwriting Tools for Real Estate in 2026", desc: "Hypha, Keyway, Smart Capital Center, Cash Flow Portal, Built, V7, redIQ and Property IQ compared.", tag: "Comparison" },
+  { href: "/blog/deterministic-vs-ai-underwriting", title: "Deterministic vs AI Underwriting", desc: "Why AI should read the documents and fixed formulas should do the math.", tag: "AI & Underwriting" },
+  { href: "/blog/dscr-stress-test", title: "How to Stress-Test DSCR", desc: "Worked 6-unit example: lower rents, higher vacancy, expenses and rates.", tag: "Underwriting" },
+  { href: "/blog/rent-roll-analysis", title: "Rent Roll Analysis", desc: "Fields to extract, red flags, and how to reconcile a rent roll with the T-12.", tag: "AI Feature" },
   { href: "/blog/is-chatgpt-accurate-for-real-estate-deal-analysis", title: "Is ChatGPT Accurate for Real Estate Deal Analysis?", desc: "Why chatbots get deal math wrong, with a worked 4-plex example.", tag: "AI & Underwriting" },
   { href: "/blog/california-notice-of-default-to-auction-timeline", title: "California NOD to Auction Timeline", desc: "Earliest sale date after a Notice of Default, with a calculator.", tag: "Foreclosure" },
   { href: "/blog/how-to-analyze-multifamily-deal", title: "How to Analyze a Multifamily Deal", desc: "7-step CCIM underwriting framework — NOI, cap rate, DSCR, IRR, stress test.", tag: "Guide" },
