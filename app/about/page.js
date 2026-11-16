@@ -73,6 +73,19 @@ export default function About() {
           </p>
           <p style={{ fontSize: "13px", color: "#64748b" }}>investorfuel.com → Listen to the episode →</p>
         </a>
+        <a href="https://toolradar.com/tools/property-iq-deal-analyzer"
+          target="_blank" rel="noopener noreferrer"
+          style={{
+            display: "block", background: "rgba(255,255,255,0.04)",
+            border: "0.5px solid rgba(255,255,255,0.09)", borderRadius: "14px",
+            padding: "20px 24px", textDecoration: "none", marginBottom: "32px"
+          }}>
+          <p style={{ fontSize: "12px", fontWeight: 700, color: "#60a5fa", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "8px" }}>Toolradar</p>
+          <p style={{ fontSize: "16px", fontWeight: 700, color: "#f1f5f9", marginBottom: "6px" }}>
+            Property IQ Deal Analyzer
+          </p>
+          <p style={{ fontSize: "13px", color: "#64748b" }}>toolradar.com → View listing →</p>
+        </a>
 
         {/* Divider */}
         <div style={{ height: "1px", background: "rgba(255,255,255,0.08)", marginBottom: "32px" }} />
