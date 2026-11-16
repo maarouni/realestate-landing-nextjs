@@ -122,7 +122,7 @@ export default function HowToAnalyzeMultifamily() {
         <div className="bg-slate-800/60 border border-blue-400/20 rounded-xl p-6 my-6 text-center">
           <p className="text-xl font-bold text-white mb-2">Run This Framework on Your Deal Now</p>
           <p className="text-slate-300 text-sm mb-4">No spreadsheets. No signup. Full CCIM-method output in 60 seconds.</p>
-          <a href="https://www.realestate-analytics.ai/#try-it"
+          <a href="/#quick-analyzer"
             className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all">
             Try the Free Deal Analyzer →
           </a>

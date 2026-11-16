@@ -121,7 +121,7 @@ export default function CapRateCalculator() {
 
         <div className="mt-8 text-center">
           <a
-            href="https://www.realestate-analytics.ai/#try-it"
+            href="/#quick-analyzer"
             className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all duration-300"
           >
             Run Full Deal Analysis — IRR, DSCR, Cash Flow & More →

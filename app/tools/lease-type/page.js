@@ -133,7 +133,7 @@ export default function LeaseType() {
         </div>
 
         <div className="mt-8 text-center">
-          <a href="https://www.realestate-analytics.ai/#try-it"
+          <a href="/#quick-analyzer"
             className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all">
             Run Full Deal Analysis with This Lease Structure →
           </a>
