@@ -64,7 +64,7 @@ export default function Page() {
       </div>
 
       <h1 className="text-4xl font-bold mb-4">{H1}</h1>
-      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member, Bay Area Investor · Published November 14, 2026</p>
+      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member, Bay Area Investor · Published <time dateTime="2026-11-14">November 14, 2026</time></p>
 
       <article className="prose prose-invert max-w-none text-slate-300 space-y-8">
         <p className="text-xl text-slate-200 leading-relaxed">

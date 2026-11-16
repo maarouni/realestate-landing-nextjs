@@ -22,14 +22,25 @@ export default function WhatIsGoodCapRate() {
   return (
     <main className="min-h-screen px-4 py-12 md:px-16 max-w-4xl mx-auto">
       <script type="application/ld+json" dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
+        __html: JSON.stringify([{
           "@context": "https://schema.org",
           "@type": "Article",
+          datePublished: "2026-06-15",
+          dateModified: "2026-11-14",
+          mainEntityOfPage: "https://www.realestate-analytics.ai/blog/what-is-a-good-cap-rate-2026",
           headline: "What Is a Good Cap Rate in 2026?",
-          author: { "@type": "Person", name: "Masoud Arouni" },
-          publisher: { "@type": "Organization", name: "RealEstate-Analytics.ai" },
+          author: { "@type": "Person", name: "Masoud Arouni", url: "https://www.realestate-analytics.ai/about" },
+          publisher: { "@type": "Organization", name: "RealEstate-Analytics.ai", url: "https://www.realestate-analytics.ai" },
           url: "https://www.realestate-analytics.ai/blog/what-is-a-good-cap-rate-2026",
-        }),
+        }, {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.realestate-analytics.ai" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.realestate-analytics.ai/blog" },
+            { "@type": "ListItem", position: 3, name: "What Is a Good Cap Rate in 2026?", item: "https://www.realestate-analytics.ai/blog/what-is-a-good-cap-rate-2026" },
+          ],
+        }]),
       }} />
 
       <nav className="text-sm text-slate-400 mb-8">
@@ -47,7 +58,7 @@ export default function WhatIsGoodCapRate() {
       </div>
 
       <h1 className="text-4xl font-bold mb-4">What Is a Good Cap Rate in 2026?</h1>
-      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member · Updated June 2026</p>
+      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member · Published <time dateTime="2026-06-15">June 15, 2026</time> · Updated <time dateTime="2026-11-14">November 14, 2026</time></p>
 
       <article className="prose prose-invert max-w-none text-slate-300 space-y-8">
 

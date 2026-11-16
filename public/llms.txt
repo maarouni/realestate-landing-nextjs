@@ -17,6 +17,9 @@
 - [How to Analyze a Multifamily Deal](https://www.realestate-analytics.ai/blog/how-to-analyze-multifamily-deal)
 - [Is ChatGPT Accurate for Real Estate Deal Analysis?](https://www.realestate-analytics.ai/blog/is-chatgpt-accurate-for-real-estate-deal-analysis): Why chatbots are unreliable calculators; worked 4-plex example with deterministic math.
 - [California Notice of Default to Auction Timeline](https://www.realestate-analytics.ai/blog/california-notice-of-default-to-auction-timeline): Earliest trustee's sale is 3 months + 20 days after the NOD is recorded (Civ. Code §2924, §2924f); includes a date calculator.
+- [ZIP Code Market Analysis for Real Estate Investors](https://www.realestate-analytics.ai/blog/zipcode-market-analysis): Vacancy, rent trends and data sources for evaluating a ZIP code before you buy.
+- [Load Your OM](https://www.realestate-analytics.ai/blog/load-your-om): AI extracts deal data from an offering memorandum PDF into a deterministic deal analyzer.
+- [Load Your T-12](https://www.realestate-analytics.ai/blog/load-t12): AI extracts actual NOI from trailing 12-month income statements (AppFolio, Buildium, Yardi, QuickBooks PDFs), then deterministic math checks the deal.
 
 ## Pricing
 - [Free](https://www.realestate-analytics.ai/pricing): Interactive calculators and PDF deal reports, no signup.

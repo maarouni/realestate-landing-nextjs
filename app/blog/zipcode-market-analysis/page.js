@@ -10,14 +10,25 @@ export default function ZipcodeMarketAnalysis() {
   return (
     <main className="min-h-screen px-4 py-12 md:px-16 max-w-4xl mx-auto">
       <script type="application/ld+json" dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
+        __html: JSON.stringify([{
           "@context": "https://schema.org",
           "@type": "Article",
+          datePublished: "2026-06-15",
+          dateModified: "2026-11-14",
+          mainEntityOfPage: "https://www.realestate-analytics.ai/blog/zipcode-market-analysis",
           headline: "ZIP Code Market Analysis — Real Estate Fundamentals by ZIP",
-          author: { "@type": "Person", name: "Masoud Arouni" },
-          publisher: { "@type": "Organization", name: "RealEstate-Analytics.ai" },
+          author: { "@type": "Person", name: "Masoud Arouni", url: "https://www.realestate-analytics.ai/about" },
+          publisher: { "@type": "Organization", name: "RealEstate-Analytics.ai", url: "https://www.realestate-analytics.ai" },
           url: "https://www.realestate-analytics.ai/blog/zipcode-market-analysis",
-        }),
+        }, {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.realestate-analytics.ai" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.realestate-analytics.ai/blog" },
+            { "@type": "ListItem", position: 3, name: "ZIP Code Market Analysis", item: "https://www.realestate-analytics.ai/blog/zipcode-market-analysis" },
+          ],
+        }]),
       }} />
 
       <nav className="text-sm text-slate-400 mb-8">
@@ -35,7 +46,7 @@ export default function ZipcodeMarketAnalysis() {
       </div>
 
       <h1 className="text-4xl font-bold mb-4">ZIP Code Market Analysis for Real Estate Investors</h1>
-      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member, Bay Area Investor · June 2026</p>
+      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member, Bay Area Investor · Published <time dateTime="2026-06-15">June 15, 2026</time> · Updated <time dateTime="2026-11-14">November 14, 2026</time></p>
 
       <article className="prose prose-invert max-w-none text-slate-300 space-y-8">
 
