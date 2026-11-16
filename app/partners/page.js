@@ -10,11 +10,6 @@ export const metadata = {
   openGraph: { title: "Partners & Advertising", url: URL, type: "website" },
 };
 
-const RATES = [
-  { name: "Brand mention", price: "$750", items: ["Your brand named in one relevant article", "No link", "Live for 12 months"] },
-  { name: "Mention + link", price: "$1,500", items: ["Your brand named in one relevant article", "One contextual link marked rel=\"sponsored\"", "Live for 12 months"] },
-];
-
 const PARTNER_TYPES = [
   ["Integrations", "Use our deterministic calculation engine in your product through MCP or API, or embed our calculators."],
   ["Referrals", "Send us investors, agents or loan officers who need deal analysis, or receive referrals from our users for services we don't offer."],
@@ -24,7 +19,6 @@ const PARTNER_TYPES = [
 
 const FAQ = [
   { q: "Do you accept sponsored placements?", a: "Yes, in articles where the product is genuinely relevant to readers. Sponsored links carry rel=\"sponsored\", and we keep final approval of the wording so it matches the rest of the article." },
-  { q: "How long does a placement stay live?", a: "Each placement stays live for twelve months from the publish date. Turnaround is 5 business days after payment, and we confirm the final wording with you first." },
   { q: "Do you do link exchanges?", a: "We consider them case by case, only for relevant real estate or finance sites, and the link must come from the partner's own domain and existing content." },
   { q: "Can a sponsor change your comparison or review pages?", a: "No. Comparison pages are editorial and are not for sale. Vendors can send factual corrections, which we review." },
 ];
@@ -59,17 +53,9 @@ export default function Page() {
       <section className="space-y-12 text-slate-300">
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">Sponsored placements</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            {RATES.map((r) => (
-              <div key={r.name} className="bg-slate-800/60 border border-slate-700 rounded-xl p-6">
-                <p className="text-sm font-bold uppercase tracking-wider text-yellow-400 mb-1">{r.name}</p>
-                <p className="text-3xl font-bold text-white mb-4">{r.price}</p>
-                <ul className="space-y-1 text-sm">{r.items.map((i) => <li key={i}>• {i}</li>)}</ul>
-              </div>
-            ))}
-          </div>
-          <p className="text-sm text-slate-400 mt-4">Turnaround: 5 business days after payment. Placements go only in articles where the product
-            is relevant, and we approve final wording. Comparison and review pages are not for sale.</p>
+          <p>We accept a limited number of sponsored placements in articles where the product is genuinely relevant to our readers.
+            Sponsored links are marked rel=&quot;sponsored&quot;, and we approve the final wording. Comparison and review pages are not for sale.
+            Rates on request.</p>
         </div>
 
         <div>
