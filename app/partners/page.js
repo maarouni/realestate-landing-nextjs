@@ -18,7 +18,7 @@ const PARTNER_TYPES = [
 ];
 
 const FAQ = [
-  { q: "Do you accept sponsored placements?", a: "Yes, in articles where the product is genuinely relevant to readers. Sponsored links carry rel=\"sponsored\", and we keep final approval of the wording so it matches the rest of the article." },
+  { q: "Do you accept sponsored placements?", a: "Yes, in articles where the product is genuinely relevant to readers. Sponsored links are clearly labeled, and we keep final approval of the wording so it matches the rest of the article." },
   { q: "Do you do link exchanges?", a: "We consider them case by case, only for relevant real estate or finance sites, and the link must come from the partner's own domain and existing content." },
   { q: "Can a sponsor change your comparison or review pages?", a: "No. Comparison pages are editorial and are not for sale. Vendors can send factual corrections, which we review." },
 ];
@@ -54,7 +54,7 @@ export default function Page() {
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">Sponsored placements</h2>
           <p>We accept a limited number of sponsored placements in articles where the product is genuinely relevant to our readers.
-            Sponsored links are marked rel=&quot;sponsored&quot;, and we approve the final wording. Comparison and review pages are not for sale.
+            Sponsored links are clearly labeled, and we approve the final wording. Comparison and review pages are not for sale.
             Rates on request.</p>
         </div>
 
