@@ -73,7 +73,7 @@ export default function LoadYourOM() {
           and introduces transcription errors.</p>
 
         <h2 className="text-2xl font-bold text-white">What AI OM Extraction Does</h2>
-        <p>The RealEstate-Analytics.ai Income Property Analyzer accepts PDF uploads and uses
+        <p>The RealEstate-Analytics.ai Property IQ Deal Analyzer accepts PDF uploads and uses
           AI to extract key financial data automatically:</p>
 
         <ul className="space-y-2">
@@ -97,11 +97,11 @@ export default function LoadYourOM() {
           15–25% in our experience across analyzed deals.</p>
 
         <div className="bg-slate-800/60 border border-purple-400/20 rounded-xl p-6 my-6 text-center not-prose">
-          <p className="text-lg font-bold text-white mb-2">Try the Income Property Analyzer</p>
+          <p className="text-lg font-bold text-white mb-2">Try the Property IQ Deal Analyzer</p>
           <p className="text-slate-300 text-sm mb-4">Upload your OM PDF and get instant deal metrics. No manual entry.</p>
           <a href="https://residential.realestate-analytics.ai" target="_blank" rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all">
-            Open the Income Property Analyzer (Pro) →
+            Open the Property IQ Deal Analyzer (Pro) →
           </a>
           <p className="text-slate-400 text-xs mt-3">Pro plan feature · <a href="/pricing" className="text-blue-300 hover:text-blue-200 underline">See Pro pricing</a></p>
         </div>

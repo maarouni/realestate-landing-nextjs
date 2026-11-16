@@ -91,6 +91,7 @@ export default function PricingPage() {
               $45/month
             </p>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, color: "#cbd5e1", fontSize: "14px", lineHeight: "2" }}>
+              <li>Property IQ Deal Analyzer (MLS, OM &amp; T-12 import)</li>
               <li>Deal prospecting &amp; sales lead sourcing</li>
               <li>Full comps &amp; market analysis</li>
               <li>CCIM-grade underwriting</li>

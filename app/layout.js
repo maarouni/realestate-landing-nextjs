@@ -152,6 +152,7 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
             "name": "RealEstate-Analytics.ai Deal Analyzer",
+            "alternateName": "Property IQ Deal Analyzer",
             "url": "https://www.realestate-analytics.ai",
             "applicationCategory": "FinanceApplication, Real Estate Investment Analysis, Property Underwriting, Rental Property Calculator, Commercial Real Estate",
             "applicationSubCategory": "Real Estate Deal Analysis",

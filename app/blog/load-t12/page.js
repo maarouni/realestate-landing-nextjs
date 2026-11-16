@@ -104,7 +104,7 @@ export default function LoadT12() {
         </ul>
 
         <h2 className="text-2xl font-bold text-white">AI T-12 Extraction in the Platform</h2>
-        <p>The RealEstate-Analytics.ai Income Property Analyzer uses PDF.js with position-aware
+        <p>The RealEstate-Analytics.ai Property IQ Deal Analyzer uses PDF.js with position-aware
           text reconstruction to extract T-12 data from PDF exports. Upload the document,
           and the AI identifies income and expense line items, maps them to standard categories,
           calculates trailing NOI, and populates the deal analyzer automatically. It handles
@@ -123,7 +123,7 @@ export default function LoadT12() {
           <p className="text-slate-300 text-sm mb-4">AI extracts NOI and populates the deal analyzer automatically.</p>
           <a href="https://residential.realestate-analytics.ai" target="_blank" rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold shadow-lg transition-all">
-            Open the Income Property Analyzer (Pro) →
+            Open the Property IQ Deal Analyzer (Pro) →
           </a>
           <p className="text-slate-400 text-xs mt-3">Pro plan feature · <a href="/pricing" className="text-blue-300 hover:text-blue-200 underline">See Pro pricing</a></p>
         </div>

@@ -11,6 +11,7 @@
 - [Cash-on-Cash Calculator](https://www.realestate-analytics.ai/tools/cash-on-cash-calculator): Annual levered yield on invested equity.
 - [Tenant Credit Analysis](https://www.realestate-analytics.ai/tools/tenant-credit): Rent-to-income and DTI screening for applicants.
 - [Lease Type Analyzer](https://www.realestate-analytics.ai/tools/lease-type): NNN vs. gross vs. modified gross.
+- [Property IQ Deal Analyzer (Pro)](https://www.realestate-analytics.ai/pricing): Pro deal analyzer with MLS, OM and T-12 PDF import, market intelligence, dual comps, Deal Radar prospecting and PDF reports. Every number comes from fixed CCIM-grade formulas.
 
 ## Guides
 - [What Is a Good Cap Rate in 2026?](https://www.realestate-analytics.ai/blog/what-is-a-good-cap-rate-2026)
@@ -23,4 +24,4 @@
 
 ## Pricing
 - [Free](https://www.realestate-analytics.ai/pricing): Interactive calculators and PDF deal reports, no signup.
-- [Pro — $45/month](https://www.realestate-analytics.ai/pricing): Deal lead sourcing, comps, and CCIM-grade full deal reviews.
+- [Pro — $45/month](https://www.realestate-analytics.ai/pricing): Property IQ Deal Analyzer, Deal lead sourcing, comps, and CCIM-grade full deal reviews.
