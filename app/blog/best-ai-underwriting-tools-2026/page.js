@@ -1,45 +1,45 @@
 import Link from "next/link";
 
 const URL = "https://www.realestate-analytics.ai/blog/best-ai-underwriting-tools-2026";
-const H1 = "Best AI Underwriting Tools for Real Estate in 2026";
+const H1 = "How to Choose AI Underwriting Software for Real Estate (2026)";
 
 export const metadata = {
-  title: "Best AI Underwriting Tools for Real Estate (2026)",
+  title: "How to Choose AI Underwriting Software (2026)",
   description:
-    "Hypha, Keyway, Smart Capital Center, Cash Flow Portal, Built, V7, redIQ and Property IQ compared: who each is for, what it reads, and where the math runs.",
+    "The main types of AI underwriting tools for real estate compared: who each is for, what it reads, and where the math runs.",
   alternates: { canonical: URL },
   openGraph: { title: H1, url: URL, type: "article" },
 };
 
 const TOOLS = [
-  { name: "Hypha", url: "https://www.hypha.co/solutions/deal-analyzer", for: "CRE lenders and private credit teams",
+  { name: "Lender and private-credit platforms", for: "CRE lenders and private credit teams",
     reads: "OMs, rent rolls, T-12s, borrower financials, loan agreements",
     math: "Applies the firm's own credit criteria and Excel models, embedded during implementation",
-    note: "Deal Analyzer cites every extracted value to its source with a confidence score; also covers covenant monitoring after close." },
-  { name: "Keyway", url: "https://www.keyway.ai", for: "Institutional CRE finance teams",
+    note: "Typically cite each extracted value to its source with a confidence score, and often cover covenant monitoring after close." },
+  { name: "T-12 and rent roll analyzers", for: "Institutional CRE finance teams",
     reads: "T-12s and rent rolls",
-    math: "Normalizes statements and maps them to the client's chart of accounts",
-    note: "Separate T12 Analyzer and Rent Roll Analyzer with anomaly detection and market benchmarks." },
-  { name: "Smart Capital Center", url: "https://smartcapitalcenter.com", for: "Lenders and institutional investors",
+    math: "Normalize statements and map them to the client's chart of accounts",
+    note: "Add anomaly detection and market benchmarks to statement review." },
+  { name: "Enterprise underwriting suites", for: "Lenders and institutional investors",
     reads: "OMs, rent rolls, T-12s, leases",
-    math: "Returns preliminary NOI and DSCR inside the platform",
-    note: "Says it is used by JLL, KeyBank and institutional lenders." },
-  { name: "Cash Flow Portal", url: "https://www.cashflowportal.com/products/underwriting-ai-parsing", for: "Syndicators and sponsors",
+    math: "Return preliminary NOI and DSCR inside the platform",
+    note: "Built for large lenders with dedicated implementation." },
+  { name: "Syndicator and sponsor tools", for: "Syndicators and sponsors",
     reads: "Rent rolls, T-12s, OMs",
-    math: "Feeds parsed data into its own underwriting model",
-    note: "Lets you review and reclassify every parsed line item, and saves those classifications." },
-  { name: "Built", url: "https://getbuilt.com/ai-om-extraction/", for: "Acquisition teams screening deal flow",
+    math: "Feed parsed data into the platform's own underwriting model",
+    note: "Let you review and reclassify parsed line items and save those classifications." },
+  { name: "OM extraction tools", for: "Acquisition teams screening deal flow",
     reads: "OMs, rent rolls, cash flows",
-    math: "Flows extracted data into deal financials",
-    note: "Returns source-cited deal data and accepts OMs forwarded by email." },
-  { name: "V7", url: "https://www.v7labs.com/agents/ai-real-estate-offering-memorandum-analysis", for: "Analysts and private equity",
+    math: "Flow extracted data into deal financials",
+    note: "Return source-cited deal data and may accept OMs forwarded by email." },
+  { name: "General document-AI platforms", for: "Analysts and private equity",
     reads: "OMs, rent rolls, operating statements, floor plans",
-    math: "Inserts extracted data into the firm's own model, keeping its formulas",
-    note: "General document-AI company with a real estate OM agent." },
-  { name: "redIQ", url: "https://plus.cretech.com/videos/tech-demo-rediq", for: "Multifamily owners, brokers and lenders",
+    math: "Insert extracted data into the firm's own model, keeping its formulas",
+    note: "General-purpose document AI with real estate agents." },
+  { name: "Multifamily underwriting platforms", for: "Multifamily owners, brokers and lenders",
     reads: "Rent rolls and operating statements",
-    math: "Its own multifamily underwriting platform",
-    note: "Long-established multifamily deal analysis platform." },
+    math: "Their own multifamily underwriting platform",
+    note: "Long-established deal analysis platforms for multifamily." },
   { name: "Property IQ Deal Analyzer (ours)", url: "https://www.realestate-analytics.ai/pricing", for: "Investors, agents, loan officers and lenders, residential and CRE",
     reads: "MLS listings, OMs, T-12s, rent rolls",
     math: "Fixed, deterministic CCIM-grade engine; AI never computes",
@@ -47,7 +47,7 @@ const TOOLS = [
 ];
 
 const FAQ = [
-  { q: "What is the best AI underwriting tool for real estate?", a: "It depends on who you are. Institutional lenders usually need a platform that plugs into their own credit models, like Hypha or Smart Capital Center. Individual investors, agents and loan officers usually need fast, auditable deal math without an enterprise rollout." },
+  { q: "What is the best AI underwriting tool for real estate?", a: "It depends on who you are. Institutional lenders usually need a platform that plugs into their own credit models, built for lenders. Individual investors, agents and loan officers usually need fast, auditable deal math without an enterprise rollout." },
   { q: "Can AI underwrite a real estate deal?", a: "AI can read the documents and pull out the figures, which saves most of the data-entry time. The calculations should still run on fixed formulas, and a person should check the extracted numbers before relying on them." },
   { q: "What documents do AI underwriting tools read?", a: "Most read offering memorandums, T-12 operating statements and rent rolls. Lender-focused platforms also read loan agreements, borrower financials and appraisals." },
   { q: "What should I look for in AI underwriting software?", a: "Check whether every number traces to a source document, whether the math is deterministic, whether you can review and correct extracted data, which asset types it supports, and whether it fits your workflow without a long implementation." },
@@ -58,18 +58,18 @@ export default function Page() {
   const ld = [
     {
       "@context": "https://schema.org", "@type": "Article", headline: H1, url: URL, mainEntityOfPage: URL,
-      datePublished: "2026-11-15", dateModified: "2026-11-15",
+      datePublished: "2026-11-15", dateModified: "2026-11-24",
       author: { "@type": "Person", name: "Masoud Arouni", url: "https://www.realestate-analytics.ai/about" },
       publisher: { "@type": "Organization", name: "RealEstate-Analytics.ai", url: "https://www.realestate-analytics.ai" },
     },
     { "@context": "https://schema.org", "@type": "ItemList", name: H1,
-      itemListElement: TOOLS.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, url: t.url })) },
+      itemListElement: TOOLS.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name })) },
     { "@context": "https://schema.org", "@type": "FAQPage",
       mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.realestate-analytics.ai" },
       { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.realestate-analytics.ai/blog" },
-      { "@type": "ListItem", position: 3, name: "Best AI Underwriting Tools 2026", item: URL },
+      { "@type": "ListItem", position: 3, name: "Choosing AI Underwriting Software", item: URL },
     ] },
   ];
 
@@ -80,15 +80,15 @@ export default function Page() {
       <nav className="text-sm text-slate-400 mb-8">
         <Link href="/" className="hover:text-blue-300">Home</Link><span className="mx-2">/</span>
         <Link href="/blog" className="hover:text-blue-300">Blog</Link><span className="mx-2">/</span>
-        <span className="text-slate-200">Best AI Underwriting Tools 2026</span>
+        <span className="text-slate-200">Choosing AI Underwriting Software</span>
       </nav>
 
       <div className="mb-4">
-        <span className="text-xs font-semibold uppercase tracking-wider text-yellow-400 bg-yellow-400/10 border border-yellow-400/20 px-3 py-1 rounded-full">Comparison · 2026</span>
+        <span className="text-xs font-semibold uppercase tracking-wider text-yellow-400 bg-yellow-400/10 border border-yellow-400/20 px-3 py-1 rounded-full">Guide · 2026</span>
       </div>
 
       <h1 className="text-4xl font-bold mb-4">{H1}</h1>
-      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member, Bay Area Investor · Published <time dateTime="2026-11-15">November 15, 2026</time></p>
+      <p className="text-slate-400 text-sm mb-10">By Masoud Arouni — NorCal CCIM Member, Bay Area Investor · Published <time dateTime="2026-11-15">November 15, 2026</time> · Updated <time dateTime="2026-11-24">November 24, 2026</time></p>
 
       <article className="prose prose-invert max-w-none text-slate-300 space-y-8">
         <p className="text-xl text-slate-200 leading-relaxed">
@@ -97,15 +97,13 @@ export default function Page() {
           need fast deal math they can audit. The biggest difference between tools isn&apos;t how they read documents; it&apos;s
           where the math runs and whether you can trust it.
         </p>
-        <p className="text-sm text-slate-400">Disclosure: we make the Property IQ Deal Analyzer, listed last. Details for other tools come from
-          their public websites as of November 2026. Vendors can send corrections to{" "}
-          <a href="mailto:contact@realestate-analytics.ai" className="text-blue-300 hover:text-blue-200 underline">contact@realestate-analytics.ai</a>.</p>
+        <p className="text-sm text-slate-400">Disclosure: we make the Property IQ Deal Analyzer, listed last. The other entries describe types of tools, not specific vendors.</p>
 
-        <h2 className="text-2xl font-bold text-white">How do the main AI underwriting tools compare?</h2>
+        <h2 className="text-2xl font-bold text-white">How do the main types of AI underwriting tools compare?</h2>
         <div className="not-prose overflow-x-auto">
           <table className="w-full text-sm border-collapse">
             <thead><tr className="border-b border-slate-700">
-              {["Tool", "Best for", "Reads", "Where the math runs"].map((h) => (
+              {["Type", "Best for", "Reads", "Where the math runs"].map((h) => (
                 <th key={h} className="text-left py-3 px-3 text-slate-300 font-semibold">{h}</th>
               ))}
             </tr></thead>
@@ -120,13 +118,11 @@ export default function Page() {
           </table>
         </div>
 
-        <h2 className="text-2xl font-bold text-white">What does each tool do best?</h2>
+        <h2 className="text-2xl font-bold text-white">What does each type do best?</h2>
         <div className="space-y-6">
           {TOOLS.map((t) => (
             <div key={t.name}>
-              <h3 className="text-lg font-semibold text-white">
-                <a href={t.url} target={t.url.includes("realestate-analytics.ai") ? undefined : "_blank"} rel="noopener noreferrer" className="hover:text-blue-300">{t.name}</a>
-              </h3>
+              <h3 className="text-lg font-semibold text-white">{t.name}</h3>
               <p className="mt-1"><strong className="text-slate-200">For:</strong> {t.for}. {t.note}</p>
             </div>
           ))}

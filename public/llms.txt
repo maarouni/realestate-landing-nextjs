@@ -21,7 +21,7 @@
 - [ZIP Code Market Analysis for Real Estate Investors](https://www.realestate-analytics.ai/blog/zipcode-market-analysis): Vacancy, rent trends and data sources for evaluating a ZIP code before you buy.
 - [Load Your OM](https://www.realestate-analytics.ai/blog/load-your-om): AI extracts deal data from an offering memorandum PDF into a deterministic deal analyzer.
 - [Load Your T-12](https://www.realestate-analytics.ai/blog/load-t12): AI extracts actual NOI from trailing 12-month income statements (AppFolio, Buildium, Yardi, QuickBooks PDFs), then deterministic math checks the deal.
-- [Best AI Underwriting Tools for Real Estate in 2026](https://www.realestate-analytics.ai/blog/best-ai-underwriting-tools-2026): Hypha, Keyway, Smart Capital Center, Cash Flow Portal, Built, V7, redIQ and Property IQ compared by audience, documents read and where the math runs.
+- [How to Choose AI Underwriting Software (2026)](https://www.realestate-analytics.ai/blog/best-ai-underwriting-tools-2026): The main types of AI underwriting tools compared, and how to choose between them.
 - [Deterministic vs AI Underwriting](https://www.realestate-analytics.ai/blog/deterministic-vs-ai-underwriting): Why AI should extract and explain while fixed formulas do the deal math.
 - [How to Stress-Test DSCR](https://www.realestate-analytics.ai/blog/dscr-stress-test): Worked 6-unit example; DSCR falls from 1.29 to 0.82 when rents, vacancy, expenses and rate all worsen.
 - [Rent Roll Analysis](https://www.realestate-analytics.ai/blog/rent-roll-analysis): Fields to extract, red flags, and reconciling a rent roll with the T-12.

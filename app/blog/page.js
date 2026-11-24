@@ -6,7 +6,8 @@ export const metadata = {
 };
 
 const POSTS = [
-  { href: "/blog/best-ai-underwriting-tools-2026", title: "Best AI Underwriting Tools for Real Estate in 2026", desc: "Hypha, Keyway, Smart Capital Center, Cash Flow Portal, Built, V7, redIQ and Property IQ compared.", tag: "Comparison" },
+  { href: "/blog/texas-rentals-dont-pencil", title: "Why Texas Rentals Don't Pencil at 7.5%", desc: "Two live Fort Worth and Dallas deals from the Real Estate Pros Show, with exact DSCR numbers.", tag: "Underwriting" },
+  { href: "/blog/best-ai-underwriting-tools-2026", title: "How to Choose AI Underwriting Software (2026)", desc: "The main types of AI underwriting tools compared, and how to choose between them.", tag: "Guide" },
   { href: "/blog/deterministic-vs-ai-underwriting", title: "Deterministic vs AI Underwriting", desc: "Why AI should read the documents and fixed formulas should do the math.", tag: "AI & Underwriting" },
   { href: "/blog/dscr-stress-test", title: "How to Stress-Test DSCR", desc: "Worked 6-unit example: lower rents, higher vacancy, expenses and rates.", tag: "Underwriting" },
   { href: "/blog/rent-roll-analysis", title: "Rent Roll Analysis", desc: "Fields to extract, red flags, and how to reconcile a rent roll with the T-12.", tag: "AI Feature" },
