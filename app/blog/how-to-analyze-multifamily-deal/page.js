@@ -128,8 +128,7 @@ export default function HowToAnalyzeMultifamily() {
           for 6–12 months.</p>
 
         <h2 className="text-2xl font-bold text-white">Step 7: Analyze the Full Deal in 60 Seconds</h2>
-        <p>The framework above is what institutional analysts do in Argus Enterprise — which takes
-          months to learn and costs hundreds per month. The RealEstate-Analytics.ai platform runs the
+        <p>The framework above is what institutional analysts do in desktop underwriting software. The RealEstate-Analytics.ai platform runs the
           same CCIM-method framework — cap rate, IRR, DSCR, cash-on-cash, equity multiple, 10-year
           projections, and stress testing — in under 60 seconds, free, in your browser.</p>
 

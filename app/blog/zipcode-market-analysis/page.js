@@ -9,7 +9,7 @@ export const metadata = {
 const FAQ = [
   { q: "How do I analyze a real estate market by ZIP code?", a: "Check five things: vacancy rate, rent growth, population and household growth, how diversified local jobs are, and how many new units are coming. Together they show whether your rent and vacancy assumptions are realistic." },
   { q: "What vacancy rate is good for landlords?", a: "Below 5% vacancy, landlords usually have pricing power and rents rise. Above 8%, tenants gain leverage and rents tend to flatten or fall." },
-  { q: "Where can I find rent data by ZIP code?", a: "HUD publishes Fair Market Rents by ZIP code and metro area each year for free, and the Census American Community Survey reports rents and vacancy at the tract level. Paid services like CoStar add rent comps." },
+  { q: "Where can I find rent data by ZIP code?", a: "HUD publishes Fair Market Rents by ZIP code and metro area each year for free, and the Census American Community Survey reports rents and vacancy at the tract level. Paid data services add rent comps." },
   { q: "What free data sources do analysts use for market research?", a: "Census ACS for vacancy and income, HUD Fair Market Rents for rent levels, FRED for rates and economic data, and BLS QCEW for employment by industry. All four are free." },
   { q: "Why does new construction matter when buying a rental?", a: "New supply competes for the same tenants. A market with strong demand can still see flat rents if thousands of units deliver in the next 18 months, whatever the trailing data says." },
 ];
@@ -98,7 +98,7 @@ export default function ZipcodeMarketAnalysis() {
         <h3 className="text-xl font-semibold text-blue-300">5. New Supply Pipeline</h3>
         <p>Approved and under-construction units directly impact rent growth. A market with
           strong demand but 5,000 units delivering in the next 18 months will see rent growth
-          compressed — regardless of what the trailing data says. CoStar, Yardi Matrix, and
+          compressed — regardless of what the trailing data says. Commercial data providers and
           local municipality permit data are the primary sources.</p>
 
         <h2 className="text-2xl font-bold text-white">Data Sources: What CCIM Analysts Use</h2>
@@ -108,7 +108,7 @@ export default function ZipcodeMarketAnalysis() {
             { source: "HUD FMR Database", what: "Fair Market Rents by ZIP and metro. Updated annually. Free.", url: "huduser.gov" },
             { source: "FRED (St. Louis Fed)", what: "Employment, mortgage rates, CPI, economic indicators. Free.", url: "fred.stlouisfed.org" },
             { source: "BLS QCEW", what: "Employment by industry and county. Free.", url: "bls.gov" },
-            { source: "CoStar / Yardi Matrix", what: "Supply pipeline, rent comps, vacancy. Paid — institutional.", url: null },
+            { source: "Commercial data providers", what: "Supply pipeline, rent comps, vacancy. Paid.", url: null },
             { source: "RealEstate-Analytics.ai", what: "ZIP-level market analysis combining FRED + Census + HUD in one view. Pro.", url: "realestate-analytics.ai" },
           ].map((s) => (
             <div key={s.source} className="bg-slate-800/60 border border-slate-700 rounded-xl p-4">
@@ -121,8 +121,7 @@ export default function ZipcodeMarketAnalysis() {
         <h2 className="text-2xl font-bold text-white">ZIP Code Analysis Inside the Platform</h2>
         <p>The RealEstate-Analytics.ai ZIP Code Market Analytics module brings vacancy trends, rent
           benchmarks, and economic indicators for any ZIP code in the United States into one screen —
-          the kind of market view institutional analysts pay CoStar and Yardi Matrix thousands per month
-          for. Full nationwide access is included with a Pro subscription.</p>
+          the kind of market view institutional analysts rely on. Full nationwide access is included with a Pro subscription.</p>
 
         <div className="relative my-6 rounded-xl overflow-hidden border border-blue-400/20 not-prose">
           {/* Sample preview of the analyzer — values intentionally blurred */}

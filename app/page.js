@@ -71,7 +71,7 @@ export default function Home() {
       />
 
       {/* ══════════════════════════════════════════
-          HERO — Option A: CoStar style, full-width
+          HERO — Option A: full-width
           ══════════════════════════════════════════ */}
       <section style={{
         position: "relative",

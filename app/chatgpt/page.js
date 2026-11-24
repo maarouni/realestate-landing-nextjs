@@ -17,7 +17,7 @@ const toolName = { color: "#e0ac4c", fontSize: "14px", fontWeight: 700, margin: 
 const toolText = { color: "#cbd5e1", fontSize: "13px", lineHeight: 1.6, margin: "6px 0 0" };
 
 const FLOW = [
-  ["Prospect", "drop in an off-market list from PropertyRadar, Active Farm, Forever Farm, or a skip-trace file, with its columns as exported."],
+  ["Prospect", "drop in an off-market list or skip-trace file, with its columns as exported."],
   ["Grade", "Deal Radar grades every owner A to D for motivation, filters out government, bank, and duplicate records, and ranks by distress and urgency (tax arrears, NOD/NTS, auction dates, probate, divorce, vacancy, absentee)."],
   ["Comp", "drop in the MLS comp sheet. Our engine computes $/unit, $/SF, and cap rate for each comp, shows where your deal sits, and gives an implied value range."],
   ["Analyze", "drop in the MLS PDF, OM, or T-12. ChatGPT reads the numbers, and our engine underwrites the deal and stress-tests it."],
