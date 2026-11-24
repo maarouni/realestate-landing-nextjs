@@ -168,6 +168,19 @@ export default function PricingPage() {
             </div>
           </div>
         </div>
+
+        <section id="access" style={{ maxWidth: "640px", margin: "56px auto 0", textAlign: "left", background: "#0c1a2e", border: "1px solid #1e3a5f", borderRadius: "12px", padding: "28px 28px 20px" }}>
+          <h2 style={{ fontSize: "22px", fontWeight: 800, color: "#f1f5f9", margin: "0 0 16px" }}>Security &amp; access</h2>
+          <ul style={{ color: "#cbd5e1", fontSize: "14px", lineHeight: 1.8, paddingLeft: "18px", margin: 0 }}>
+            <li><strong style={{ color: "#f1f5f9" }}>Invite-only.</strong> There is no public sign-up. After you subscribe, we send an invitation to the email you choose.</li>
+            <li><strong style={{ color: "#f1f5f9" }}>Your own password.</strong> You set it when you accept the invite. We never see it.</li>
+            <li><strong style={{ color: "#f1f5f9" }}>Change it anytime.</strong> Once signed in, click <em>Account</em> next to your name to change your password. Forgot it? Use <em>Forgot password</em> on the sign-in screen.</li>
+            <li><strong style={{ color: "#f1f5f9" }}>Cancel anytime.</strong> Cancel through <em>Manage my subscription</em> above.</li>
+          </ul>
+          <p style={{ fontSize: "13px", color: "#94a3b8", margin: "16px 0 0" }}>
+            Already a subscriber? <a href="https://residential.realestate-analytics.ai" style={{ color: "#60a5fa", fontWeight: 600, textDecoration: "none" }}>Sign in</a>.
+          </p>
+        </section>
       </div>
     </main>
   );
