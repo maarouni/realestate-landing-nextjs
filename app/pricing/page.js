@@ -177,9 +177,6 @@ export default function PricingPage() {
             <li><strong style={{ color: "#f1f5f9" }}>Change it anytime.</strong> Once signed in, click <em>Account</em> next to your name to change your password. Forgot it? Use <em>Forgot password</em> on the sign-in screen.</li>
             <li><strong style={{ color: "#f1f5f9" }}>Cancel anytime.</strong> Cancel through <em>Manage my subscription</em> above.</li>
           </ul>
-          <p style={{ fontSize: "13px", color: "#94a3b8", margin: "16px 0 0" }}>
-            Already a subscriber? <a href="https://residential.realestate-analytics.ai" style={{ color: "#60a5fa", fontWeight: 600, textDecoration: "none" }}>Sign in</a>.
-          </p>
         </section>
       </div>
     </main>

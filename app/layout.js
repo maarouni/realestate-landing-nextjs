@@ -283,8 +283,6 @@ export default function RootLayout({ children }) {
 
             <NavLink href="/pricing" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",marginRight:"8px"}}>Pricing</NavLink>
 
-            <a href="https://residential.realestate-analytics.ai" style={{color:"#ffffff",fontSize:"13px",fontWeight:"600",textDecoration:"none",padding:"0 14px",height:"32px",whiteSpace:"nowrap",display:"flex",alignItems:"center",borderRadius:"6px",boxShadow:"inset 0 0 0 0.5px rgba(255,255,255,0.25)",marginRight:"4px"}}>Sign in</a>
-
             <a href="/#quick-analyzer" style={{
               backgroundColor:"#2563eb", color:"#fff", fontSize:"13px",
               fontWeight:"600", textDecoration:"none", padding:"0 16px",
@@ -303,7 +301,6 @@ export default function RootLayout({ children }) {
               <NavLink href="/about">About</NavLink>
               <NavLink href="/contact">Contact</NavLink>
               <NavLink href="/pricing">Pricing</NavLink>
-              <a href="https://residential.realestate-analytics.ai">Sign in</a>
               <a href="https://calendly.com/maarouni/30min-1" target="_blank" rel="noopener noreferrer">Book a Demo</a>
               <a href="/#quick-analyzer" className="nav-mobile-cta">Try Free</a>
             </div>
