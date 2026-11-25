@@ -136,7 +136,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold text-white">Related resources</h2>
         <div className="grid md:grid-cols-2 gap-4 not-prose">
           {[
-            { href: "/blog/best-ai-underwriting-tools-2026", label: "Best AI Underwriting Tools 2026", desc: "How the main platforms compare" },
+            { href: "/blog/best-ai-underwriting-tools-2026", label: "How to Choose AI Underwriting Software", desc: "Types of tools and what to look for" },
             { href: "/blog/is-chatgpt-accurate-for-real-estate-deal-analysis", label: "Is ChatGPT Accurate for Deals?", desc: "Worked 4-plex example" },
             { href: "/blog/dscr-stress-test", label: "DSCR Stress Test", desc: "Scenario testing with exact numbers" },
             { href: "/integrations", label: "AI Integrations", desc: "Claude, ChatGPT and Copilot" },

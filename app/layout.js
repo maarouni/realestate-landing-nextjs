@@ -243,13 +243,14 @@ export default function RootLayout({ children }) {
               <div className="dropdown-panel">
                 <div className="dropdown-label">Guides</div>
                 {[
+                  { href:"/blog/texas-rentals-dont-pencil", icon:"🎙️", title:"Texas Rentals at 7.5%", desc:"Two live deals from the Real Estate Pros Podcast" },
                   { href:"/blog/how-to-analyze-multifamily-deal", icon:"🏢", title:"Analyze a Multifamily Deal", desc:"7-step CCIM underwriting framework" },
                   { href:"/blog/what-is-a-good-cap-rate-2026", icon:"📉", title:"Good Cap Rate in 2026?", desc:"Market benchmarks by metro & asset class" },
                   { href:"/blog/zipcode-market-analysis", icon:"🗺️", title:"ZIP Code Market Analysis", desc:"Vacancy, rent trends, data sources" },
                   { href:"/blog/is-chatgpt-accurate-for-real-estate-deal-analysis", icon:"🧮", title:"Is ChatGPT Accurate for Deals?", desc:"AI vs fixed formulas, worked example" },
                   { href:"/blog/california-notice-of-default-to-auction-timeline", icon:"⏳", title:"CA NOD to Auction Timeline", desc:"Earliest sale date calculator" },
                   { href:"/blog/dscr-stress-test", icon:"📊", title:"DSCR Stress Test", desc:"Test a deal against lower rents & higher rates" },
-                  { href:"/blog/best-ai-underwriting-tools-2026", icon:"🏆", title:"Best AI Underwriting Tools 2026", desc:"How the main platforms compare" },
+                  { href:"/blog/best-ai-underwriting-tools-2026", icon:"🏆", title:"How to Choose AI Underwriting Software", desc:"Types of tools and what to look for" },
                 ].map(item => (
                   <a key={item.href} href={item.href}>
                     <span className="item-icon">{item.icon}</span>

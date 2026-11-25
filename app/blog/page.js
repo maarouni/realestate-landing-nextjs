@@ -32,6 +32,12 @@ export default function BlogIndex() {
       <p className="text-slate-300 text-lg mb-12 max-w-2xl">
         Guides by a NorCal CCIM member on deal analysis, market research, and AI-powered underwriting tools.
       </p>
+      <p className="text-slate-300 mb-10">
+        As heard on the Real Estate Pros Podcast:{" "}
+        <Link href="/blog/texas-rentals-dont-pencil" className="text-blue-300 hover:underline">
+          watch the episode and see the numbers →
+        </Link>
+      </p>
       <div className="grid md:grid-cols-2 gap-6">
         {POSTS.map((p) => (
           <Link key={p.href} href={p.href}
